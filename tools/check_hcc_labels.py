@@ -13,9 +13,8 @@ Run:  python3 tools/check_hcc_labels.py
 Out:  results/hcc_label_check.csv
 """
 import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp, h5py, hdf5plugin  # noqa
-import os
 from pathlib import Path
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", ".")); OUT = Path(__file__).resolve().parent.parent / "results"
+BASE = Path("/mnt/10t/scrna_atac"); OUT = Path(__file__).resolve().parent.parent / "results"
 PANELS = {
     "endothelial": ["PECAM1", "VWF", "CDH5", "KDR", "CLDN5", "FLT1", "ENG", "TEK", "ERG", "EMCN", "PLVAP", "ESAM"],
     "stromal":     ["COL1A2", "COL3A1", "DCN", "PDGFRB", "RGS5", "COL6A3", "FBLN1", "THY1"],

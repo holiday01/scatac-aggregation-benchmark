@@ -32,14 +32,15 @@ from datetime import datetime
 import glob, os, warnings
 warnings.filterwarnings('ignore')
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
+BASE = Path("/mnt/10t/scrna_atac")
 H5   = sorted(glob.glob(str(BASE / "data/raw/scATAC_LUAD/GSE270148/*.h5")))
-GTF  = os.environ.get("GENCODE_GTF", "data/reference/gencode.v38.annotation.gtf")
+GTF  = "/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf"
 OUT  = BASE / "results/validation"
 OUT.mkdir(parents=True, exist_ok=True)
 
 MIN_COUNTS = 1000          # standard scATAC cell QC
-DUPLICATE  = 'GSM8069383'  # byte-identical to GSM8069382 on GEO
+DUPLICATE  = None          # 2026-08-27: the earlier 'GEO duplicate' was a bad local
+                           # download of GSM8069383; the GEO file is a distinct sample
 LOWQC      = 'GSM8069377'  # median 304 counts/cell
 
 MARKERS = {
@@ -80,7 +81,7 @@ for f in H5:
     gsm = os.path.basename(f).split('_')[0]
     tag = ''
     if gsm == DUPLICATE:
-        log(f"{gsm}: SKIP — byte-identical duplicate of GSM8069382 on GEO"); continue
+        log(f"{gsm}: SKIP — flagged as duplicate"); continue
     a = sc.read_10x_h5(f, gex_only=False)
     a.var_names_make_unique()
 
@@ -150,7 +151,7 @@ df = pd.DataFrame(records)
 df.to_csv(OUT / "luad_scatac_evaluation.csv", index=False)
 
 print("\n" + "=" * 78)
-print("LUAD GSE270148 — usable samples after removing GEO duplicate + low-QC sample")
+print("LUAD GSE270148 — usable samples after removing the low-QC sample")
 print("=" * 78)
 print(df.to_string(index=False))
 print()

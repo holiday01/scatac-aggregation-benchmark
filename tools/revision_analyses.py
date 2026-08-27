@@ -15,15 +15,14 @@ R4  the realised depth spread of the "equal-depth" baseline on the mean as well
 Out: revision/*.csv
 """
 import sys, time
-import os
 from pathlib import Path
 import numpy as np, pandas as pd, h5py, hdf5plugin  # noqa
 import scipy.sparse as sp, anndata as ad
 from scipy.stats import spearmanr
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-OUT = Path(__file__).resolve().parents[1] / "results/revision"; OUT.mkdir(parents=True, exist_ok=True)
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+BASE = Path("/mnt/10t/scrna_atac")
+OUT = Path("/mnt/10t/scrna_atac/apbc2026/revision"); OUT.mkdir(exist_ok=True)
+sys.path.insert(0, str(BASE / "apbc2026/tools"))
 from benchmark_aggregation import PANEL, true_depth, perm_p  # noqa
 
 MAT = [("HCC","proximal","data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad","sample_id"),

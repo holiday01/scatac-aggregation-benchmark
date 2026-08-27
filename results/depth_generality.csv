@@ -1,0 +1,17 @@
+cohort,model,norm,n_types,top_share,top_type,rho_depth_vs_share,p
+HCC,shipped,raw,6,0.2710773716756322,Hepatocyte,0.829,0.0416
+HCC,shipped,cpm,6,0.25891106530591723,Hepatocyte,0.657,0.1562
+HCC,proximal,raw,6,0.660082512418961,B_cell,0.943,0.0048
+HCC,proximal,cpm,6,0.29623642333922706,Hepatocyte,0.771,0.0724
+HCC,enhancer,raw,6,0.7561270192743194,B_cell,0.829,0.0416
+HCC,enhancer,cpm,6,0.2521765386744502,Hepatocyte,0.657,0.1562
+COAD,shipped,raw,9,0.8755274261603375,Mast,0.84,0.0046
+COAD,shipped,cpm,9,0.4140295358649789,Mast,0.867,0.0025
+COAD,proximal,raw,8,0.935438241980298,Mast,1.0,0.0
+COAD,proximal,cpm,8,0.18545087143217984,Macrophage,-0.024,0.9554
+COAD,enhancer,raw,8,0.9735072754641244,Mast,1.0,0.0
+COAD,enhancer,cpm,8,0.20883090817862518,Mast,0.452,0.2604
+LUAD,proximal,raw,6,0.6071249372804817,B_cell,0.714,0.1108
+LUAD,proximal,cpm,6,0.2320120421475163,T_NK,0.086,0.8717
+LUAD,enhancer,raw,6,0.7095835423983944,B_cell,0.829,0.0416
+LUAD,enhancer,cpm,6,0.25002508780732563,T_NK,0.6,0.208

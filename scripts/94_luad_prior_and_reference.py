@@ -12,7 +12,10 @@ no fragments needed):
   enhancer = distance-weighted over peaks within +-100 kb  (ArchR-style, tau=5kb)
 and the matching scRNA pseudobulk reference from GSE131907.
 
-Excluded: GSM8069383 (byte-identical GEO duplicate of GSM8069382),
+Excluded: GSM8069377 only (median 304 counts per cell). NOTE 2026-08-27:
+GSM8069383 was previously excluded on the basis of a local download that was a
+duplicate copy of GSM8069382; the file was re-fetched from GEO and the sample is
+valid, so it is now included.
           GSM8069377 (median 304 counts/cell).
 
 Outputs: data/processed/LUAD/luad_geneactivity_proximal.h5ad
@@ -25,13 +28,13 @@ from datetime import datetime
 import glob, os, warnings
 warnings.filterwarnings('ignore')
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-GTF  = os.environ.get("GENCODE_GTF", "data/reference/gencode.v38.annotation.gtf")
+BASE = Path("/mnt/10t/scrna_atac")
+GTF  = "/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf"
 OUT  = BASE / "data/processed/LUAD"
 OUT.mkdir(parents=True, exist_ok=True)
 
 MIN_COUNTS = 1000
-EXCLUDE    = {'GSM8069383', 'GSM8069377'}   # GEO duplicate, low QC
+EXCLUDE    = {'GSM8069377'}                 # low coverage (median 304 counts/cell)
 EXTEND, DECAY = 100_000, 5000
 
 MARKERS = {

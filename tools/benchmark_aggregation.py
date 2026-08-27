@@ -50,7 +50,7 @@ import anndata as ad
 import scanpy as sc
 from scipy.stats import spearmanr
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
+BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"))
 OUT = Path(__file__).resolve().parent.parent / "results"
 OUT.mkdir(parents=True, exist_ok=True)
 N_PERM = 10_000
@@ -203,8 +203,11 @@ def m_depth_matched(X, lab, types, rng):
 
 # ── permutation null for marker concordance ─────────────────────────────────
 def perm_p(argmax, target, obs, rng, n=N_PERM):
+    """One-sided permutation p with the (1 + k) / (B + 1) estimator, so that the
+    smallest reportable value is 1 / (B + 1) rather than exactly zero."""
     null = np.array([(rng.permutation(argmax) == target).sum() for _ in range(n)])
-    return float(np.mean(null >= obs)), float(null.mean()), float(np.percentile(null, 95))
+    p = (1.0 + float((null >= obs).sum())) / (n + 1.0)
+    return p, float(null.mean()), float(np.percentile(null, 95))
 
 
 def main():

@@ -24,15 +24,14 @@ Outputs: data/processed/COAD/coad_geneactivity_proximal.h5ad
 """
 import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp
 import snapatac2 as snap
-import os
 from pathlib import Path
 from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-BASE    = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
+BASE    = Path("/mnt/10t/scrna_atac")
 FRAGDIR = BASE / "data/raw/scATAC_COAD/GSE201336"
-GTF     = Path(os.environ.get("GENCODE_GTF", "data/reference/gencode.v38.annotation.gtf"))
+GTF     = Path("/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf")
 OLD     = BASE / "data/processed/COAD/coad_atac_geneactivity_full.h5ad"
 OUT_DIR = BASE / "data/processed/COAD"
 WORK    = OUT_DIR / "_s92_work"

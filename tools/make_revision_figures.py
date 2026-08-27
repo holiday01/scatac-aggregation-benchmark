@@ -18,10 +18,9 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from PIL import Image
-import shutil
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
+BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"))
 OUT = ROOT / "figures"; OUT.mkdir(exist_ok=True)
 TEXTW, DPI = 6.3, 600
 plt.rcParams.update({"font.size": 7.5, "font.family": "DejaVu Sans", "axes.linewidth": 0.7,
@@ -105,8 +104,9 @@ def main():
     for s in ("top", "right"): ax.spines[s].set_visible(False)
     save(fig, "fig1_benchmark.png")
 
-    for src, dst in [("fig3_depth_spread.png", "fig2_depth_spread.png"), ("fig4_multiome.png", "fig3_multiome.png")]:
-        shutil.copy(OUT / src, OUT / dst); print(f"copied {src} -> {dst}")
+    # Figures 2 and 3 are produced by their own analyses and copied in by the
+    # driver; do not overwrite them here (an earlier version of this function
+    # copied stale files over freshly generated ones).
 
 
 if __name__ == "__main__":

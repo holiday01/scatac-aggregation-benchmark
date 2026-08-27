@@ -13,9 +13,9 @@ MOTIVATION (two separate problems this script resolves)
     different row order. The guess is wrong: canonical lineage markers land in the
     wrong cell type (ALB argmax = DC; CSF1R argmax = Hepatocyte; only 5/22 correct
     once cells are depth-normalised before the cell-type mean -- see
-    tools/audit_marker_concordance.py. Un-normalised the count reads 6/22;
+    apbc2026/tools/audit_marker_concordance.py. Un-normalised the count reads 6/22;
     that variant is superseded, and the difference is documented in
-    the changelog of the superseded numbers).
+    apbc2026/STATUS_NUMBERS_SUPERSEDED.md).
 
 (2) PROXIMAL-ONLY PRIOR. Signac GeneActivity counts gene body + 2 kb upstream, so it
     cannot see distal enhancers. The manuscript's mechanism claim (the prior demotes
@@ -49,15 +49,14 @@ Outputs: data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad
 import numpy as np, pandas as pd, anndata as ad
 import scipy.sparse as sp
 import snapatac2 as snap
-import os
 from pathlib import Path
 from datetime import datetime
 import sys, warnings
 warnings.filterwarnings('ignore')
 
-BASE     = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-FRAG     = Path(os.environ.get("GSE227265_FRAGMENTS", "data/raw/GSE227265/GSE227265_fragments_AllSamples.tsv.gz"))
-GTF      = Path(os.environ.get("GENCODE_GTF", "data/reference/gencode.v38.annotation.gtf"))
+BASE     = Path("/mnt/10t/scrna_atac")
+FRAG     = Path("/mnt/10t/assi_result/GEO_DATA/GSE227265/suppl/GSE227265_fragments_AllSamples.tsv.gz")
+GTF      = Path("/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf")
 OLD_H5   = BASE / "data/processed/integrated/atac_hcc_geneactivity.h5ad"
 OUT_DIR  = BASE / "data/processed/integrated"
 VAL_DIR  = BASE / "results/validation"
