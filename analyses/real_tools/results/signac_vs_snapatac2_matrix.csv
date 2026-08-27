@@ -1,0 +1,8 @@
+metric,value
+n_genes_signac,19622.0
+n_genes_snapatac2,59385.0
+n_common,19594.0
+median_percell_ratio_signac_over_snapatac2,1.0045360824742269
+spearman_percell_totals,0.9999954224823675
+spearman_pergene_totals,0.999746856110831
+frac_entries_differ_common_block,0.00982771965491836
