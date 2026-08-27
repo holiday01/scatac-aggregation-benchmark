@@ -1,0 +1,13 @@
+metric,value
+n_cells,39398
+n_genes,1896
+pct_entries_negative,91.66
+per_gene_mean_max_abs,0.0216
+per_gene_sd_min,0.0
+per_gene_sd_median,0.999987
+per_gene_sd_mean,0.952365
+pct_genes_sd_within_1e-3_of_1,67.9
+pct_entries_clipped_at_10,0.0654
+argmax_invariant_to_shift,True
+top_argmax_cell_type,Mast
+pct_genes_at_top_argmax,87.71
