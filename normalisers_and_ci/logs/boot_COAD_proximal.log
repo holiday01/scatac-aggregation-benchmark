@@ -1,0 +1,21 @@
+[13:07:33] COAD/proximal: loading /mnt/10t/scrna_atac/data/processed/COAD/coad_geneactivity_proximal.h5ad
+[13:07:38]   39398 cells x 59385 genes, nnz 135,972,192, 8 types, counts=True, depth mapped 100.0%, panel 41
+[13:07:44]   variants built (7s), depth-matched target 435
+[13:07:45]   point raw_mean        top                 Mast 94.8%  markers 9/41
+[13:07:45]   point zscale_mean     top                 Mast 94.9%  markers 9/41
+[13:07:45]   point pseudobulk_cpm  top           Macrophage 23.9%  markers 16/41
+[13:07:45]   point depth_matched   top           Macrophage 17.4%  markers 10/41
+[13:07:45]   point cpm_mean        top           Macrophage 18.8%  markers 10/41
+[13:07:45]   point lognorm_mean    top                 Mast 60.1%  markers 9/41
+[13:08:17]   thinning-only: top share sd 0.0009, markers 9-15
+[13:08:41]   bootstrap 20/200 (24s)
+[13:09:09]   bootstrap 40/200 (53s)
+[13:09:36]   bootstrap 60/200 (80s)
+[13:09:56]   bootstrap 80/200 (99s)
+[13:10:15]   bootstrap 100/200 (119s)
+[13:10:33]   bootstrap 120/200 (137s)
+[13:10:51]   bootstrap 140/200 (154s)
+[13:11:08]   bootstrap 160/200 (172s)
+[13:11:26]   bootstrap 180/200 (189s)
+[13:11:43]   bootstrap 200/200 (207s)
+[13:11:43] done COAD_proximal

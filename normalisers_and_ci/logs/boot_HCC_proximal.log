@@ -1,0 +1,21 @@
+[12:54:51] HCC/proximal: loading /mnt/10t/scrna_atac/data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad
+[12:54:52]   12029 cells x 59385 genes, nnz 79,413,387, 6 types, counts=True, depth mapped 100.0%, panel 22
+[12:54:57]   variants built (5s), depth-matched target 7159
+[12:54:58]   point raw_mean        top  Endothelial_stromal 67.1%  markers 15/22
+[12:54:58]   point zscale_mean     top  Endothelial_stromal 65.3%  markers 16/22
+[12:54:58]   point pseudobulk_cpm  top           Hepatocyte 31.6%  markers 20/22
+[12:54:58]   point depth_matched   top           Hepatocyte 30.3%  markers 19/22
+[12:54:58]   point cpm_mean        top           Hepatocyte 30.1%  markers 19/22
+[12:54:58]   point lognorm_mean    top           Hepatocyte 33.6%  markers 19/22
+[12:55:23]   thinning-only: top share sd 0.0009, markers 19-20
+[12:55:36]   bootstrap 20/200 (13s)
+[12:55:47]   bootstrap 40/200 (25s)
+[12:56:00]   bootstrap 60/200 (37s)
+[12:56:15]   bootstrap 80/200 (53s)
+[12:56:32]   bootstrap 100/200 (70s)
+[12:56:51]   bootstrap 120/200 (88s)
+[12:57:08]   bootstrap 140/200 (106s)
+[12:57:24]   bootstrap 160/200 (122s)
+[12:57:37]   bootstrap 180/200 (135s)
+[12:57:48]   bootstrap 200/200 (146s)
+[12:57:48] done HCC_proximal

@@ -1,0 +1,20 @@
+[13:05:47] LUAD/proximal: loading /mnt/10t/scrna_atac/data/processed/LUAD/luad_geneactivity_proximal.h5ad
+[13:05:59]   53308 cells x 19930 genes, nnz 196,201,419, 6 types, counts=True, depth mapped 100.0%, panel 36
+[13:05:59]   raw_mean           top               B_cell 66.1%  rho=+0.89  markers 23/36 perm p=0.0000  (1s)
+[13:06:18]   zscale_mean        top               B_cell 64.6%  rho=+0.89  markers 23/36 perm p=0.0000  (18s)
+[13:06:18]   pseudobulk_cpm     top               B_cell 24.1%  rho=+0.66  markers 23/36 perm p=0.0000  (0s)
+[13:06:26]   depth_matched      top                 T_NK 28.3%  rho=+0.89  markers 24/36 perm p=0.0000  (8s)
+[13:06:28]   cpm_mean           top                 T_NK 25.3%  rho=+0.54  markers 23/36 perm p=0.0000  (2s)
+[13:06:31]   lognorm_mean       top                 T_NK 36.9%  rho=+0.94  markers 23/36 perm p=0.0000  (3s)
+[13:06:35]   tfidf1_mean        top                 T_NK 37.1%  rho=+0.94  markers 23/36 perm p=0.0000  (4s)
+[13:06:37]   tfidf2_mean        top                 T_NK 25.3%  rho=+0.54  markers 23/36 perm p=0.0000  (2s)
+[13:06:40]   tfidf3_mean        top                 T_NK 36.9%  rho=+0.94  markers 23/36 perm p=0.0000  (4s)
+[13:06:40]   pearson self-check vs scanpy on 2000x1500 sub-matrix: max|diff| = 3.49e-06 (max|resid| 44.7)
+[13:06:59]   pearson_mean       top                 T_NK 27.8%  rho=+0.71  markers 23/36 perm p=0.0000  (19s)
+[13:07:01]   medscale_mean      top                 T_NK 25.3%  rho=+0.54  markers 23/36 perm p=0.0000  (2s)
+[13:07:07]   rank_mean          top               B_cell 58.6%  rho=+0.89  markers 24/36 perm p=0.0000  (6s)
+[13:07:13]   rankfrac_mean      top                 T_NK 33.7%  rho=+0.94  markers 25/36 perm p=0.0000  (6s)
+[13:07:14]   detection_mean     top                 T_NK 40.8%  rho=+0.94  markers 23/36 perm p=0.0000  (1s)
+[13:07:16]   lognorm_maxnorm    top                 T_NK 36.9%  rho=+0.94  markers 23/36 perm p=0.0000  (3s)
+[13:07:17]   pseudobulk_logcpm  top               B_cell 24.1%  rho=+0.66  markers 23/36 perm p=0.0000  (0s)
+[13:07:17] done LUAD_proximal

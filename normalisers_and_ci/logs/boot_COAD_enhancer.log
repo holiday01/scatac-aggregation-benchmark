@@ -1,0 +1,21 @@
+[13:15:06] COAD/enhancer: loading /mnt/10t/scrna_atac/data/processed/COAD/coad_geneactivity_enhancer.h5ad
+[13:15:15]   39398 cells x 19930 genes, nnz 237,891,087, 8 types, counts=False, depth mapped 100.0%, panel 41
+[13:15:27]   variants built (12s), depth-matched target 351
+[13:15:28]   point raw_mean        top                 Mast 97.6%  markers 9/41
+[13:15:28]   point zscale_mean     top                 Mast 97.7%  markers 9/41
+[13:15:28]   point pseudobulk_cpm  top               B_cell 31.7%  markers 14/41
+[13:15:28]   point depth_matched   top                 Mast 22.8%  markers 11/41
+[13:15:28]   point cpm_mean        top                 Mast 20.9%  markers 9/41
+[13:15:28]   point lognorm_mean    top                 Mast 82.8%  markers 9/41
+[13:16:17]   thinning-only: top share sd 0.0020, markers 9-11
+[13:16:42]   bootstrap 20/200 (25s)
+[13:17:06]   bootstrap 40/200 (49s)
+[13:17:30]   bootstrap 60/200 (73s)
+[13:17:54]   bootstrap 80/200 (97s)
+[13:18:18]   bootstrap 100/200 (120s)
+[13:18:41]   bootstrap 120/200 (144s)
+[13:19:05]   bootstrap 140/200 (168s)
+[13:19:30]   bootstrap 160/200 (192s)
+[13:19:55]   bootstrap 180/200 (217s)
+[13:20:18]   bootstrap 200/200 (241s)
+[13:20:18] done COAD_enhancer

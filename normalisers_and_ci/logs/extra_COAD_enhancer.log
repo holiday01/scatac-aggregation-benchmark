@@ -1,0 +1,20 @@
+[12:58:25] COAD/enhancer: loading /mnt/10t/scrna_atac/data/processed/COAD/coad_geneactivity_enhancer.h5ad
+[12:58:32]   39398 cells x 19930 genes, nnz 237,891,087, 8 types, counts=False, depth mapped 100.0%, panel 41
+[12:58:33]   raw_mean           top                 Mast 97.6%  rho=+0.90  markers 9/41 perm p=0.0018  (1s)
+[12:58:49]   zscale_mean        top                 Mast 97.7%  rho=+0.84  markers 9/41 perm p=0.0011  (16s)
+[12:58:49]   pseudobulk_cpm     top               B_cell 31.7%  rho=+0.07  markers 14/41 perm p=0.0004  (1s)
+[12:58:54]   depth_matched      top                 Mast 22.6%  rho=+0.74  markers 6/41 perm p=0.4902  (5s)
+[12:58:56]   cpm_mean           top                 Mast 20.9%  rho=+0.45  markers 9/41 perm p=0.0808  (2s)
+[12:59:00]   lognorm_mean       top                 Mast 82.8%  rho=+0.64  markers 9/41 perm p=0.0206  (3s)
+[12:59:04]   tfidf1_mean        top                 Mast 95.0%  rho=+0.72  markers 10/41 perm p=0.0001  (5s)
+[12:59:07]   tfidf2_mean        top                 Mast 20.9%  rho=+0.45  markers 9/41 perm p=0.0799  (3s)
+[12:59:12]   tfidf3_mean        top                 Mast 82.8%  rho=+0.64  markers 9/41 perm p=0.0222  (5s)
+[12:59:12]   pearson self-check vs scanpy on 2000x1500 sub-matrix: max|diff| = 5.45e-06 (max|resid| 44.7)
+[12:59:29]   pearson_mean       top               B_cell 34.6%  rho=+0.40  markers 10/41 perm p=0.0518  (17s)
+[12:59:31]   medscale_mean      top                 Mast 20.9%  rho=+0.45  markers 9/41 perm p=0.0869  (2s)
+[12:59:44]   rank_mean          top                 Mast 99.4%  rho=+0.79  markers 5/41 perm p=1.0000  (13s)
+[12:59:58]   rankfrac_mean      top                 Mast 98.2%  rho=+0.84  markers 5/41 perm p=0.8742  (14s)
+[12:59:59]   detection_mean     top                 Mast 99.9%  rho=+0.79  markers 5/41 perm p=1.0000  (1s)
+[13:00:02]   lognorm_maxnorm    top                 Mast 82.8%  rho=+0.64  markers 9/41 perm p=0.0207  (3s)
+[13:00:03]   pseudobulk_logcpm  top               B_cell 31.7%  rho=+0.07  markers 14/41 perm p=0.0010  (1s)
+[13:00:03] done COAD_enhancer

@@ -1,0 +1,33 @@
+[12:58:24] started benchmark_bootstrap.py LUAD_enhancer (budget used 15 GB)
+[12:58:24] started benchmark_extra_normalisers.py COAD_enhancer (budget used 21 GB)
+skip benchmark_bootstrap.py HCC_proximal (done)
+skip benchmark_extra_normalisers.py HCC_proximal (done)
+[13:00:09] finished benchmark_extra_normalisers.py COAD_enhancer rc=0
+[13:00:09] started benchmark_bootstrap.py LUAD_proximal (budget used 21 GB)
+Traceback (most recent call last):
+  File "/mnt/10t/scrna_atac/apbc2026/journal_version/additions/normalisers_and_ci/run_all.py", line 64, in <module>
+    main()
+  File "/mnt/10t/scrna_atac/apbc2026/journal_version/additions/normalisers_and_ci/run_all.py", line 50, in main
+    if skip and running(job[0], job[1]):
+                ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'list' object is not callable
+already running benchmark_bootstrap.py LUAD_enhancer (budget used 17 GB)
+skip benchmark_extra_normalisers.py COAD_enhancer (done)
+already running benchmark_bootstrap.py LUAD_proximal (budget used 24 GB)
+skip benchmark_bootstrap.py HCC_proximal (done)
+skip benchmark_extra_normalisers.py HCC_proximal (done)
+[13:05:46] started benchmark_extra_normalisers.py LUAD_proximal (budget used 22 GB)
+[13:07:32] finished benchmark_extra_normalisers.py LUAD_proximal rc=0
+[13:07:32] started benchmark_bootstrap.py COAD_proximal (budget used 21 GB)
+[13:11:35] started benchmark_extra_normalisers.py LUAD_enhancer (budget used 16 GB)
+[13:11:35] started benchmark_extra_normalisers.py COAD_proximal (budget used 20 GB)
+[13:11:50] finished benchmark_bootstrap.py COAD_proximal rc=0
+[13:11:50] started benchmark_bootstrap.py HCC_enhancer (budget used 20 GB)
+[13:13:35] finished benchmark_extra_normalisers.py COAD_proximal rc=0
+[13:13:35] started benchmark_extra_normalisers.py HCC_enhancer (budget used 20 GB)
+[13:14:35] finished benchmark_extra_normalisers.py HCC_enhancer rc=0
+[13:15:05] finished benchmark_extra_normalisers.py LUAD_enhancer rc=0
+[13:15:05] started benchmark_bootstrap.py COAD_enhancer (budget used 13 GB)
+[13:15:50] finished benchmark_bootstrap.py HCC_enhancer rc=0
+[13:20:20] finished benchmark_bootstrap.py COAD_enhancer rc=0
+all jobs finished

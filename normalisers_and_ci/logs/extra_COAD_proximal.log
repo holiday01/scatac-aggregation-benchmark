@@ -1,0 +1,20 @@
+[13:11:36] COAD/proximal: loading /mnt/10t/scrna_atac/data/processed/COAD/coad_geneactivity_proximal.h5ad
+[13:11:37]   39398 cells x 59385 genes, nnz 135,972,192, 8 types, counts=True, depth mapped 100.0%, panel 41
+[13:11:38]   raw_mean           top                 Mast 94.8%  rho=+0.98  markers 9/41 perm p=0.0090  (1s)
+[13:12:19]   zscale_mean        top                 Mast 94.9%  rho=+0.98  markers 9/41 perm p=0.0082  (42s)
+[13:12:20]   pseudobulk_cpm     top           Macrophage 23.9%  rho=-0.33  markers 16/41 perm p=0.0000  (0s)
+[13:12:23]   depth_matched      top           Macrophage 17.4%  rho=-0.07  markers 11/41 perm p=0.0073  (3s)
+[13:12:24]   cpm_mean           top           Macrophage 18.8%  rho=-0.02  markers 10/41 perm p=0.0295  (1s)
+[13:12:26]   lognorm_mean       top                 Mast 60.1%  rho=+0.69  markers 9/41 perm p=0.0264  (2s)
+[13:12:29]   tfidf1_mean        top                 Mast 91.2%  rho=+0.95  markers 9/41 perm p=0.0170  (3s)
+[13:12:31]   tfidf2_mean        top           Macrophage 18.8%  rho=-0.02  markers 10/41 perm p=0.0295  (2s)
+[13:12:34]   tfidf3_mean        top                 Mast 60.1%  rho=+0.69  markers 9/41 perm p=0.0261  (3s)
+[13:12:34]   pearson self-check vs scanpy on 2000x1500 sub-matrix: max|diff| = 4.30e-06 (max|resid| 44.7)
+[13:13:19]   pearson_mean       top               B_cell 22.5%  rho=+0.24  markers 12/41 perm p=0.0056  (45s)
+[13:13:20]   medscale_mean      top           Macrophage 18.8%  rho=-0.02  markers 10/41 perm p=0.0319  (1s)
+[13:13:24]   rank_mean          top                 Mast 97.2%  rho=+0.88  markers 8/41 perm p=0.0180  (4s)
+[13:13:28]   rankfrac_mean      top                 Mast 91.5%  rho=+0.98  markers 9/41 perm p=0.0114  (4s)
+[13:13:29]   detection_mean     top                 Mast 95.2%  rho=+0.98  markers 8/41 perm p=0.0397  (1s)
+[13:13:31]   lognorm_maxnorm    top                 Mast 60.1%  rho=+0.69  markers 9/41 perm p=0.0276  (2s)
+[13:13:32]   pseudobulk_logcpm  top           Macrophage 23.9%  rho=-0.33  markers 16/41 perm p=0.0001  (0s)
+[13:13:32] done COAD_proximal

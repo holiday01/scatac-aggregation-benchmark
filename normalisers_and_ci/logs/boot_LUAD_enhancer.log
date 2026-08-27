@@ -1,0 +1,21 @@
+[12:58:25] LUAD/enhancer: loading /mnt/10t/scrna_atac/data/processed/LUAD/luad_geneactivity_enhancer.h5ad
+[12:58:44]   53308 cells x 19930 genes, nnz 487,662,526, 6 types, counts=False, depth mapped 100.0%, panel 36
+[12:59:10]   variants built (27s), depth-matched target 4715
+[12:59:13]   point raw_mean        top               B_cell 71.3%  markers 22/36
+[12:59:13]   point zscale_mean     top               B_cell 70.4%  markers 22/36
+[12:59:13]   point pseudobulk_cpm  top               B_cell 24.6%  markers 23/36
+[12:59:13]   point depth_matched   top                 T_NK 27.7%  markers 25/36
+[12:59:13]   point cpm_mean        top                 T_NK 25.1%  markers 24/36
+[12:59:13]   point lognorm_mean    top                 T_NK 35.5%  markers 24/36
+[13:01:19]   thinning-only: top share sd 0.0015, markers 23-25
+[13:02:17]   bootstrap 20/200 (58s)
+[13:03:14]   bootstrap 40/200 (114s)
+[13:04:10]   bootstrap 60/200 (171s)
+[13:05:09]   bootstrap 80/200 (229s)
+[13:06:05]   bootstrap 100/200 (286s)
+[13:07:03]   bootstrap 120/200 (343s)
+[13:07:59]   bootstrap 140/200 (399s)
+[13:09:24]   bootstrap 160/200 (485s)
+[13:10:28]   bootstrap 180/200 (549s)
+[13:11:25]   bootstrap 200/200 (606s)
+[13:11:25] done LUAD_enhancer

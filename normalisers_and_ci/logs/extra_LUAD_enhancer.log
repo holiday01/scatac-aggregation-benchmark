@@ -1,0 +1,20 @@
+[13:11:36] LUAD/enhancer: loading /mnt/10t/scrna_atac/data/processed/LUAD/luad_geneactivity_enhancer.h5ad
+[13:11:58]   53308 cells x 19930 genes, nnz 487,662,526, 6 types, counts=False, depth mapped 100.0%, panel 36
+[13:12:00]   raw_mean           top               B_cell 71.3%  rho=+0.83  markers 22/36 perm p=0.0000  (2s)
+[13:12:24]   zscale_mean        top               B_cell 70.4%  rho=+0.83  markers 22/36 perm p=0.0000  (25s)
+[13:12:25]   pseudobulk_cpm     top               B_cell 24.6%  rho=+0.66  markers 23/36 perm p=0.0000  (1s)
+[13:12:39]   depth_matched      top                 T_NK 27.6%  rho=+0.94  markers 24/36 perm p=0.0000  (13s)
+[13:12:43]   cpm_mean           top                 T_NK 25.1%  rho=+0.60  markers 24/36 perm p=0.0000  (4s)
+[13:12:50]   lognorm_mean       top                 T_NK 35.5%  rho=+0.94  markers 24/36 perm p=0.0000  (8s)
+[13:13:01]   tfidf1_mean        top                 T_NK 36.2%  rho=+1.00  markers 24/36 perm p=0.0000  (10s)
+[13:13:07]   tfidf2_mean        top                 T_NK 25.1%  rho=+0.60  markers 24/36 perm p=0.0000  (6s)
+[13:13:17]   tfidf3_mean        top                 T_NK 35.5%  rho=+0.94  markers 24/36 perm p=0.0000  (10s)
+[13:13:17]   pearson self-check vs scanpy on 2000x1500 sub-matrix: max|diff| = 4.07e-06 (max|resid| 44.7)
+[13:13:43]   pearson_mean       top                 T_NK 27.1%  rho=+0.83  markers 24/36 perm p=0.0000  (25s)
+[13:13:47]   medscale_mean      top                 T_NK 25.1%  rho=+0.60  markers 24/36 perm p=0.0000  (4s)
+[13:14:15]   rank_mean          top                 T_NK 39.8%  rho=+1.00  markers 23/36 perm p=0.0000  (27s)
+[13:14:43]   rankfrac_mean      top                 T_NK 40.7%  rho=+1.00  markers 23/36 perm p=0.0000  (28s)
+[13:14:45]   detection_mean     top                 T_NK 49.0%  rho=+0.94  markers 19/36 perm p=0.0000  (2s)
+[13:14:52]   lognorm_maxnorm    top                 T_NK 35.5%  rho=+0.94  markers 24/36 perm p=0.0000  (7s)
+[13:14:53]   pseudobulk_logcpm  top               B_cell 24.6%  rho=+0.66  markers 23/36 perm p=0.0000  (1s)
+[13:14:53] done LUAD_enhancer

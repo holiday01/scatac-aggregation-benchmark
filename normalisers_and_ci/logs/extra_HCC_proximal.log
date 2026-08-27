@@ -1,0 +1,20 @@
+[12:54:51] HCC/proximal: loading /mnt/10t/scrna_atac/data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad
+[12:54:52]   12029 cells x 59385 genes, nnz 79,413,387, 6 types, counts=True, depth mapped 100.0%, panel 22
+[12:54:53]   raw_mean           top  Endothelial_stromal 67.1%  rho=+0.94  markers 15/22 perm p=0.0000  (0s)
+[12:55:07]   zscale_mean        top  Endothelial_stromal 65.3%  rho=+0.94  markers 16/22 perm p=0.0000  (14s)
+[12:55:07]   pseudobulk_cpm     top           Hepatocyte 31.6%  rho=+0.89  markers 20/22 perm p=0.0000  (0s)
+[12:55:10]   depth_matched      top           Hepatocyte 30.4%  rho=+0.77  markers 19/22 perm p=0.0000  (3s)
+[12:55:11]   cpm_mean           top           Hepatocyte 30.1%  rho=+0.94  markers 19/22 perm p=0.0000  (1s)
+[12:55:12]   lognorm_mean       top           Hepatocyte 33.6%  rho=+0.71  markers 19/22 perm p=0.0000  (1s)
+[12:55:14]   tfidf1_mean        top  Endothelial_stromal 34.4%  rho=+0.77  markers 20/22 perm p=0.0000  (2s)
+[12:55:15]   tfidf2_mean        top           Hepatocyte 30.1%  rho=+0.94  markers 19/22 perm p=0.0000  (1s)
+[12:55:17]   tfidf3_mean        top           Hepatocyte 33.6%  rho=+0.71  markers 19/22 perm p=0.0000  (2s)
+[12:55:17]   pearson self-check vs scanpy on 2000x1500 sub-matrix: max|diff| = 4.38e-06 (max|resid| 44.7)
+[12:55:33]   pearson_mean       top           Hepatocyte 31.1%  rho=+0.77  markers 20/22 perm p=0.0000  (16s)
+[12:55:34]   medscale_mean      top           Hepatocyte 30.1%  rho=+0.94  markers 19/22 perm p=0.0000  (1s)
+[12:55:36]   rank_mean          top  Endothelial_stromal 73.9%  rho=+0.94  markers 15/22 perm p=0.0000  (2s)
+[12:55:38]   rankfrac_mean      top  Endothelial_stromal 45.9%  rho=+0.83  markers 18/22 perm p=0.0000  (2s)
+[12:55:38]   detection_mean     top  Endothelial_stromal 55.5%  rho=+0.83  markers 18/22 perm p=0.0000  (0s)
+[12:55:39]   lognorm_maxnorm    top           Hepatocyte 33.6%  rho=+0.71  markers 19/22 perm p=0.0000  (1s)
+[12:55:40]   pseudobulk_logcpm  top           Hepatocyte 31.6%  rho=+0.89  markers 20/22 perm p=0.0000  (0s)
+[12:55:40] done HCC_proximal

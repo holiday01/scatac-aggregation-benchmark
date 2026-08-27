@@ -1,0 +1,21 @@
+[13:00:10] LUAD/proximal: loading /mnt/10t/scrna_atac/data/processed/LUAD/luad_geneactivity_proximal.h5ad
+[13:00:21]   53308 cells x 19930 genes, nnz 196,201,419, 6 types, counts=True, depth mapped 100.0%, panel 36
+[13:00:36]   variants built (15s), depth-matched target 3003
+[13:00:38]   point raw_mean        top               B_cell 66.1%  markers 23/36
+[13:00:38]   point zscale_mean     top               B_cell 64.6%  markers 23/36
+[13:00:38]   point pseudobulk_cpm  top               B_cell 24.1%  markers 23/36
+[13:00:38]   point depth_matched   top                 T_NK 28.2%  markers 24/36
+[13:00:38]   point cpm_mean        top                 T_NK 25.3%  markers 23/36
+[13:00:38]   point lognorm_mean    top                 T_NK 36.9%  markers 23/36
+[13:01:37]   thinning-only: top share sd 0.0014, markers 23-24
+[13:02:01]   bootstrap 20/200 (24s)
+[13:02:24]   bootstrap 40/200 (48s)
+[13:02:48]   bootstrap 60/200 (71s)
+[13:03:12]   bootstrap 80/200 (95s)
+[13:03:39]   bootstrap 100/200 (123s)
+[13:04:08]   bootstrap 120/200 (151s)
+[13:04:33]   bootstrap 140/200 (176s)
+[13:04:57]   bootstrap 160/200 (200s)
+[13:05:21]   bootstrap 180/200 (224s)
+[13:05:45]   bootstrap 200/200 (248s)
+[13:05:45] done LUAD_proximal

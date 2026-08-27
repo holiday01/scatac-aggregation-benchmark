@@ -1,0 +1,21 @@
+[13:11:51] HCC/enhancer: loading /mnt/10t/scrna_atac/data/processed/integrated/atac_hcc_geneactivity_enhancer.h5ad
+[13:12:00]   12029 cells x 19871 genes, nnz 142,497,409, 6 types, counts=False, depth mapped 100.0%, panel 22
+[13:12:07]   variants built (8s), depth-matched target 6162
+[13:12:09]   point raw_mean        top  Endothelial_stromal 75.6%  markers 14/22
+[13:12:09]   point zscale_mean     top  Endothelial_stromal 75.1%  markers 14/22
+[13:12:09]   point pseudobulk_cpm  top           Hepatocyte 26.4%  markers 21/22
+[13:12:09]   point depth_matched   top       NK_cytotoxic_T 29.3%  markers 21/22
+[13:12:09]   point cpm_mean        top           Hepatocyte 25.2%  markers 21/22
+[13:12:09]   point lognorm_mean    top           Hepatocyte 27.7%  markers 21/22
+[13:12:44]   thinning-only: top share sd 0.0016, markers 21-21
+[13:13:04]   bootstrap 20/200 (20s)
+[13:13:25]   bootstrap 40/200 (40s)
+[13:13:43]   bootstrap 60/200 (59s)
+[13:14:01]   bootstrap 80/200 (77s)
+[13:14:19]   bootstrap 100/200 (94s)
+[13:14:35]   bootstrap 120/200 (111s)
+[13:14:53]   bootstrap 140/200 (129s)
+[13:15:10]   bootstrap 160/200 (145s)
+[13:15:27]   bootstrap 180/200 (163s)
+[13:15:44]   bootstrap 200/200 (180s)
+[13:15:44] done HCC_enhancer
