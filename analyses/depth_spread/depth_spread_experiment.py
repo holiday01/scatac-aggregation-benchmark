@@ -43,11 +43,11 @@ import scipy.sparse as sp
 import anndata as ad
 from scipy.stats import spearmanr
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
+sys.path.insert(0, "/mnt/10t/scrna_atac/apbc2026/tools")
 from benchmark_aggregation import PANEL, percell_scale  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
+BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"))
 COHORTS = {
     "HCC":  dict(path=BASE / "data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad",
                  deep=["B_cell", "NK_cytotoxic_T"]),
@@ -304,7 +304,7 @@ def summarise():
                 ax.text(1.05, 1 / k + 0.015, f"uniform (1/{k})", color="#52514e", fontsize=6.5, va="bottom")
                 ax.set_ylim(0, 1); ax.set_yticks(np.arange(0, 1.01, 0.2))
                 ax.set_yticklabels([f"{v:.0%}" for v in np.arange(0, 1.01, 0.2)])
-                ax.set_title(f"{c} proximal matrix ({int(Tn.n_cells.sum()):,} cells, {k} types)", fontsize=8.5, loc="left")
+                ax.set_title(f"{ {'LUAD':'NSCLC'}.get(c, c) } count matrix ({int(Tn.n_cells.sum()):,} cells, {k} types)", fontsize=8.5, loc="left")
             else:
                 ax.set_ylim(0, ntot * 1.05); ax.set_xlabel("imposed depth spread (deepest / shallowest type)")
                 ax.set_xticks(SPREADS); ax.set_xticklabels([f"{s}x" for s in SPREADS])

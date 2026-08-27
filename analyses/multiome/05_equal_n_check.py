@@ -6,19 +6,17 @@
 Out: multiome_equal_n.csv, multiome_rna_truth_share.csv
 """
 import sys, time, warnings
-import os
 from pathlib import Path
 import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp, hdf5plugin  # noqa
 import scanpy as sc
 from scipy.stats import spearmanr
 warnings.filterwarnings("ignore")
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
+sys.path.insert(0, "/mnt/10t/scrna_atac/apbc2026/tools")
 from benchmark_aggregation import m_raw, m_zscale, m_pseudobulk_cpm, m_depth_matched, m_cpm, m_lognorm, m_archr  # noqa
 
 HERE = Path(__file__).resolve().parent
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-PROC = BASE / "data/processed/multiome_pbmc10k"
-H5 = BASE / "data/raw/multiome_pbmc10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5"
+PROC = Path("/mnt/10t/scrna_atac/data/processed/multiome_pbmc10k")
+H5 = Path("/mnt/10t/scrna_atac/data/raw/multiome_pbmc10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5")
 N_DRAW = 20
 def log(m): print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
 

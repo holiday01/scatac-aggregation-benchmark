@@ -6,12 +6,10 @@
 Out: rna_labels.csv (barcode, leiden, cell_type, rna_umi), rna_cluster_scores.csv, labelling_genes.txt
 """
 import warnings; warnings.filterwarnings("ignore")
-import os
 from pathlib import Path
 import numpy as np, pandas as pd, scanpy as sc
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-H5  = BASE / "data/raw/multiome_pbmc10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5"
+H5  = Path("/mnt/10t/scrna_atac/data/raw/multiome_pbmc10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5")
 OUT = Path(__file__).resolve().parent
 MIN_CELLS = 100
 

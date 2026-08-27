@@ -14,19 +14,17 @@ Out: data/processed/multiome_pbmc10k/{fragments.h5ad, pbmc10k_geneactivity_proxi
                                        pbmc10k_geneactivity_enhancer.h5ad}
 """
 import sys, time, warnings
-import os
 from pathlib import Path
 import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp, hdf5plugin  # noqa
 import scanpy as sc
 import snapatac2 as snap
 warnings.filterwarnings("ignore")
 
-BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "."))
-RAW  = BASE / "data/raw/multiome_pbmc10k"
+RAW  = Path("/mnt/10t/scrna_atac/data/raw/multiome_pbmc10k")
 H5   = RAW / "pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5"
 FRAG = RAW / "pbmc_granulocyte_sorted_10k_atac_fragments.tsv.gz"
-GTF  = Path(os.environ.get("GENCODE_GTF", "data/reference/gencode.v38.annotation.gtf"))
-OUT  = BASE / "data/processed/multiome_pbmc10k"; OUT.mkdir(parents=True, exist_ok=True)
+GTF  = Path("/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf")
+OUT  = Path("/mnt/10t/scrna_atac/data/processed/multiome_pbmc10k"); OUT.mkdir(parents=True, exist_ok=True)
 FRAG_H5 = OUT / "fragments.h5ad"
 BIN, EXTEND, DECAY = 5000, 100_000, 5000
 STAGE = sys.argv[1] if len(sys.argv) > 1 else "all"

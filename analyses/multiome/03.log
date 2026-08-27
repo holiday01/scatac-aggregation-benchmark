@@ -1,0 +1,23 @@
+[12:54:33] 11209 labelled cells, 8 types: ['B', 'DC', 'Mono_CD14', 'Mono_CD16', 'NK', 'T_CD4', 'T_CD8', 'pDC']
+[12:54:37] RNA: (11209, 36601), genes detected in >=1% cells: 13265, informative: 9407
+[12:54:37] == proximal: loading pbmc10k_geneactivity_proximal.h5ad
+[12:54:38]   (11209, 59385), depth spread 1.66x (min T_CD4 16001, max pDC 26573)
+[12:54:38]   shared expressed genes: 11920; RNA-informative among them: 1338
+[12:54:51]   raw_mean        top       pDC 34.1% rho=+0.93 | RNA argmax agree 0.329 (inf 0.621) gene-rho +0.394 | markers 41/51 p=0.000 | annot P 0.880 S 0.663 (6s)
+[12:55:17]   zscale_mean     top       pDC 34.5% rho=+0.93 | RNA argmax agree 0.328 (inf 0.622) gene-rho +0.393 | markers 41/51 p=0.000 | annot P 0.148 S 0.082 (26s)
+[12:55:26]   lognorm_mean    top       pDC 22.6% rho=+0.88 | RNA argmax agree 0.350 (inf 0.649) gene-rho +0.429 | markers 41/51 p=0.000 | annot P 0.880 S 0.709 (9s)
+[12:55:32]   pseudobulk_cpm  top Mono_CD14 20.9% rho=+0.83 | RNA argmax agree 0.340 (inf 0.632) gene-rho +0.425 | markers 41/51 p=0.000 | annot P 0.880 S 0.663 (6s)
+[12:55:42]   depth_matched   top       pDC 22.0% rho=+0.88 | RNA argmax agree 0.353 (inf 0.649) gene-rho +0.429 | markers 40/51 p=0.000 | annot P 0.882 S 0.658 (10s)
+[12:55:49]   cpm_mean        top       pDC 19.3% rho=+0.90 | RNA argmax agree 0.332 (inf 0.632) gene-rho +0.409 | markers 41/51 p=0.000 | annot P 0.880 S 0.729 (7s)
+[12:55:57]   archr_style     top       pDC 22.6% rho=+0.88 | RNA argmax agree 0.350 (inf 0.649) gene-rho +0.429 | markers 41/51 p=0.000 | annot P 0.880 S 0.709 (8s)
+[12:55:57] == enhancer: loading pbmc10k_geneactivity_enhancer.h5ad
+[12:55:59]   (11209, 19871), depth spread 1.66x (min T_CD4 16001, max pDC 26573)
+[12:55:59]   shared expressed genes: 11134; RNA-informative among them: 1215
+[12:56:10]   raw_mean        top       pDC 44.9% rho=+0.71 | RNA argmax agree 0.335 (inf 0.650) gene-rho +0.392 | markers 40/51 p=0.000 | annot P 0.884 S 0.725 (4s)
+[12:56:25]   zscale_mean     top       pDC 45.2% rho=+0.71 | RNA argmax agree 0.335 (inf 0.653) gene-rho +0.392 | markers 40/51 p=0.000 | annot P 0.330 S 0.159 (15s)
+[12:56:33]   lognorm_mean    top       pDC 22.5% rho=+0.24 | RNA argmax agree 0.359 (inf 0.681) gene-rho +0.438 | markers 41/51 p=0.000 | annot P 0.884 S 0.869 (8s)
+[12:56:38]   pseudobulk_cpm  top       pDC 17.8% rho=+0.19 | RNA argmax agree 0.353 (inf 0.662) gene-rho +0.433 | markers 40/51 p=0.000 | annot P 0.884 S 0.725 (4s)
+[12:56:49]   depth_matched   top       pDC 23.3% rho=+0.48 | RNA argmax agree 0.361 (inf 0.684) gene-rho +0.439 | markers 40/51 p=0.000 | annot P 0.885 S 0.841 (11s)
+[12:56:54]   cpm_mean        top       pDC 18.1% rho=+0.38 | RNA argmax agree 0.339 (inf 0.662) gene-rho +0.420 | markers 41/51 p=0.000 | annot P 0.881 S 0.862 (6s)
+[12:57:06]   archr_style     top       pDC 22.5% rho=+0.24 | RNA argmax agree 0.359 (inf 0.681) gene-rho +0.438 | markers 41/51 p=0.000 | annot P 0.884 S 0.869 (11s)
+[12:57:06] done

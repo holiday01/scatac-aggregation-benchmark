@@ -1,0 +1,27 @@
+[12:57:12] proximal: RNA-truth argmax share (all/informative): B 0.11/0.17, DC 0.09/0.05, Mono_CD14 0.12/0.14, Mono_CD16 0.10/0.10, NK 0.16/0.14, T_CD4 0.10/0.04, T_CD8 0.08/0.02, pDC 0.23/0.33
+[12:57:13]   proximal draw 0 done
+[12:57:21]   proximal draw 5 done
+[12:57:29]   proximal draw 10 done
+[12:57:36]   proximal draw 15 done
+[12:57:43] enhancer: RNA-truth argmax share (all/informative): B 0.11/0.16, DC 0.09/0.06, Mono_CD14 0.12/0.13, Mono_CD16 0.11/0.11, NK 0.16/0.14, T_CD4 0.10/0.05, T_CD8 0.08/0.02, pDC 0.23/0.34
+[12:57:44]   enhancer draw 0 done
+[12:57:50]   enhancer draw 5 done
+[12:57:56]   enhancer draw 10 done
+[12:58:01]   enhancer draw 15 done
+                         top_share  share_pDC    rho  top_is_deepest  agree_inf
+model    method                                                                
+enhancer archr_style         0.199      0.199  0.202            1.00      0.643
+         cpm_mean            0.160      0.160  0.119            1.00      0.600
+         depth_matched       0.195      0.193  0.476            0.85      0.642
+         lognorm_mean        0.200      0.200  0.202            1.00      0.643
+         pseudobulk_cpm      0.160      0.160  0.060            1.00      0.624
+         raw_mean            0.421      0.421  0.810            1.00      0.627
+         zscale_mean         0.421      0.421  0.810            1.00      0.630
+proximal archr_style         0.181      0.178  0.714            0.35      0.604
+         cpm_mean            0.181      0.156  0.690            0.00      0.560
+         depth_matched       0.239      0.153  0.798            0.00      0.607
+         lognorm_mean        0.181      0.178  0.714            0.35      0.604
+         pseudobulk_cpm      0.180      0.146  0.298            0.00      0.594
+         raw_mean            0.262      0.262  0.929            0.95      0.598
+         zscale_mean         0.283      0.283  0.905            0.95      0.601
+[12:58:06] done
