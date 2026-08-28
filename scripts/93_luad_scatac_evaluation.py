@@ -1,31 +1,3 @@
-"""
-Script 93: Is LUAD (GSE270148) a valid replacement for the broken COAD arm?
-==========================================================================
-COAD must be dropped: 0/1434 macrophages and 0/1759 T_NK cells survive a
->=1000-fragment QC (Script 92). We need a third cancer with REAL cells,
-all three lineages (Macrophage / B / CD8-T), a TCGA survival cohort and a
-scRNA reference.
-
-LUAD GSE270148 is the leading candidate (peak matrices + TCGA_LUAD + scRNA_LUAD
-already local). But the manuscript rejected it on the claim of a
-"B-cell library-prep artefact (4 of 9 patients with B-cell fractions >70%)".
-That claim was produced by the SAME annotation machinery that we now know is
-broken, so it is re-tested here from scratch:
-
-  * gene activity computed directly from each sample's peak matrix
-    (peaks overlapping gene body + 2 kb upstream — the Signac model),
-    using the peak coordinates stored in the 10x h5 (no fragments needed)
-  * cells annotated by argmax of canonical lineage marker scores
-  * per-sample composition + depth QC reported
-
-NOTE two data defects found in GSE270148 itself:
-  - GSM8069382 (Lu931) and GSM8069383 (Lu934) are BYTE-IDENTICAL on GEO
-    (same md5) -> a duplicate submission. Only 8 unique samples exist.
-  - GSM8069377 (Lu883) has median 304 counts/cell (7% pass >=1000) -> unusable.
-  => 7 usable samples.
-
-Output: results/validation/luad_scatac_evaluation.csv
-"""
 import numpy as np, pandas as pd, scanpy as sc, scipy.sparse as sp
 from pathlib import Path
 from datetime import datetime
