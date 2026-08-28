@@ -13,7 +13,7 @@ Runtime: HCC 2 min, LUAD 5 min (single process each, peak RSS < 8 GB).
 
 | | HCC proximal | LUAD proximal |
 |---|---|---|
-| matrix | 12,029 cells x 59,385 genes, 6 types (relabel rule of the benchmark applied: "B_cell" -> Endothelial_stromal, "DC" -> B_cell) | 53,308 cells x 19,930 genes, 6 types |
+| matrix | 12,029 cells x 59,385 genes, 6 types (relabel rule of the benchmark applied: "B_cell" -> Endothelial_stromal, "DC" -> B_cell) | 58,112 cells x 19,930 genes, 6 types |
 | common target depth (p20 of row sums) | 5,630 | 2,679 |
 | natural spread (median row sum, deepest / shallowest) | 1.84x | 3.57x |
 | deep-type choices | B_cell (n=416), NK_cytotoxic_T (n=3,677) | B_cell (n=9,484), T_NK (n=12,221) |
