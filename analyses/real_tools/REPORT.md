@@ -111,7 +111,8 @@ Spearman(median true coverage, genes returned) = +0.83 (p = 0.042); with padj < 
 The two highest-coverage types receive 18,244 and 16,053 significant positive markers, the shallowest
 (CD4_T, which has 3,305 cells — more than either) 1,074: a 17-fold spread that follows coverage, not
 population size (B_cell, n = 416, still gets 2,532). The scanpy `rank_genes_groups` run on the same
-matrix (`results/benchmark_wilcoxon.csv`) gave rho 0.77.
+matrix gave rho 0.77; that comparison was later dropped from the analysis (see `CHANGELOG.md`) and its
+table is kept only in the repository history.
 
 Canonical markers: 21 of the 22 held-out markers appear in their own type's positive-marker list, all
 21 with padj < 0.05; the missing one is APOA1 (Hepatocyte). But only **4/22 are in their type's top 50**
@@ -252,7 +253,7 @@ On `sc.pp.normalize_total(target_sum=1e4)` + `sc.pp.log1p` data:
   Endothelial_stromal and CD163 to Hepatocyte, i.e. the detection-rate channel of the dotplot carries the
   depth signal even after normalisation (`results/scanpy_dotplot_markers.csv`).
 So the paper's lognorm_mean is exactly what scanpy's group summaries and dotplots display. The
-`rank_genes_groups` Wilcoxon result already in `results/benchmark_wilcoxon.csv` was not re-run.
+`rank_genes_groups` Wilcoxon comparison was not re-run.
 
 ## 6. What this establishes
 

@@ -24,8 +24,12 @@ Repository housekeeping in the same update:
 - Removed files that no current analysis uses: the duplicate top-level
   `practice_survey/`, superseded figure and diagnostic scripts in `tools/`
   (`make_figures.py`, `make_benchmark_figure.py`, `audit_*.py`,
-  `benchmark_wilcoxon_markers.py`), `scripts/91_corrected_prior_headtohead.py`
-  and `results/validation/`. They remain available in the repository history.
+  `benchmark_wilcoxon_markers.py`), `scripts/91_corrected_prior_headtohead.py`,
+  `results/validation/`, and the seven output tables of those scripts in
+  `results/` (`benchmark_wilcoxon.csv`, `coad_depth_audit.csv`,
+  `depth_generality.csv`, `marker_concordance.csv`,
+  `marker_concordance_RAW_superseded.csv`, `zscale_diagnostic.csv`,
+  `zscale_gene_argmax.csv`). They remain available in the repository history.
 
 ## 2026-08-27 — NSCLC sample correction (affects every NSCLC-dependent result)
 
