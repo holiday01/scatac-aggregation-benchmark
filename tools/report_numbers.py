@@ -87,3 +87,43 @@ for r in U.itertuples():
     print(f"  {r.model:9} {r.method:15} top share {r.top_share*100:5.1f}% | RNA agreement "
           f"{r.argmax_agree_informative:.3f} | per-gene rho {r.gene_rho_mean_informative:.3f} | "
           f"markers {r.markers_correct}/{r.markers_total} | annotation {r.annot_acc_pearson:.4f}")
+
+print("\n== non-tumor tissues (analyses/normal_tissues) ==")
+NT = adds / "normal_tissues"
+A = pd.read_csv(NT / "catlas_benchmark.csv"); AL = pd.read_csv(NT / "catlas_loso.csv")
+a0 = A[(A.model == "proximal") & (A.method == "raw_mean")]
+print(f"  {a0.organ.nunique()} tissues, {int(a0.n_samples.sum())} samples, {int(a0.n_cells.sum()):,} cells, "
+      f"{int(a0.n_types.min())}-{int(a0.n_types.max())} types per tissue | coverage spread "
+      f"{a0.coverage_spread.min():.2f}-{a0.coverage_spread.max():.2f}x (median {a0.coverage_spread.median():.2f})")
+for mo in ("proximal", "enhancer"):
+    for m in ("raw_mean", "zscale_mean", "lognorm_mean", "pseudobulk_cpm", "cpm_mean", "depth_matched"):
+        s = A[(A.model == mo) & (A.method == m)]
+        if len(s) == 0: continue
+        print(f"  {mo:9} {m:15} median top share {s.top_share.median()*100:4.1f}% ({pct(s.top_share.min())}-{pct(s.top_share.max())})"
+              f" | modal type is the highest-coverage one in {int(s.top_is_deepest.sum())}/{len(s)}"
+              f" | rho median {s.rho_coverage_share.median():+.2f} | markers {int(s.markers_correct.sum())}/{int(s.markers_total.sum())}")
+    pv = A[A.model == mo].pivot(index="organ", columns="method", values="top_share"); r = pv.raw_mean / pv.cpm_mean
+    g = AL[AL.model == mo].groupby(["organ", "method"]).top_share.agg(["min", "max"]).unstack("method")
+    print(f"  {mo:9} raw > CP10K in {int((pv.raw_mean > pv.cpm_mean).sum())}/{len(pv)} tissues | raw/CP10K ratio median {r.median():.2f}, "
+          f"max {r.max():.2f} ({r.idxmax()}) | leave-one-sample-out: raw range above CP10K range in "
+          f"{int((g[('min', 'raw_mean')] > g[('max', 'cpm_mean')]).sum())}/{len(g)} tissues")
+FP = pd.read_csv(NT / "fig_normal_tissues_data.csv")
+print(f"  raw/CP10K ratio against coverage spread over {len(FP)} matrices: Spearman rho {spearmanr(FP.spread, FP.ratio)[0]:+.2f}")
+
+print("\n== matched RNA-ATAC, brain ==")
+BR = pd.read_csv(NT / "brain3k_benchmark.csv"); BT = pd.read_csv(NT / "brain3k_rna_truth_share.csv")
+print(f"  {int(BR.n_cells.iloc[0]):,} cells, {int(BR.n_types.iloc[0])} types, coverage spread {BR.depth_spread.iloc[0]:.2f}x | RNA reference share, "
+      f"excitatory neurons: {BT[(BT.model == 'proximal') & (BT.cell_type == 'Excitatory_neuron')].rna_argmax_share_all.iloc[0]*100:.1f}%")
+for r in BR.itertuples():
+    print(f"  {r.model:9} {r.method:15} top share {r.top_share*100:5.1f}% | RNA agreement {r.argmax_agree_informative:.3f} | "
+          f"markers {r.markers_correct}/{r.markers_total}")
+
+print("\n== matched RNA-ATAC, bone marrow (deposited gene-activity matrix, ten donors) ==")
+BM = pd.read_csv(NT / "bmmc_benchmark.csv"); BL = pd.read_csv(NT / "bmmc_lodo.csv")
+print(f"  {int(BM.n_cells.iloc[0]):,} cells, {int(BM.n_types.iloc[0])} types, coverage spread {BM.coverage_spread.iloc[0]:.2f}x, "
+      f"{int(BM.n_shared_genes.iloc[0]):,} shared genes ({int(BM.n_informative.iloc[0])} RNA-informative)")
+for r in BM.itertuples():
+    print(f"  {r.method:15} top share {r.top_share*100:5.1f}% | rho {r.rho_coverage_share:+.2f} | RNA agreement {r.argmax_agree_informative:.3f}")
+g = BL.groupby("method").argmax_agree_informative.agg(["min", "max", "count"])
+for m in g.index:
+    print(f"  leave-one-donor-out {m:15} RNA agreement {g.loc[m, 'min']:.3f}-{g.loc[m, 'max']:.3f} ({int(g.loc[m, 'count'])} folds)")

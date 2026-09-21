@@ -11,7 +11,7 @@ the tables below.
 
 ```
 tools/      matrix construction, benchmark, revision analyses, figure generation,
-            claim and reference verification
+            and report_numbers.py, which recomputes every reported quantity
 scripts/    gene-activity matrix construction from the deposited GEO files
 results/    derived tables that every reported number is computed from,
             including results/revision/
@@ -27,6 +27,9 @@ data/       accessions and checksums (no data files are stored here)
 | GSE201336 | colorectal | six colon specimens from one donor, unsorted tissue nuclei |
 | GSE270148 | non-small-cell lung cancer | CD45-positive bead-enriched nuclei; eight of nine tumour samples used |
 | 10x `pbmc_granulocyte_sorted_10k` | PBMC multiome | RNA and ATAC in the same nuclei, one donor |
+| GSE184462 (adult samples) | 26 non-tumor tissues | human chromatin accessibility atlas, 72 fragment files, depositors' cell-type labels |
+| 10x `human_brain_3k` | brain multiome | RNA and ATAC in the same nuclei, one donor, labels from RNA only |
+| GSE194122 (multiome) | bone marrow | ten donors, 13 batches; gene-activity matrix as deposited by its authors |
 
 No new data were generated.
 
@@ -41,6 +44,7 @@ python3 tools/revision_analyses.py               # integrality, leave-one-sample
 python3 tools/check_hcc_labels.py                # evidence for the two renamed HCC clusters
 python3 tools/make_revision_figures.py           # regenerates the figures locally
 python3 tools/report_numbers.py                  # recomputes and prints every reported quantity from the tables
+# non-tumor tissues, brain and bone-marrow multiome: run order in analyses/normal_tissues/README.md
 ```
 
 Scripts resolve paths from `$SCRNA_ATAC_BASE` (default `/mnt/10t/scrna_atac`).
@@ -58,4 +62,9 @@ nulls, 0–2 for the controlled depth series.
   or the total peak count (lung), never the gene-window row sum; the two differ
   by 0.93–1.16-fold across cell types because gene windows overlap.
 - Uncertainty is assessed by leaving out one sample at a time, not by resampling
-  cells.
+  cells; in the bone-marrow multiome one donor is left out at a time.
+- The non-tumor tissues are aggregated one tissue at a time with the depositors'
+  cell-type labels; cell types with fewer than 100 cells in a tissue are dropped.
+- The bone-marrow gene-activity matrix is the one deposited by its authors. It is
+  stored log-normalized, and the integer counts are recovered exactly from it
+  (see `analyses/normal_tissues/README.md`).

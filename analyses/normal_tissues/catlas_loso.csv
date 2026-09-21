@@ -1,0 +1,301 @@
+organ,model,method,omitted,n_cells,top_share,top_type
+adipose_omentum,proximal,raw_mean,adipose_omentum_SM-ADYHB_1,12088,0.3454564134175785,Adipocyte
+adipose_omentum,proximal,lognorm_mean,adipose_omentum_SM-ADYHB_1,12088,0.12902176332597046,Adipocyte
+adipose_omentum,proximal,cpm_mean,adipose_omentum_SM-ADYHB_1,12088,0.1339018167497132,Schwann Cell (General)
+adipose_omentum,proximal,raw_mean,adipose_omentum_SM-CHZRM_1,12684,0.394319174071601,Adipocyte
+adipose_omentum,proximal,lognorm_mean,adipose_omentum_SM-CHZRM_1,12684,0.14705429143767015,Adipocyte
+adipose_omentum,proximal,cpm_mean,adipose_omentum_SM-CHZRM_1,12684,0.13065214785898951,Endothelial Cell (General) 2
+adipose_omentum,proximal,raw_mean,adipose_omentum_SM-CSSD4_1,10701,0.285584176791023,Adipocyte
+adipose_omentum,proximal,lognorm_mean,adipose_omentum_SM-CSSD4_1,10701,0.11485917550220817,Adipocyte
+adipose_omentum,proximal,cpm_mean,adipose_omentum_SM-CSSD4_1,10701,0.1279535339301978,Schwann Cell (General)
+adipose_omentum,proximal,raw_mean,adipose_omentum_SM-IOBHJ_1,11981,0.35332739054410806,Adipocyte
+adipose_omentum,proximal,lognorm_mean,adipose_omentum_SM-IOBHJ_1,11981,0.12281002502828539,T Lymphocyte 1 (CD8+)
+adipose_omentum,proximal,cpm_mean,adipose_omentum_SM-IOBHJ_1,11981,0.1272156889635547,Schwann Cell (General)
+adipose_omentum,enhancer,raw_mean,adipose_omentum_SM-ADYHB_1,12088,0.5927585859603183,Adipocyte
+adipose_omentum,enhancer,lognorm_mean,adipose_omentum_SM-ADYHB_1,12088,0.1831000100715077,Adipocyte
+adipose_omentum,enhancer,cpm_mean,adipose_omentum_SM-ADYHB_1,12088,0.142511834021553,Schwann Cell (General)
+adipose_omentum,enhancer,raw_mean,adipose_omentum_SM-CHZRM_1,12684,0.6865904627624755,Adipocyte
+adipose_omentum,enhancer,lognorm_mean,adipose_omentum_SM-CHZRM_1,12684,0.225237927388086,Adipocyte
+adipose_omentum,enhancer,cpm_mean,adipose_omentum_SM-CHZRM_1,12684,0.13762022256911224,T Lymphocyte 1 (CD8+)
+adipose_omentum,enhancer,raw_mean,adipose_omentum_SM-CSSD4_1,10701,0.5000503626107977,Adipocyte
+adipose_omentum,enhancer,lognorm_mean,adipose_omentum_SM-CSSD4_1,10701,0.15224617244157937,Adipocyte
+adipose_omentum,enhancer,cpm_mean,adipose_omentum_SM-CSSD4_1,10701,0.14519540692989524,T Lymphocyte 1 (CD8+)
+adipose_omentum,enhancer,raw_mean,adipose_omentum_SM-IOBHJ_1,11981,0.637544690064958,Adipocyte
+adipose_omentum,enhancer,lognorm_mean,adipose_omentum_SM-IOBHJ_1,11981,0.17951558487335717,Adipocyte
+adipose_omentum,enhancer,cpm_mean,adipose_omentum_SM-IOBHJ_1,11981,0.14708696308978297,Schwann Cell (General)
+artery_aorta,proximal,raw_mean,artery_aorta_SM-C1MLC_1,26467,0.1893332422228676,Pericyte (General) 1
+artery_aorta,proximal,lognorm_mean,artery_aorta_SM-C1MLC_1,26467,0.16512633035515997,Pericyte (General) 1
+artery_aorta,proximal,cpm_mean,artery_aorta_SM-C1MLC_1,26467,0.17397543434067342,Smooth Muscle (General)
+artery_aorta,proximal,raw_mean,artery_aorta_SM-C1PX3_1,25371,0.19819126748042534,Pericyte (General) 1
+artery_aorta,proximal,lognorm_mean,artery_aorta_SM-C1PX3_1,25371,0.16627346394502,Smooth Muscle (General)
+artery_aorta,proximal,cpm_mean,artery_aorta_SM-C1PX3_1,25371,0.177300235921633,Smooth Muscle (General)
+artery_aorta,proximal,raw_mean,artery_aorta_SM-CR89M_1,28050,0.1983924754168448,Pericyte (General) 1
+artery_aorta,proximal,lognorm_mean,artery_aorta_SM-CR89M_1,28050,0.1685506626763574,Pericyte (General) 1
+artery_aorta,proximal,cpm_mean,artery_aorta_SM-CR89M_1,28050,0.16025651988029072,Smooth Muscle (General)
+artery_aorta,proximal,raw_mean,artery_aorta_SM-JF1NU_1,26483,0.1819719175976222,Pericyte (General) 1
+artery_aorta,proximal,lognorm_mean,artery_aorta_SM-JF1NU_1,26483,0.16695705647227632,Smooth Muscle (General)
+artery_aorta,proximal,cpm_mean,artery_aorta_SM-JF1NU_1,26483,0.17515629804243107,Smooth Muscle (General)
+artery_aorta,enhancer,raw_mean,artery_aorta_SM-C1MLC_1,26467,0.17366565961732125,Pericyte (General) 1
+artery_aorta,enhancer,lognorm_mean,artery_aorta_SM-C1MLC_1,26467,0.14018126888217522,Pericyte (General) 2
+artery_aorta,enhancer,cpm_mean,artery_aorta_SM-C1MLC_1,26467,0.1795065458207452,Smooth Muscle (General)
+artery_aorta,enhancer,raw_mean,artery_aorta_SM-C1PX3_1,25371,0.19566968781470293,Pericyte (General) 3
+artery_aorta,enhancer,lognorm_mean,artery_aorta_SM-C1PX3_1,25371,0.15528700906344411,Pericyte (General) 2
+artery_aorta,enhancer,cpm_mean,artery_aorta_SM-C1PX3_1,25371,0.1811178247734139,Smooth Muscle (General)
+artery_aorta,enhancer,raw_mean,artery_aorta_SM-CR89M_1,28050,0.19443045623929903,Pericyte (General) 1
+artery_aorta,enhancer,lognorm_mean,artery_aorta_SM-CR89M_1,28050,0.13792929801591297,Pericyte (General) 2
+artery_aorta,enhancer,cpm_mean,artery_aorta_SM-CR89M_1,28050,0.18602074730587168,Smooth Muscle (General)
+artery_aorta,enhancer,raw_mean,artery_aorta_SM-JF1NU_1,26483,0.1797673598872048,Pericyte (General) 1
+artery_aorta,enhancer,lognorm_mean,artery_aorta_SM-JF1NU_1,26483,0.1572083186464575,Pericyte (General) 2
+artery_aorta,enhancer,cpm_mean,artery_aorta_SM-JF1NU_1,26483,0.1798177148899743,Smooth Muscle (General)
+colon_transverse,proximal,raw_mean,colon_transverse_SM-A9HOW_1,28556,0.12447636146020347,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,lognorm_mean,colon_transverse_SM-A9HOW_1,28556,0.10271009660596735,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,cpm_mean,colon_transverse_SM-A9HOW_1,28556,0.09482773360690776,Endothelial Cell (General) 2
+colon_transverse,proximal,raw_mean,colon_transverse_SM-A9VP4_1,29975,0.11820840387871326,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,lognorm_mean,colon_transverse_SM-A9VP4_1,29975,0.10427034699775965,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,cpm_mean,colon_transverse_SM-A9VP4_1,29975,0.10170506045525285,Smooth Muscle (General)
+colon_transverse,proximal,raw_mean,colon_transverse_SM-ACCQ1_1,30009,0.14034997690768206,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,lognorm_mean,colon_transverse_SM-ACCQ1_1,30009,0.11096286413164332,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,cpm_mean,colon_transverse_SM-ACCQ1_1,30009,0.09659431073707257,Smooth Muscle (General)
+colon_transverse,proximal,raw_mean,colon_transverse_SM-BZ2ZS_1,27915,0.10638334274324625,Plasma Cell
+colon_transverse,proximal,lognorm_mean,colon_transverse_SM-BZ2ZS_1,27915,0.10070317712877894,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,cpm_mean,colon_transverse_SM-BZ2ZS_1,27915,0.09308970213348389,Endothelial Cell (General) 2
+colon_transverse,proximal,raw_mean,colon_transverse_SM-CSSDA_1,28085,0.11432775553502378,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,lognorm_mean,colon_transverse_SM-CSSDA_1,28085,0.09670465044656607,Smooth Muscle (General Gastrointestinal)
+colon_transverse,proximal,cpm_mean,colon_transverse_SM-CSSDA_1,28085,0.08946720049276255,Smooth Muscle (General)
+colon_transverse,enhancer,raw_mean,colon_transverse_SM-A9HOW_1,28556,0.15766945311713162,Plasma Cell
+colon_transverse,enhancer,lognorm_mean,colon_transverse_SM-A9HOW_1,28556,0.12267096384328734,Plasma Cell
+colon_transverse,enhancer,cpm_mean,colon_transverse_SM-A9HOW_1,28556,0.10247759089535703,Endothelial Cell (General) 2
+colon_transverse,enhancer,raw_mean,colon_transverse_SM-A9VP4_1,29975,0.16111167052663378,Plasma Cell
+colon_transverse,enhancer,lognorm_mean,colon_transverse_SM-A9VP4_1,29975,0.14157688047527942,Plasma Cell
+colon_transverse,enhancer,cpm_mean,colon_transverse_SM-A9VP4_1,29975,0.09802638203604874,Endothelial Cell (General) 2
+colon_transverse,enhancer,raw_mean,colon_transverse_SM-ACCQ1_1,30009,0.1638807773638103,Smooth Muscle (General Gastrointestinal)
+colon_transverse,enhancer,lognorm_mean,colon_transverse_SM-ACCQ1_1,30009,0.1261202295841305,Plasma Cell
+colon_transverse,enhancer,cpm_mean,colon_transverse_SM-ACCQ1_1,30009,0.08871211358372773,Endothelial Cell (General) 2
+colon_transverse,enhancer,raw_mean,colon_transverse_SM-BZ2ZS_1,27915,0.19026281341254658,Plasma Cell
+colon_transverse,enhancer,lognorm_mean,colon_transverse_SM-BZ2ZS_1,27915,0.1526533078239855,Colon Epithelial Cell 2
+colon_transverse,enhancer,cpm_mean,colon_transverse_SM-BZ2ZS_1,27915,0.11353338032423724,Endothelial Cell (General) 2
+colon_transverse,enhancer,raw_mean,colon_transverse_SM-CSSDA_1,28085,0.15725075528700908,Plasma Cell
+colon_transverse,enhancer,lognorm_mean,colon_transverse_SM-CSSDA_1,28085,0.14894259818731118,Colon Epithelial Cell 2
+colon_transverse,enhancer,cpm_mean,colon_transverse_SM-CSSDA_1,28085,0.10614300100704935,Colon Epithelial Cell 2
+esophagus_mucosa,proximal,raw_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.22471583625331168,Esophageal Epithelial Cell
+esophagus_mucosa,proximal,lognorm_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.1541577642936501,Esophageal Epithelial Cell
+esophagus_mucosa,proximal,cpm_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.13988547987351507,Smooth Muscle (Esophageal Mucosal)
+esophagus_mucosa,proximal,raw_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.1946848171837056,Keratinocyte 1
+esophagus_mucosa,proximal,lognorm_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.10962137018161919,Keratinocyte 1
+esophagus_mucosa,proximal,cpm_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.10177172760543148,Smooth Muscle (General)
+esophagus_mucosa,proximal,raw_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.20309653916211293,Keratinocyte 1
+esophagus_mucosa,proximal,lognorm_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.1333642643571502,Airway Goblet Cell
+esophagus_mucosa,proximal,cpm_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.11002852527752002,Airway Goblet Cell
+esophagus_mucosa,enhancer,raw_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.40387616410772714,Esophageal Epithelial Cell
+esophagus_mucosa,enhancer,lognorm_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.17749811225773973,Memory B Cell
+esophagus_mucosa,enhancer,cpm_mean,esophagus_mucosa_SM-A9HOR_1,19183,0.13848477221243394,Memory B Cell
+esophagus_mucosa,enhancer,raw_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.32977598791844953,Esophageal Epithelial Cell
+esophagus_mucosa,enhancer,lognorm_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.11985904857790083,Esophageal Epithelial Cell
+esophagus_mucosa,enhancer,cpm_mean,esophagus_mucosa_SM-A9VPA_1,20535,0.13989428643342564,Smooth Muscle (General)
+esophagus_mucosa,enhancer,raw_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.20498614958448755,Esophageal Epithelial Cell
+esophagus_mucosa,enhancer,lognorm_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.16338453789977336,Airway Goblet Cell
+esophagus_mucosa,enhancer,cpm_mean,esophagus_mucosa_SM-AZPYJ_1,17544,0.11246537396121883,Smooth Muscle (General)
+esophagus_muscularis,proximal,raw_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.1764896704797678,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,proximal,lognorm_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.12171760286836264,Fibroblast (Peripheral Nerve)
+esophagus_muscularis,proximal,cpm_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.13235444766945537,Smooth Muscle (General)
+esophagus_muscularis,proximal,raw_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.18643113159242192,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,proximal,lognorm_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.09718381976446493,Smooth Muscle (General)
+esophagus_muscularis,proximal,cpm_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.1205837173579109,Smooth Muscle (General)
+esophagus_muscularis,proximal,raw_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.18884222745740722,Smooth Muscle (General)
+esophagus_muscularis,proximal,lognorm_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.10620027996858888,Smooth Muscle (General)
+esophagus_muscularis,proximal,cpm_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.1270613540919799,Smooth Muscle (General)
+esophagus_muscularis,proximal,raw_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.16304886171502742,Smooth Muscle (General)
+esophagus_muscularis,proximal,lognorm_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.0956740047478353,Smooth Muscle (General)
+esophagus_muscularis,proximal,cpm_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.12170170614656807,Smooth Muscle (General)
+esophagus_muscularis,enhancer,raw_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.3241868895378109,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,enhancer,lognorm_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.13926090021145907,Mast Cell
+esophagus_muscularis,enhancer,cpm_mean,esophagus_muscularis_SM-A8CPH_1,28488,0.1290907260094653,Smooth Muscle (General)
+esophagus_muscularis,enhancer,raw_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.3654127008107972,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,enhancer,lognorm_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.14730321800876264,Mast Cell
+esophagus_muscularis,enhancer,cpm_mean,esophagus_muscularis_SM-CSSCV_1,29657,0.14533917510197916,Foveolar Cell
+esophagus_muscularis,enhancer,raw_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.28575743845340584,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,enhancer,lognorm_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.09530282434677541,Naive T cell
+esophagus_muscularis,enhancer,cpm_mean,esophagus_muscularis_SM-IOBHM_1,30753,0.14348285757438453,Foveolar Cell
+esophagus_muscularis,enhancer,raw_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.24890499924482706,Smooth Muscle (Esophageal Muscularis) 3
+esophagus_muscularis,enhancer,lognorm_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.10688214267733978,Mast Cell
+esophagus_muscularis,enhancer,cpm_mean,esophagus_muscularis_SM-IQYD1_1,29230,0.1425263051905553,Foveolar Cell
+lung,proximal,raw_mean,lung_SM-A62E9_1,14528,0.19049903208675242,"Alverolar Type 2,Immune"
+lung,proximal,lognorm_mean,lung_SM-A62E9_1,14528,0.12039812927209498,Mast Cell
+lung,proximal,cpm_mean,lung_SM-A62E9_1,14528,0.12240248059890703,Mast Cell
+lung,proximal,raw_mean,lung_SM-A8WNH_1,14388,0.15425449937496788,Memory B Cell
+lung,proximal,lognorm_mean,lung_SM-A8WNH_1,14388,0.11605048204531054,Mast Cell
+lung,proximal,cpm_mean,lung_SM-A8WNH_1,14388,0.12307139065362947,Mast Cell
+lung,proximal,raw_mean,lung_SM-ACCPU_1,14616,0.19911966704917192,"Alverolar Type 2,Immune"
+lung,proximal,lognorm_mean,lung_SM-ACCPU_1,14616,0.10214602565639612,Mast Cell
+lung,proximal,cpm_mean,lung_SM-ACCPU_1,14616,0.11380958089985785,Smooth Muscle (General)
+lung,proximal,raw_mean,lung_SM-JF1NZ_1,13606,0.3024932360697284,"Alverolar Type 2,Immune"
+lung,proximal,lognorm_mean,lung_SM-JF1NZ_1,13606,0.13223055584095345,Memory B Cell
+lung,proximal,cpm_mean,lung_SM-JF1NZ_1,13606,0.1320421932257954,Mast Cell
+lung,enhancer,raw_mean,lung_SM-A62E9_1,14528,0.3124685265384228,"Alverolar Type 2,Immune"
+lung,enhancer,lognorm_mean,lung_SM-A62E9_1,14528,0.21970994057810453,Memory B Cell
+lung,enhancer,cpm_mean,lung_SM-A62E9_1,14528,0.1442743478698761,Memory B Cell
+lung,enhancer,raw_mean,lung_SM-A8WNH_1,14388,0.23866841257050767,Memory B Cell
+lung,enhancer,lognorm_mean,lung_SM-A8WNH_1,14388,0.16201651893634167,Memory B Cell
+lung,enhancer,cpm_mean,lung_SM-A8WNH_1,14388,0.1442385173247381,Natural Killer T Cell
+lung,enhancer,raw_mean,lung_SM-ACCPU_1,14616,0.31136066069090546,"Alverolar Type 2,Immune"
+lung,enhancer,lognorm_mean,lung_SM-ACCPU_1,14616,0.1406486050961829,Natural Killer T Cell
+lung,enhancer,cpm_mean,lung_SM-ACCPU_1,14616,0.15097190049350387,Smooth Muscle (General)
+lung,enhancer,raw_mean,lung_SM-JF1NZ_1,13606,0.5440124886695539,"Alverolar Type 2,Immune"
+lung,enhancer,lognorm_mean,lung_SM-JF1NZ_1,13606,0.2062644777923255,Memory B Cell
+lung,enhancer,cpm_mean,lung_SM-JF1NZ_1,13606,0.16270520696948332,Mast Cell
+muscle,proximal,raw_mean,muscle_SM-ADA6L_1,32784,0.25979814539679286,Pericyte (General) 1
+muscle,proximal,lognorm_mean,muscle_SM-ADA6L_1,32784,0.18482845774202913,Pericyte (General) 1
+muscle,proximal,cpm_mean,muscle_SM-ADA6L_1,32784,0.1403077343443141,Pericyte (General) 1
+muscle,proximal,raw_mean,muscle_SM-C1MKW_1,35899,0.2531809875151577,Pericyte (General) 1
+muscle,proximal,lognorm_mean,muscle_SM-C1MKW_1,35899,0.1827295861727383,Pericyte (General) 1
+muscle,proximal,cpm_mean,muscle_SM-C1MKW_1,35899,0.1476832163413093,Pericyte (General) 1
+muscle,proximal,raw_mean,muscle_SM-C1PWV_1,34414,0.2495388714305233,Pericyte (General) 1
+muscle,proximal,lognorm_mean,muscle_SM-C1PWV_1,34414,0.1859543653504577,Pericyte (General) 1
+muscle,proximal,cpm_mean,muscle_SM-C1PWV_1,34414,0.14809058614564832,Pericyte (General) 1
+muscle,proximal,raw_mean,muscle_SM-IOBHP_1,33159,0.2539790969328506,Pericyte (General) 1
+muscle,proximal,lognorm_mean,muscle_SM-IOBHP_1,33159,0.19282396338547714,Pericyte (General) 1
+muscle,proximal,cpm_mean,muscle_SM-IOBHP_1,33159,0.1497028485552292,Pericyte (General) 1
+muscle,proximal,raw_mean,muscle_SM-JF1O9_1,34944,0.19146314330212738,Pericyte (General) 1
+muscle,proximal,lognorm_mean,muscle_SM-JF1O9_1,34944,0.17090828184634344,Pericyte (General) 1
+muscle,proximal,cpm_mean,muscle_SM-JF1O9_1,34944,0.1482140717794246,Pericyte (General) 1
+muscle,enhancer,raw_mean,muscle_SM-ADA6L_1,32784,0.3185640199385731,Type I Skeletal Myocyte
+muscle,enhancer,lognorm_mean,muscle_SM-ADA6L_1,32784,0.1961633351794975,Type II Skeletal Myocyte
+muscle,enhancer,cpm_mean,muscle_SM-ADA6L_1,32784,0.1840793514928755,T Lymphocyte 1 (CD8+)
+muscle,enhancer,raw_mean,muscle_SM-C1MKW_1,35899,0.2634706415550408,Type I Skeletal Myocyte
+muscle,enhancer,lognorm_mean,muscle_SM-C1MKW_1,35899,0.18461073622721322,Type II Skeletal Myocyte
+muscle,enhancer,cpm_mean,muscle_SM-C1MKW_1,35899,0.17599959713969182,T Lymphocyte 1 (CD8+)
+muscle,enhancer,raw_mean,muscle_SM-C1PWV_1,34414,0.2618436288576751,Type I Skeletal Myocyte
+muscle,enhancer,lognorm_mean,muscle_SM-C1PWV_1,34414,0.1994663444595479,Type II Skeletal Myocyte
+muscle,enhancer,cpm_mean,muscle_SM-C1PWV_1,34414,0.18139253889140614,T Lymphocyte 1 (CD8+)
+muscle,enhancer,raw_mean,muscle_SM-IOBHP_1,33159,0.29189951165483563,Type I Skeletal Myocyte
+muscle,enhancer,lognorm_mean,muscle_SM-IOBHP_1,33159,0.19508634143885617,Type II Skeletal Myocyte
+muscle,enhancer,cpm_mean,muscle_SM-IOBHP_1,33159,0.18401047173135981,T Lymphocyte 1 (CD8+)
+muscle,enhancer,raw_mean,muscle_SM-JF1O9_1,34944,0.2887277853295071,Type II Skeletal Myocyte
+muscle,enhancer,lognorm_mean,muscle_SM-JF1O9_1,34944,0.2023360016110356,Type II Skeletal Myocyte
+muscle,enhancer,cpm_mean,muscle_SM-JF1O9_1,34944,0.17847253687761164,T Lymphocyte 1 (CD8+)
+nerve_tibial,proximal,raw_mean,nerve_tibial_SM-CHLWU_1,8836,0.26464604668804526,Pericyte (General) 1
+nerve_tibial,proximal,lognorm_mean,nerve_tibial_SM-CHLWU_1,8836,0.17973518154546395,Pericyte (General) 1
+nerve_tibial,proximal,cpm_mean,nerve_tibial_SM-CHLWU_1,8836,0.15294300196544947,T Lymphocyte 1 (CD8+)
+nerve_tibial,proximal,raw_mean,nerve_tibial_SM-CP2V6_1,10156,0.2625624474239901,Pericyte (General) 1
+nerve_tibial,proximal,lognorm_mean,nerve_tibial_SM-CP2V6_1,10156,0.17394290030730142,Pericyte (General) 1
+nerve_tibial,proximal,cpm_mean,nerve_tibial_SM-CP2V6_1,10156,0.16444917509313464,Smooth Muscle (General)
+nerve_tibial,proximal,raw_mean,nerve_tibial_SM-IOBHQ_1,7716,0.22340443847597405,Pericyte (General) 1
+nerve_tibial,proximal,lognorm_mean,nerve_tibial_SM-IOBHQ_1,7716,0.1767126353666305,Pericyte (General) 1
+nerve_tibial,proximal,cpm_mean,nerve_tibial_SM-IOBHQ_1,7716,0.14694488921026808,Smooth Muscle (General)
+nerve_tibial,enhancer,raw_mean,nerve_tibial_SM-CHLWU_1,8836,0.3375295835641271,Pericyte (General) 1
+nerve_tibial,enhancer,lognorm_mean,nerve_tibial_SM-CHLWU_1,8836,0.1850042801752354,T Lymphocyte 1 (CD8+)
+nerve_tibial,enhancer,cpm_mean,nerve_tibial_SM-CHLWU_1,8836,0.2053980562968931,T Lymphocyte 1 (CD8+)
+nerve_tibial,enhancer,raw_mean,nerve_tibial_SM-CP2V6_1,10156,0.32106349765849235,Pericyte (General) 1
+nerve_tibial,enhancer,lognorm_mean,nerve_tibial_SM-CP2V6_1,10156,0.164157309028652,T Lymphocyte 1 (CD8+)
+nerve_tibial,enhancer,cpm_mean,nerve_tibial_SM-CP2V6_1,10156,0.19739161085653859,T Lymphocyte 1 (CD8+)
+nerve_tibial,enhancer,raw_mean,nerve_tibial_SM-IOBHQ_1,7716,0.2884557268056815,Pericyte (General) 1
+nerve_tibial,enhancer,lognorm_mean,nerve_tibial_SM-IOBHQ_1,7716,0.1989523521708472,Pericyte (General) 1
+nerve_tibial,enhancer,cpm_mean,nerve_tibial_SM-IOBHQ_1,7716,0.19124609650448274,T Lymphocyte 1 (CD8+)
+pancreas,proximal,raw_mean,pancreas_SM-ADRUQ_1,25541,0.2199126038899837,Pancreatic Alpha Cell 2
+pancreas,proximal,lognorm_mean,pancreas_SM-ADRUQ_1,25541,0.1629680404421215,Pancreatic Alpha Cell 2
+pancreas,proximal,cpm_mean,pancreas_SM-ADRUQ_1,25541,0.12441093308199812,Pancreatic Alpha Cell 2
+pancreas,proximal,raw_mean,pancreas_SM-IOBHS_1,21333,0.2798559917709583,Pancreatic Alpha Cell 2
+pancreas,proximal,lognorm_mean,pancreas_SM-IOBHS_1,21333,0.19905708897651295,Pancreatic Alpha Cell 2
+pancreas,proximal,cpm_mean,pancreas_SM-IOBHS_1,21333,0.14563689353677353,Pancreatic Alpha Cell 2
+pancreas,proximal,raw_mean,pancreas_SM-JF1NS_1,25189,0.24420099778840715,Pancreatic Alpha Cell 2
+pancreas,proximal,lognorm_mean,pancreas_SM-JF1NS_1,25189,0.17879613914176481,Pancreatic Alpha Cell 2
+pancreas,proximal,cpm_mean,pancreas_SM-JF1NS_1,25189,0.13653585694937337,Pancreatic Alpha Cell 2
+pancreas,proximal,raw_mean,pancreas_SM-JF1O6_1,25857,0.267594037838116,Pancreatic Alpha Cell 2
+pancreas,proximal,lognorm_mean,pancreas_SM-JF1O6_1,25857,0.18166069192638204,Pancreatic Alpha Cell 2
+pancreas,proximal,cpm_mean,pancreas_SM-JF1O6_1,25857,0.13418294711926038,Pancreatic Alpha Cell 2
+pancreas,enhancer,raw_mean,pancreas_SM-ADRUQ_1,25541,0.3372432541280709,Pancreatic Alpha Cell 2
+pancreas,enhancer,lognorm_mean,pancreas_SM-ADRUQ_1,25541,0.18133306484091824,Pancreatic Alpha Cell 2
+pancreas,enhancer,cpm_mean,pancreas_SM-ADRUQ_1,25541,0.15726943213854208,T Lymphocyte 1 (CD8+)
+pancreas,enhancer,raw_mean,pancreas_SM-IOBHS_1,21333,0.4302905191077992,Pancreatic Alpha Cell 2
+pancreas,enhancer,lognorm_mean,pancreas_SM-IOBHS_1,21333,0.22778309249282513,Pancreatic Alpha Cell 2
+pancreas,enhancer,cpm_mean,pancreas_SM-IOBHS_1,21333,0.14963999798600272,T Lymphocyte 1 (CD8+)
+pancreas,enhancer,raw_mean,pancreas_SM-JF1NS_1,25189,0.37360314104500153,Pancreatic Alpha Cell 2
+pancreas,enhancer,lognorm_mean,pancreas_SM-JF1NS_1,25189,0.21237289841941004,Pancreatic Alpha Cell 2
+pancreas,enhancer,cpm_mean,pancreas_SM-JF1NS_1,25189,0.13908184838417398,T Lymphocyte 1 (CD8+)
+pancreas,enhancer,raw_mean,pancreas_SM-JF1O6_1,25857,0.4477168604943865,Pancreatic Alpha Cell 2
+pancreas,enhancer,lognorm_mean,pancreas_SM-JF1O6_1,25857,0.2380808538488647,Pancreatic Alpha Cell 2
+pancreas,enhancer,cpm_mean,pancreas_SM-JF1O6_1,25857,0.132457332729195,T Lymphocyte 1 (CD8+)
+skin_sun_exposed,proximal,raw_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.17235646958011996,Basal Epidermal (Skin)
+skin_sun_exposed,proximal,lognorm_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.09998286203941731,Smooth Muscle (General)
+skin_sun_exposed,proximal,cpm_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.12886032562125108,Smooth Muscle (General)
+skin_sun_exposed,proximal,raw_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.16904088454615582,Keratinocyte 2
+skin_sun_exposed,proximal,lognorm_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.10813405331276249,Keratinocyte 2
+skin_sun_exposed,proximal,cpm_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.12608211193965888,Smooth Muscle (General)
+skin_sun_exposed,proximal,raw_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.16822157434402332,Keratinocyte 2
+skin_sun_exposed,proximal,lognorm_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.10792316926770708,Keratinocyte 2
+skin_sun_exposed,proximal,cpm_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.1273366489452924,Smooth Muscle (General)
+skin_sun_exposed,proximal,raw_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.16722430980937183,Basal Epidermal (Skin)
+skin_sun_exposed,proximal,lognorm_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.10173126747996775,Keratinocyte 2
+skin_sun_exposed,proximal,cpm_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.12645630651498774,Smooth Muscle (General)
+skin_sun_exposed,enhancer,raw_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.26590119353376646,Basal Epidermal (Skin)
+skin_sun_exposed,enhancer,lognorm_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.10787127964949388,Keratinocyte 2
+skin_sun_exposed,enhancer,cpm_mean,skin_sun_exposed_SM-ADYHK_1,13852,0.1344110389283376,Smooth Muscle (General)
+skin_sun_exposed,enhancer,raw_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.2286347383794128,Keratinocyte 2
+skin_sun_exposed,enhancer,lognorm_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.12308002215843279,Keratinocyte 2
+skin_sun_exposed,enhancer,cpm_mean,skin_sun_exposed_SM-IOBHU_1,14982,0.12318074230749862,Smooth Muscle (General)
+skin_sun_exposed,enhancer,raw_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.21978243352135374,Keratinocyte 2
+skin_sun_exposed,enhancer,lognorm_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.11966156325543917,Keratinocyte 2
+skin_sun_exposed,enhancer,cpm_mean,skin_sun_exposed_SM-IQYCP_1,13895,0.13174858984689766,Smooth Muscle (General)
+skin_sun_exposed,enhancer,raw_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.24137583723623912,Basal Epidermal (Skin)
+skin_sun_exposed,enhancer,lognorm_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.10837488039482299,Pericyte (General) 2
+skin_sun_exposed,enhancer,cpm_mean,skin_sun_exposed_SM-JF1NT_1,13668,0.12967719192224406,Smooth Muscle (General)
+small_intestine,proximal,raw_mean,small_intestine_SM-A62GO_1,10048,0.20605542251111872,Paneth Cell
+small_intestine,proximal,lognorm_mean,small_intestine_SM-A62GO_1,10048,0.12235716729387615,Paneth Cell
+small_intestine,proximal,cpm_mean,small_intestine_SM-A62GO_1,10048,0.12093739308929183,Endothelial Cell (General) 3
+small_intestine,proximal,raw_mean,small_intestine_SM-ADA5F_1,9669,0.17117628834039036,Plasma Cell
+small_intestine,proximal,lognorm_mean,small_intestine_SM-ADA5F_1,9669,0.14430789355915866,Plasma Cell
+small_intestine,proximal,cpm_mean,small_intestine_SM-ADA5F_1,9669,0.17114186374746118,Smooth Muscle (General)
+small_intestine,proximal,raw_mean,small_intestine_SM-JF1O2_1,14431,0.15845004189538126,Paneth Cell
+small_intestine,proximal,lognorm_mean,small_intestine_SM-JF1O2_1,14431,0.1574411327143077,Smooth Muscle (General)
+small_intestine,proximal,cpm_mean,small_intestine_SM-JF1O2_1,14431,0.17354947930026163,Smooth Muscle (General)
+small_intestine,enhancer,raw_mean,small_intestine_SM-A62GO_1,10048,0.31925284462793274,Paneth Cell
+small_intestine,enhancer,lognorm_mean,small_intestine_SM-A62GO_1,10048,0.1601550699828819,Endothelial Cell (General) 3
+small_intestine,enhancer,cpm_mean,small_intestine_SM-A62GO_1,10048,0.17908569126976134,Endothelial Cell (General) 3
+small_intestine,enhancer,raw_mean,small_intestine_SM-ADA5F_1,9669,0.26510878323932313,Plasma Cell
+small_intestine,enhancer,lognorm_mean,small_intestine_SM-ADA5F_1,9669,0.17027598710717162,Plasma Cell
+small_intestine,enhancer,cpm_mean,small_intestine_SM-ADA5F_1,9669,0.14187147461724417,Colon Epithelial Cell 3
+small_intestine,enhancer,raw_mean,small_intestine_SM-JF1O2_1,14431,0.2284994964753273,Paneth Cell
+small_intestine,enhancer,lognorm_mean,small_intestine_SM-JF1O2_1,14431,0.2068982880161128,Plasma Cell
+small_intestine,enhancer,cpm_mean,small_intestine_SM-JF1O2_1,14431,0.14274924471299094,Plasma Cell
+stomach,proximal,raw_mean,stomach_SM-CHLWL_1,14037,0.1837207705250146,Parietal Cell
+stomach,proximal,lognorm_mean,stomach_SM-CHLWL_1,14037,0.11008481269100025,Endothelial Cell (General) 1
+stomach,proximal,cpm_mean,stomach_SM-CHLWL_1,14037,0.1149606839954675,Mast Cell
+stomach,proximal,raw_mean,stomach_SM-IOBHV_1,8857,0.13229886242567962,Endothelial Cell (General) 1
+stomach,proximal,lognorm_mean,stomach_SM-IOBHV_1,8857,0.11590541980272881,Endothelial Cell (General) 3
+stomach,proximal,cpm_mean,stomach_SM-IOBHV_1,8857,0.10576691755163763,Lymphatic Endothelial Cell
+stomach,proximal,raw_mean,stomach_SM-JF1NP_1,15239,0.15364431486880467,Plasma Cell
+stomach,proximal,lognorm_mean,stomach_SM-JF1NP_1,15239,0.12222603327045103,Endothelial Cell (General) 1
+stomach,proximal,cpm_mean,stomach_SM-JF1NP_1,15239,0.11625793174412623,Mast Cell
+stomach,proximal,raw_mean,stomach_SM-JF1O3_1,15567,0.1567498071483672,Parietal Cell
+stomach,proximal,lognorm_mean,stomach_SM-JF1O3_1,15567,0.11855661266820948,Endothelial Cell (General) 1
+stomach,proximal,cpm_mean,stomach_SM-JF1O3_1,15567,0.11927659209736864,Mast Cell
+stomach,enhancer,raw_mean,stomach_SM-CHLWL_1,14037,0.36175463336019337,Parietal Cell
+stomach,enhancer,lognorm_mean,stomach_SM-CHLWL_1,14037,0.20145044319097502,Parietal Cell
+stomach,enhancer,cpm_mean,stomach_SM-CHLWL_1,14037,0.10132957292506044,Endothelial Cell (General) 3
+stomach,enhancer,raw_mean,stomach_SM-IOBHV_1,8857,0.17119113573407202,Foveolar Cell
+stomach,enhancer,lognorm_mean,stomach_SM-IOBHV_1,8857,0.14595819692772602,Plasma Cell
+stomach,enhancer,cpm_mean,stomach_SM-IOBHV_1,8857,0.10128431125661043,Plasma Cell
+stomach,enhancer,raw_mean,stomach_SM-JF1NP_1,15239,0.2813617364153699,Parietal Cell
+stomach,enhancer,lognorm_mean,stomach_SM-JF1NP_1,15239,0.20290074029309563,Plasma Cell
+stomach,enhancer,cpm_mean,stomach_SM-JF1NP_1,15239,0.09210857632069296,Plasma Cell
+stomach,enhancer,raw_mean,stomach_SM-JF1O3_1,15567,0.3038223296570479,Parietal Cell
+stomach,enhancer,lognorm_mean,stomach_SM-JF1O3_1,15567,0.19751221231807423,Plasma Cell
+stomach,enhancer,cpm_mean,stomach_SM-JF1O3_1,15567,0.10515183562471672,Lymphatic Endothelial Cell
+thyroid,proximal,raw_mean,thyroid_SM-C1MKY_1,19106,0.2606861884349877,Thyroid Follicular Cell
+thyroid,proximal,lognorm_mean,thyroid_SM-C1MKY_1,19106,0.22789168345125582,Thyroid Follicular Cell
+thyroid,proximal,cpm_mean,thyroid_SM-C1MKY_1,19106,0.19736955361600303,Thyroid Follicular Cell
+thyroid,proximal,raw_mean,thyroid_SM-IOBHW_1,18328,0.31137139231389227,Thyroid Follicular Cell
+thyroid,proximal,lognorm_mean,thyroid_SM-IOBHW_1,18328,0.23926054224615437,Thyroid Follicular Cell
+thyroid,proximal,cpm_mean,thyroid_SM-IOBHW_1,18328,0.19513659046867765,Macrophage (General)
+thyroid,proximal,raw_mean,thyroid_SM-JF1O4_1,18372,0.2527442371020856,Thyroid Follicular Cell
+thyroid,proximal,lognorm_mean,thyroid_SM-JF1O4_1,18372,0.22576495609220637,Thyroid Follicular Cell
+thyroid,proximal,cpm_mean,thyroid_SM-JF1O4_1,18372,0.1964359220636663,Thyroid Follicular Cell
+thyroid,enhancer,raw_mean,thyroid_SM-C1MKY_1,19106,0.3777005589968273,Thyroid Follicular Cell
+thyroid,enhancer,lognorm_mean,thyroid_SM-C1MKY_1,19106,0.2639371506269829,Thyroid Follicular Cell
+thyroid,enhancer,cpm_mean,thyroid_SM-C1MKY_1,19106,0.27164224203051823,T Lymphocyte 1 (CD8+)
+thyroid,enhancer,raw_mean,thyroid_SM-IOBHW_1,18328,0.44523341894546004,Thyroid Follicular Cell
+thyroid,enhancer,lognorm_mean,thyroid_SM-IOBHW_1,18328,0.2792969733595206,Thyroid Follicular Cell
+thyroid,enhancer,cpm_mean,thyroid_SM-IOBHW_1,18328,0.24973560960870222,T Lymphocyte 1 (CD8+)
+thyroid,enhancer,raw_mean,thyroid_SM-JF1O4_1,18372,0.36467093005690115,Thyroid Follicular Cell
+thyroid,enhancer,lognorm_mean,thyroid_SM-JF1O4_1,18372,0.26300417946522986,Thyroid Follicular Cell
+thyroid,enhancer,cpm_mean,thyroid_SM-JF1O4_1,18372,0.25600483408026586,T Lymphocyte 1 (CD8+)

@@ -9,6 +9,7 @@ the scripts; no image files are stored in this repository.
 | `depth_spread/` | how does each aggregation strategy respond to an imposed 1–40-fold difference in per-cell totals between cell types? |
 | `real_tools/` | what do the documented paths of Seurat, Signac, SnapATAC2 and scanpy compute on the same matrix? |
 | `multiome/` | matched RNA–ATAC comparison: agreement with the RNA reference, annotation accuracy |
+| `normal_tissues/` | does the pattern hold outside tumors? 26 non-tumor atlas tissues, a brain multiome labeled from RNA, and a ten-donor bone-marrow multiome with the depositors' gene-activity matrix (has a `README.md` in place of a `REPORT.md`) |
 | `normalisers_and_ci/` | eleven further transforms, bootstrap intervals and paired tests |
 | `practice_survey/` | how published pipelines perform the aggregation step |
 | `deconvolution/` | NNLS deconvolution error and bias per reference-building strategy (exploratory; not part of the reported analysis) |

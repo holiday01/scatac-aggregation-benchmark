@@ -221,8 +221,8 @@ def run(cohort):
 
 
 # ── summary + figure ─────────────────────────────────────────────────────────
-LABEL = {"raw_mean": "raw mean", "zscale_mean": "z-scale mean", "lognorm_mean": "log1p(CPM) mean",
-         "pseudobulk_cpm": "pseudobulk CPM", "cpm_mean": "CPM mean"}
+LABEL = {"raw_mean": "raw mean", "zscale_mean": "z-scaled mean", "lognorm_mean": "log-normalized mean",
+         "pseudobulk_cpm": "pooled CPM", "cpm_mean": "CP10K mean"}
 COLOR = {"raw_mean": "#2a78d6", "zscale_mean": "#eb6834", "lognorm_mean": "#1baf7a",
          "pseudobulk_cpm": "#eda100", "cpm_mean": "#e87ba4"}
 MARK = {"raw_mean": "o", "zscale_mean": "s", "lognorm_mean": "^", "pseudobulk_cpm": "D", "cpm_mean": "v"}
@@ -306,11 +306,12 @@ def summarise():
                 ax.set_yticklabels([f"{v:.0%}" for v in np.arange(0, 1.01, 0.2)])
                 ax.set_title(f"{ {'LUAD':'NSCLC'}.get(c, c) } count matrix ({int(Tn.n_cells.sum()):,} cells, {k} types)", fontsize=8.5, loc="left")
             else:
-                ax.set_ylim(0, ntot * 1.05); ax.set_xlabel("imposed depth spread (deepest / shallowest type)")
+                ax.set_ylim(0, ntot * 1.05); ax.set_xlabel("imposed coverage spread (highest / lowest cell type)")
                 ax.set_xticks(SPREADS); ax.set_xticklabels([f"{s}x" for s in SPREADS])
                 ax.tick_params(axis="x", which="minor", bottom=False)
             ax.set_ylabel(ylab)
             ax.text(-0.14, 1.04, letters[i * 2 + j], transform=ax.transAxes, fontsize=11, fontweight="bold")
+            ax.axvspan(14, 75, color="#8a8a8a", alpha=0.08, lw=0, zorder=0)
             ax.axvline(nat_spread, color="#c3c2b7", lw=0.6, ls=":", zorder=1)
             ax.set_xlim(0.85, 75)
             if i == 0:
@@ -318,16 +319,15 @@ def summarise():
                         fontsize=6, va="top")
                 # direct labels at the right end (pairs of near-identical curves share one label)
                 end = {m: Sc[(Sc.method == m) & (Sc.spread == 40)][col].iloc[0] for m in METHODS}
-                for txt, ms_, dy in [("raw / z-scale", ("raw_mean", "zscale_mean"), 0.0),
-                                     ("log1p(CPM)", ("lognorm_mean",), 0.0),
-                                     ("pseudobulk / CPM mean", ("pseudobulk_cpm", "cpm_mean"), 0.0)]:
+                for txt, ms_, dy in [("raw / z-scaled", ("raw_mean", "zscale_mean"), 0.0),
+                                     ("log-normalized", ("lognorm_mean",), 0.0),
+                                     ("pooled CPM / CP10K mean", ("pseudobulk_cpm", "cpm_mean"), 0.0)]:
                     y = np.mean([end[m] for m in ms_]) + dy
                     ax.text(44, y, txt, color="#52514e", fontsize=6, va="center", ha="left")
     h, l = axes[0, 0].get_legend_handles_labels()
     fig.legend(h, l, frameon=False, fontsize=7, loc="upper center", ncol=5, bbox_to_anchor=(0.5, 1.0),
                handlelength=2.4, columnspacing=1.4)
-    fig.text(0.005, 0.005, "Lines: mean over 2 deep-type choices x 3 seeds; band: min-max. "
-             "Cells thinned to a common p20 depth, then types thinned to the imposed spread.",
+    fig.text(0.005, 0.005, "Lines: mean; bands: min-max; shaded: below usual QC range.",
              fontsize=6, color="#52514e")
     fig.tight_layout(rect=(0, 0.02, 1, 0.965))
     fig.savefig(HERE / "fig_depth_spread.png", dpi=600)

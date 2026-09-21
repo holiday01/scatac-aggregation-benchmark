@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-09-21 — non-tumor tissues and multi-donor RNA references
+
+Added `analyses/normal_tissues/`: the six strategies, imported unchanged, applied
+to 26 non-tumor tissues of the human chromatin accessibility atlas (GSE184462,
+72 samples, 487,097 cells), to the 10x `human_brain_3k` multiome with RNA-only
+labels, and to the ten-donor bone-marrow multiome of GSE194122 using the
+gene-activity matrix deposited by its authors. Result tables are included.
+
+Repository housekeeping in the same update:
+
+- `normalisers_and_ci/` moved back under `analyses/`, with
+  `benchmark_all_methods.csv` and `benchmark_extra_normalisers.csv` replaced by
+  the re-run that uses the `(1 + k) / (B + 1)` permutation estimator. No other
+  existing table changed.
+- The figure generators (`tools/make_revision_figures.py`,
+  `analyses/depth_spread/depth_spread_experiment.py`,
+  `analyses/multiome/04_figure.py`) were brought up to date, and the inputs of
+  the annotation panel were added (`analyses/multiome/06_annotation_repeats.py`,
+  `multiome_annotation_repeats.csv`).
+- `tools/report_numbers.py` now also reports the non-tumor, brain and
+  bone-marrow quantities.
+- Removed files that no current analysis uses: the duplicate top-level
+  `practice_survey/`, superseded figure and diagnostic scripts in `tools/`
+  (`make_figures.py`, `make_benchmark_figure.py`, `audit_*.py`,
+  `benchmark_wilcoxon_markers.py`), `scripts/91_corrected_prior_headtohead.py`
+  and `results/validation/`. They remain available in the repository history.
+
 ## 2026-08-27 — NSCLC sample correction (affects every NSCLC-dependent result)
 
 The local copy of `GSM8069383` (patient Lu934) used in the first analysis was a

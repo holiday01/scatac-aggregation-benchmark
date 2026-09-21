@@ -1,0 +1,621 @@
+organ,model,cell_type,lineage,n_cells,median_n_fragment
+adipose_omentum,proximal,Adipocyte,,2996,4774.5
+adipose_omentum,proximal,Endothelial Cell (General) 1,Endothelial,2830,2902.5
+adipose_omentum,proximal,Endothelial Cell (General) 2,Endothelial,173,2166.0
+adipose_omentum,proximal,Fibroblast (General),Fibroblast,4558,2635.5
+adipose_omentum,proximal,Lymphatic Endothelial Cell,,198,2360.0
+adipose_omentum,proximal,Macrophage (General),Macrophage,1087,2701.0
+adipose_omentum,proximal,"Macrophage (General,Alveolar)",Macrophage,370,2483.5
+adipose_omentum,proximal,Mesothelial Cell,,2094,2749.5
+adipose_omentum,proximal,Pericyte (General) 1,,409,2980.0
+adipose_omentum,proximal,Pericyte (General) 2,,312,2057.5
+adipose_omentum,proximal,Pericyte (General) 3,,275,2082.0
+adipose_omentum,proximal,Schwann Cell (General),,157,1577.0
+adipose_omentum,proximal,T Lymphocyte 1 (CD8+),T_NK,359,2476.0
+adipose_omentum,enhancer,Adipocyte,,2996,4774.5
+adipose_omentum,enhancer,Endothelial Cell (General) 1,Endothelial,2830,2902.5
+adipose_omentum,enhancer,Endothelial Cell (General) 2,Endothelial,173,2166.0
+adipose_omentum,enhancer,Fibroblast (General),Fibroblast,4558,2635.5
+adipose_omentum,enhancer,Lymphatic Endothelial Cell,,198,2360.0
+adipose_omentum,enhancer,Macrophage (General),Macrophage,1087,2701.0
+adipose_omentum,enhancer,"Macrophage (General,Alveolar)",Macrophage,370,2483.5
+adipose_omentum,enhancer,Mesothelial Cell,,2094,2749.5
+adipose_omentum,enhancer,Pericyte (General) 1,,409,2980.0
+adipose_omentum,enhancer,Pericyte (General) 2,,312,2057.5
+adipose_omentum,enhancer,Pericyte (General) 3,,275,2082.0
+adipose_omentum,enhancer,Schwann Cell (General),,157,1577.0
+adipose_omentum,enhancer,T Lymphocyte 1 (CD8+),T_NK,359,2476.0
+adrenal_gland,proximal,Cortical Epithelial-like,,728,3146.0
+adrenal_gland,proximal,Endothelial (Exocrine Tissues),Endothelial,238,2425.5
+adrenal_gland,proximal,Fibroblast (Liver Adrenal),Fibroblast,308,3431.5
+adrenal_gland,proximal,Macrophage (General),Macrophage,289,1946.0
+adrenal_gland,proximal,Transitional Zone Cortical Cell,,3622,3463.5
+adrenal_gland,proximal,Zona Fasciculata Cortical Cell,,1223,3255.0
+adrenal_gland,proximal,Zona Glomerulosa Cortical Cell,,1117,3166.0
+adrenal_gland,enhancer,Cortical Epithelial-like,,728,3146.0
+adrenal_gland,enhancer,Endothelial (Exocrine Tissues),Endothelial,238,2425.5
+adrenal_gland,enhancer,Fibroblast (Liver Adrenal),Fibroblast,308,3431.5
+adrenal_gland,enhancer,Macrophage (General),Macrophage,289,1946.0
+adrenal_gland,enhancer,Transitional Zone Cortical Cell,,3622,3463.5
+adrenal_gland,enhancer,Zona Fasciculata Cortical Cell,,1223,3255.0
+adrenal_gland,enhancer,Zona Glomerulosa Cortical Cell,,1117,3166.0
+artery_aorta,proximal,Endothelial Cell (General) 1,Endothelial,1517,3497.0
+artery_aorta,proximal,Endothelial Cell (General) 2,Endothelial,325,3173.0
+artery_aorta,proximal,Fibroblast (General),Fibroblast,3004,4539.5
+artery_aorta,proximal,Macrophage (General),Macrophage,2144,3130.5
+artery_aorta,proximal,"Macrophage (General,Alveolar)",Macrophage,168,2179.5
+artery_aorta,proximal,Pericyte (General) 1,,111,4767.0
+artery_aorta,proximal,Pericyte (General) 2,,146,3790.5
+artery_aorta,proximal,Pericyte (General) 3,,339,4208.0
+artery_aorta,proximal,Smooth Muscle (General),Smooth_muscle,207,3373.0
+artery_aorta,proximal,T Lymphocyte 1 (CD8+),T_NK,551,2264.0
+artery_aorta,proximal,Vascular Smooth Muscle 1,Smooth_muscle,26736,3907.0
+artery_aorta,proximal,Vascular Smooth Muscle 2,Smooth_muscle,209,1248.0
+artery_aorta,enhancer,Endothelial Cell (General) 1,Endothelial,1517,3497.0
+artery_aorta,enhancer,Endothelial Cell (General) 2,Endothelial,325,3173.0
+artery_aorta,enhancer,Fibroblast (General),Fibroblast,3004,4539.5
+artery_aorta,enhancer,Macrophage (General),Macrophage,2144,3130.5
+artery_aorta,enhancer,"Macrophage (General,Alveolar)",Macrophage,168,2179.5
+artery_aorta,enhancer,Pericyte (General) 1,,111,4767.0
+artery_aorta,enhancer,Pericyte (General) 2,,146,3790.5
+artery_aorta,enhancer,Pericyte (General) 3,,339,4208.0
+artery_aorta,enhancer,Smooth Muscle (General),Smooth_muscle,207,3373.0
+artery_aorta,enhancer,T Lymphocyte 1 (CD8+),T_NK,551,2264.0
+artery_aorta,enhancer,Vascular Smooth Muscle 1,Smooth_muscle,26736,3907.0
+artery_aorta,enhancer,Vascular Smooth Muscle 2,Smooth_muscle,209,1248.0
+artery_tibial,proximal,Endothelial Cell (General) 1,Endothelial,479,2191.0
+artery_tibial,proximal,Endothelial Cell (General) 2,Endothelial,173,2131.0
+artery_tibial,proximal,Fibroblast (General),Fibroblast,2490,3011.0
+artery_tibial,proximal,Macrophage (General),Macrophage,279,2740.0
+artery_tibial,proximal,Vascular Smooth Muscle 1,Smooth_muscle,1235,2451.0
+artery_tibial,proximal,Vascular Smooth Muscle 2,Smooth_muscle,5749,2536.0
+artery_tibial,enhancer,Endothelial Cell (General) 1,Endothelial,479,2191.0
+artery_tibial,enhancer,Endothelial Cell (General) 2,Endothelial,173,2131.0
+artery_tibial,enhancer,Fibroblast (General),Fibroblast,2490,3011.0
+artery_tibial,enhancer,Macrophage (General),Macrophage,279,2740.0
+artery_tibial,enhancer,Vascular Smooth Muscle 1,Smooth_muscle,1235,2451.0
+artery_tibial,enhancer,Vascular Smooth Muscle 2,Smooth_muscle,5749,2536.0
+colon_sigmoid,proximal,Endothelial Cell (General) 1,Endothelial,775,2498.0
+colon_sigmoid,proximal,Fibroblast (Gastrointestinal),Fibroblast,4099,3017.0
+colon_sigmoid,proximal,Fibroblast (General),Fibroblast,2209,3145.0
+colon_sigmoid,proximal,Lymphatic Endothelial Cell,,134,3135.0
+colon_sigmoid,proximal,Macrophage (General),Macrophage,783,2597.0
+colon_sigmoid,proximal,Pericyte (General) 1,,141,3498.0
+colon_sigmoid,proximal,Pericyte (General) 2,,166,2529.5
+colon_sigmoid,proximal,Pericyte (General) 3,,127,3352.0
+colon_sigmoid,proximal,Schwann Cell (General),,1284,2462.5
+colon_sigmoid,proximal,Smooth Muscle (Colon) 1,Smooth_muscle,5106,3776.0
+colon_sigmoid,proximal,Smooth Muscle (Colon) 2,Smooth_muscle,2307,3830.0
+colon_sigmoid,proximal,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,205,6675.0
+colon_sigmoid,proximal,Smooth Muscle (General Gastrointestinal),Smooth_muscle,218,3992.5
+colon_sigmoid,proximal,Smooth Muscle (General),Smooth_muscle,214,2621.0
+colon_sigmoid,enhancer,Endothelial Cell (General) 1,Endothelial,775,2498.0
+colon_sigmoid,enhancer,Fibroblast (Gastrointestinal),Fibroblast,4099,3017.0
+colon_sigmoid,enhancer,Fibroblast (General),Fibroblast,2209,3145.0
+colon_sigmoid,enhancer,Lymphatic Endothelial Cell,,134,3135.0
+colon_sigmoid,enhancer,Macrophage (General),Macrophage,783,2597.0
+colon_sigmoid,enhancer,Pericyte (General) 1,,141,3498.0
+colon_sigmoid,enhancer,Pericyte (General) 2,,166,2529.5
+colon_sigmoid,enhancer,Pericyte (General) 3,,127,3352.0
+colon_sigmoid,enhancer,Schwann Cell (General),,1284,2462.5
+colon_sigmoid,enhancer,Smooth Muscle (Colon) 1,Smooth_muscle,5106,3776.0
+colon_sigmoid,enhancer,Smooth Muscle (Colon) 2,Smooth_muscle,2307,3830.0
+colon_sigmoid,enhancer,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,205,6675.0
+colon_sigmoid,enhancer,Smooth Muscle (General Gastrointestinal),Smooth_muscle,218,3992.5
+colon_sigmoid,enhancer,Smooth Muscle (General),Smooth_muscle,214,2621.0
+colon_transverse,proximal,Colon Epithelial Cell 1,,16712,2686.5
+colon_transverse,proximal,Colon Epithelial Cell 2,,1085,2672.0
+colon_transverse,proximal,Colon Epithelial Cell 3,,541,2112.0
+colon_transverse,proximal,Colonic Goblet Cell,,3019,2550.0
+colon_transverse,proximal,Endothelial Cell (General) 1,Endothelial,610,2301.5
+colon_transverse,proximal,Endothelial Cell (General) 2,Endothelial,101,1999.0
+colon_transverse,proximal,Enterochromaffin Cell,,239,2055.0
+colon_transverse,proximal,Fibroblast (Gastrointestinal),Fibroblast,680,2830.5
+colon_transverse,proximal,Fibroblast (General),Fibroblast,4058,2263.5
+colon_transverse,proximal,Lymphatic Endothelial Cell,,190,2184.0
+colon_transverse,proximal,Macrophage (General),Macrophage,1254,2171.5
+colon_transverse,proximal,Memory B Cell,,281,1725.0
+colon_transverse,proximal,Pericyte (General) 2,,155,2279.0
+colon_transverse,proximal,Plasma Cell,,1780,2794.0
+colon_transverse,proximal,Schwann Cell (General),,473,2459.0
+colon_transverse,proximal,Small Intestinal Enterocyte,,205,2624.0
+colon_transverse,proximal,Smooth Muscle (Colon) 1,Smooth_muscle,2001,3467.0
+colon_transverse,proximal,Smooth Muscle (Colon) 2,Smooth_muscle,775,3379.0
+colon_transverse,proximal,Smooth Muscle (General Gastrointestinal),Smooth_muscle,150,3537.5
+colon_transverse,proximal,Smooth Muscle (General),Smooth_muscle,311,2407.0
+colon_transverse,proximal,T Lymphocyte 1 (CD8+),T_NK,1246,1688.0
+colon_transverse,proximal,Tuft Cell,,269,1813.0
+colon_transverse,enhancer,Colon Epithelial Cell 1,,16712,2686.5
+colon_transverse,enhancer,Colon Epithelial Cell 2,,1085,2672.0
+colon_transverse,enhancer,Colon Epithelial Cell 3,,541,2112.0
+colon_transverse,enhancer,Colonic Goblet Cell,,3019,2550.0
+colon_transverse,enhancer,Endothelial Cell (General) 1,Endothelial,610,2301.5
+colon_transverse,enhancer,Endothelial Cell (General) 2,Endothelial,101,1999.0
+colon_transverse,enhancer,Enterochromaffin Cell,,239,2055.0
+colon_transverse,enhancer,Fibroblast (Gastrointestinal),Fibroblast,680,2830.5
+colon_transverse,enhancer,Fibroblast (General),Fibroblast,4058,2263.5
+colon_transverse,enhancer,Lymphatic Endothelial Cell,,190,2184.0
+colon_transverse,enhancer,Macrophage (General),Macrophage,1254,2171.5
+colon_transverse,enhancer,Memory B Cell,,281,1725.0
+colon_transverse,enhancer,Pericyte (General) 2,,155,2279.0
+colon_transverse,enhancer,Plasma Cell,,1780,2794.0
+colon_transverse,enhancer,Schwann Cell (General),,473,2459.0
+colon_transverse,enhancer,Small Intestinal Enterocyte,,205,2624.0
+colon_transverse,enhancer,Smooth Muscle (Colon) 1,Smooth_muscle,2001,3467.0
+colon_transverse,enhancer,Smooth Muscle (Colon) 2,Smooth_muscle,775,3379.0
+colon_transverse,enhancer,Smooth Muscle (General Gastrointestinal),Smooth_muscle,150,3537.5
+colon_transverse,enhancer,Smooth Muscle (General),Smooth_muscle,311,2407.0
+colon_transverse,enhancer,T Lymphocyte 1 (CD8+),T_NK,1246,1688.0
+colon_transverse,enhancer,Tuft Cell,,269,1813.0
+esophagus_ge_junction,proximal,Airway Goblet Cell,,204,3920.5
+esophagus_ge_junction,proximal,Endothelial Cell (General) 1,Endothelial,1106,5074.5
+esophagus_ge_junction,proximal,Fibroblast (General),Fibroblast,5155,6363.0
+esophagus_ge_junction,proximal,Lymphatic Endothelial Cell,,168,3740.0
+esophagus_ge_junction,proximal,Macrophage (General),Macrophage,960,4430.5
+esophagus_ge_junction,proximal,Mast Cell,,186,3638.5
+esophagus_ge_junction,proximal,Pericyte (General) 1,,239,6558.0
+esophagus_ge_junction,proximal,Pericyte (General) 2,,214,4202.5
+esophagus_ge_junction,proximal,Pericyte (General) 3,,228,6245.0
+esophagus_ge_junction,proximal,Schwann Cell (General),,511,4464.0
+esophagus_ge_junction,proximal,Smooth Muscle (Esophageal Muscularis) 1,Smooth_muscle,100,3878.0
+esophagus_ge_junction,proximal,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,152,9936.0
+esophagus_ge_junction,proximal,Smooth Muscle (GE Junction),Smooth_muscle,3308,4830.5
+esophagus_ge_junction,proximal,Smooth Muscle (General Gastrointestinal),Smooth_muscle,196,4368.0
+esophagus_ge_junction,proximal,Smooth Muscle (General),Smooth_muscle,122,3633.5
+esophagus_ge_junction,proximal,T Lymphocyte 1 (CD8+),T_NK,286,2783.0
+esophagus_ge_junction,enhancer,Airway Goblet Cell,,204,3920.5
+esophagus_ge_junction,enhancer,Endothelial Cell (General) 1,Endothelial,1106,5074.5
+esophagus_ge_junction,enhancer,Fibroblast (General),Fibroblast,5155,6363.0
+esophagus_ge_junction,enhancer,Lymphatic Endothelial Cell,,168,3740.0
+esophagus_ge_junction,enhancer,Macrophage (General),Macrophage,960,4430.5
+esophagus_ge_junction,enhancer,Mast Cell,,186,3638.5
+esophagus_ge_junction,enhancer,Pericyte (General) 1,,239,6558.0
+esophagus_ge_junction,enhancer,Pericyte (General) 2,,214,4202.5
+esophagus_ge_junction,enhancer,Pericyte (General) 3,,228,6245.0
+esophagus_ge_junction,enhancer,Schwann Cell (General),,511,4464.0
+esophagus_ge_junction,enhancer,Smooth Muscle (Esophageal Muscularis) 1,Smooth_muscle,100,3878.0
+esophagus_ge_junction,enhancer,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,152,9936.0
+esophagus_ge_junction,enhancer,Smooth Muscle (GE Junction),Smooth_muscle,3308,4830.5
+esophagus_ge_junction,enhancer,Smooth Muscle (General Gastrointestinal),Smooth_muscle,196,4368.0
+esophagus_ge_junction,enhancer,Smooth Muscle (General),Smooth_muscle,122,3633.5
+esophagus_ge_junction,enhancer,T Lymphocyte 1 (CD8+),T_NK,286,2783.0
+esophagus_mucosa,proximal,Airway Goblet Cell,,338,4055.5
+esophagus_mucosa,proximal,Endothelial Cell (General) 1,Endothelial,349,2976.0
+esophagus_mucosa,proximal,Esophageal Epithelial Cell,,16695,6198.0
+esophagus_mucosa,proximal,Fibroblast (General),Fibroblast,1703,3421.0
+esophagus_mucosa,proximal,Keratinocyte 1,,115,5401.0
+esophagus_mucosa,proximal,Lymphatic Endothelial Cell,,356,2514.0
+esophagus_mucosa,proximal,Macrophage (General),Macrophage,1436,2748.5
+esophagus_mucosa,proximal,"Macrophage (General,Alveolar)",Macrophage,438,2803.0
+esophagus_mucosa,proximal,Memory B Cell,,371,3058.0
+esophagus_mucosa,proximal,Naive T cell,,436,4346.0
+esophagus_mucosa,proximal,Natural Killer T Cell,T_NK,118,2414.5
+esophagus_mucosa,proximal,Pericyte (General) 4,,139,3475.0
+esophagus_mucosa,proximal,Plasma Cell,,562,3613.0
+esophagus_mucosa,proximal,Smooth Muscle (Esophageal Mucosal),Smooth_muscle,361,4019.0
+esophagus_mucosa,proximal,Smooth Muscle (General),Smooth_muscle,120,2278.5
+esophagus_mucosa,proximal,T Lymphocyte 1 (CD8+),T_NK,3126,2340.5
+esophagus_mucosa,proximal,T lymphocyte 2 (CD4+),,1968,2119.5
+esophagus_mucosa,enhancer,Airway Goblet Cell,,338,4055.5
+esophagus_mucosa,enhancer,Endothelial Cell (General) 1,Endothelial,349,2976.0
+esophagus_mucosa,enhancer,Esophageal Epithelial Cell,,16695,6198.0
+esophagus_mucosa,enhancer,Fibroblast (General),Fibroblast,1703,3421.0
+esophagus_mucosa,enhancer,Keratinocyte 1,,115,5401.0
+esophagus_mucosa,enhancer,Lymphatic Endothelial Cell,,356,2514.0
+esophagus_mucosa,enhancer,Macrophage (General),Macrophage,1436,2748.5
+esophagus_mucosa,enhancer,"Macrophage (General,Alveolar)",Macrophage,438,2803.0
+esophagus_mucosa,enhancer,Memory B Cell,,371,3058.0
+esophagus_mucosa,enhancer,Naive T cell,,436,4346.0
+esophagus_mucosa,enhancer,Natural Killer T Cell,T_NK,118,2414.5
+esophagus_mucosa,enhancer,Pericyte (General) 4,,139,3475.0
+esophagus_mucosa,enhancer,Plasma Cell,,562,3613.0
+esophagus_mucosa,enhancer,Smooth Muscle (Esophageal Mucosal),Smooth_muscle,361,4019.0
+esophagus_mucosa,enhancer,Smooth Muscle (General),Smooth_muscle,120,2278.5
+esophagus_mucosa,enhancer,T Lymphocyte 1 (CD8+),T_NK,3126,2340.5
+esophagus_mucosa,enhancer,T lymphocyte 2 (CD4+),,1968,2119.5
+esophagus_muscularis,proximal,Endothelial Cell (General) 1,Endothelial,1993,3764.0
+esophagus_muscularis,proximal,Endothelial Cell (General) 2,Endothelial,247,3370.0
+esophagus_muscularis,proximal,Fibroblast (General),Fibroblast,10662,5176.0
+esophagus_muscularis,proximal,Fibroblast (Peripheral Nerve),Fibroblast,144,5004.0
+esophagus_muscularis,proximal,Foveolar Cell,,106,2431.5
+esophagus_muscularis,proximal,Lymphatic Endothelial Cell,,557,3517.0
+esophagus_muscularis,proximal,Macrophage (General),Macrophage,4393,3716.0
+esophagus_muscularis,proximal,"Macrophage (General,Alveolar)",Macrophage,581,3218.0
+esophagus_muscularis,proximal,Mast Cell,,1225,3756.0
+esophagus_muscularis,proximal,Naive T cell,,103,5132.0
+esophagus_muscularis,proximal,Pericyte (Esophageal Muscularis),,607,4714.0
+esophagus_muscularis,proximal,Pericyte (General) 1,,140,5251.0
+esophagus_muscularis,proximal,Pericyte (General) 2,,372,3498.5
+esophagus_muscularis,proximal,Pericyte (General) 3,,447,6895.0
+esophagus_muscularis,proximal,Schwann Cell (General),,1875,4054.0
+esophagus_muscularis,proximal,Smooth Muscle (Esophageal Muscularis) 1,Smooth_muscle,7859,5939.0
+esophagus_muscularis,proximal,Smooth Muscle (Esophageal Muscularis) 2,Smooth_muscle,4409,4407.0
+esophagus_muscularis,proximal,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,873,6666.0
+esophagus_muscularis,proximal,Smooth Muscle (General Gastrointestinal),Smooth_muscle,578,4927.0
+esophagus_muscularis,proximal,Smooth Muscle (General),Smooth_muscle,218,3076.0
+esophagus_muscularis,proximal,T Lymphocyte 1 (CD8+),T_NK,1987,2735.0
+esophagus_muscularis,enhancer,Endothelial Cell (General) 1,Endothelial,1993,3764.0
+esophagus_muscularis,enhancer,Endothelial Cell (General) 2,Endothelial,247,3370.0
+esophagus_muscularis,enhancer,Fibroblast (General),Fibroblast,10662,5176.0
+esophagus_muscularis,enhancer,Fibroblast (Peripheral Nerve),Fibroblast,144,5004.0
+esophagus_muscularis,enhancer,Foveolar Cell,,106,2431.5
+esophagus_muscularis,enhancer,Lymphatic Endothelial Cell,,557,3517.0
+esophagus_muscularis,enhancer,Macrophage (General),Macrophage,4393,3716.0
+esophagus_muscularis,enhancer,"Macrophage (General,Alveolar)",Macrophage,581,3218.0
+esophagus_muscularis,enhancer,Mast Cell,,1225,3756.0
+esophagus_muscularis,enhancer,Naive T cell,,103,5132.0
+esophagus_muscularis,enhancer,Pericyte (Esophageal Muscularis),,607,4714.0
+esophagus_muscularis,enhancer,Pericyte (General) 1,,140,5251.0
+esophagus_muscularis,enhancer,Pericyte (General) 2,,372,3498.5
+esophagus_muscularis,enhancer,Pericyte (General) 3,,447,6895.0
+esophagus_muscularis,enhancer,Schwann Cell (General),,1875,4054.0
+esophagus_muscularis,enhancer,Smooth Muscle (Esophageal Muscularis) 1,Smooth_muscle,7859,5939.0
+esophagus_muscularis,enhancer,Smooth Muscle (Esophageal Muscularis) 2,Smooth_muscle,4409,4407.0
+esophagus_muscularis,enhancer,Smooth Muscle (Esophageal Muscularis) 3,Smooth_muscle,873,6666.0
+esophagus_muscularis,enhancer,Smooth Muscle (General Gastrointestinal),Smooth_muscle,578,4927.0
+esophagus_muscularis,enhancer,Smooth Muscle (General),Smooth_muscle,218,3076.0
+esophagus_muscularis,enhancer,T Lymphocyte 1 (CD8+),T_NK,1987,2735.0
+frontal_cortex,proximal,Astrocyte 1,,864,1946.0
+frontal_cortex,proximal,Astrocyte 2,,412,1864.0
+frontal_cortex,proximal,Blood Brain Barrier Endothelial Cell,Endothelial,191,1897.0
+frontal_cortex,proximal,"CNS,Enteric Neuron",,228,2630.0
+frontal_cortex,proximal,GABAergic Neuron 1,,1569,2984.0
+frontal_cortex,proximal,GABAergic Neuron 2,,1516,3243.5
+frontal_cortex,proximal,Glutaminergic Neuron 1,,2733,3588.0
+frontal_cortex,proximal,Glutaminergic Neuron 2,,2171,2963.0
+frontal_cortex,proximal,Macrophage (General),Macrophage,107,1715.0
+frontal_cortex,proximal,Microglia,,1401,2100.0
+frontal_cortex,proximal,Oligodendrocyte,,1969,1964.0
+frontal_cortex,proximal,Oligodendrocyte Precursor,,1489,2693.0
+frontal_cortex,enhancer,Astrocyte 1,,864,1946.0
+frontal_cortex,enhancer,Astrocyte 2,,412,1864.0
+frontal_cortex,enhancer,Blood Brain Barrier Endothelial Cell,Endothelial,191,1897.0
+frontal_cortex,enhancer,"CNS,Enteric Neuron",,228,2630.0
+frontal_cortex,enhancer,GABAergic Neuron 1,,1569,2984.0
+frontal_cortex,enhancer,GABAergic Neuron 2,,1516,3243.5
+frontal_cortex,enhancer,Glutaminergic Neuron 1,,2733,3588.0
+frontal_cortex,enhancer,Glutaminergic Neuron 2,,2171,2963.0
+frontal_cortex,enhancer,Macrophage (General),Macrophage,107,1715.0
+frontal_cortex,enhancer,Microglia,,1401,2100.0
+frontal_cortex,enhancer,Oligodendrocyte,,1969,1964.0
+frontal_cortex,enhancer,Oligodendrocyte Precursor,,1489,2693.0
+heart_atrial_appendage,proximal,Atrial Cardiomyocyte,,3254,3723.0
+heart_atrial_appendage,proximal,Cardiac Fibroblasts,Fibroblast,3663,2188.0
+heart_atrial_appendage,proximal,Cardiac Pericyte 1,,478,2755.5
+heart_atrial_appendage,proximal,Endocardial Cell,Endothelial,133,1490.0
+heart_atrial_appendage,proximal,Endothelial Cell (General) 1,Endothelial,669,1963.0
+heart_atrial_appendage,proximal,Endothelial Cell (Myocardial),Endothelial,373,1357.0
+heart_atrial_appendage,proximal,Fibroblast (General),Fibroblast,875,2192.0
+heart_atrial_appendage,proximal,Macrophage (General),Macrophage,1246,2173.5
+heart_atrial_appendage,proximal,"Macrophage (General,Alveolar)",Macrophage,194,2203.5
+heart_atrial_appendage,proximal,Mast Cell,,107,2312.0
+heart_atrial_appendage,proximal,Mesothelial Cell,,927,3443.0
+heart_atrial_appendage,proximal,Schwann Cell (General),,251,1838.0
+heart_atrial_appendage,proximal,Smooth Muscle (General),Smooth_muscle,108,1731.5
+heart_atrial_appendage,proximal,T Lymphocyte 1 (CD8+),T_NK,219,2223.0
+heart_atrial_appendage,enhancer,Atrial Cardiomyocyte,,3254,3723.0
+heart_atrial_appendage,enhancer,Cardiac Fibroblasts,Fibroblast,3663,2188.0
+heart_atrial_appendage,enhancer,Cardiac Pericyte 1,,478,2755.5
+heart_atrial_appendage,enhancer,Endocardial Cell,Endothelial,133,1490.0
+heart_atrial_appendage,enhancer,Endothelial Cell (General) 1,Endothelial,669,1963.0
+heart_atrial_appendage,enhancer,Endothelial Cell (Myocardial),Endothelial,373,1357.0
+heart_atrial_appendage,enhancer,Fibroblast (General),Fibroblast,875,2192.0
+heart_atrial_appendage,enhancer,Macrophage (General),Macrophage,1246,2173.5
+heart_atrial_appendage,enhancer,"Macrophage (General,Alveolar)",Macrophage,194,2203.5
+heart_atrial_appendage,enhancer,Mast Cell,,107,2312.0
+heart_atrial_appendage,enhancer,Mesothelial Cell,,927,3443.0
+heart_atrial_appendage,enhancer,Schwann Cell (General),,251,1838.0
+heart_atrial_appendage,enhancer,Smooth Muscle (General),Smooth_muscle,108,1731.5
+heart_atrial_appendage,enhancer,T Lymphocyte 1 (CD8+),T_NK,219,2223.0
+heart_lv,proximal,Cardiac Fibroblasts,Fibroblast,4459,2972.0
+heart_lv,proximal,Cardiac Pericyte 1,,1160,2855.5
+heart_lv,proximal,Cardiac Pericyte 2,,311,2841.0
+heart_lv,proximal,Endocardial Cell,Endothelial,380,2085.5
+heart_lv,proximal,Endothelial Cell (General) 1,Endothelial,204,2390.5
+heart_lv,proximal,Endothelial Cell (General) 2,Endothelial,154,2006.0
+heart_lv,proximal,Endothelial Cell (Myocardial),Endothelial,1818,2414.5
+heart_lv,proximal,Fibroblast (General),Fibroblast,131,2129.0
+heart_lv,proximal,Macrophage (General),Macrophage,1551,2376.0
+heart_lv,proximal,Schwann Cell (General),,245,2363.0
+heart_lv,proximal,T Lymphocyte 1 (CD8+),T_NK,155,1971.0
+heart_lv,proximal,Ventricular Cardiomyocyte,,7402,7085.5
+heart_lv,enhancer,Cardiac Fibroblasts,Fibroblast,4459,2972.0
+heart_lv,enhancer,Cardiac Pericyte 1,,1160,2855.5
+heart_lv,enhancer,Cardiac Pericyte 2,,311,2841.0
+heart_lv,enhancer,Endocardial Cell,Endothelial,380,2085.5
+heart_lv,enhancer,Endothelial Cell (General) 1,Endothelial,204,2390.5
+heart_lv,enhancer,Endothelial Cell (General) 2,Endothelial,154,2006.0
+heart_lv,enhancer,Endothelial Cell (Myocardial),Endothelial,1818,2414.5
+heart_lv,enhancer,Fibroblast (General),Fibroblast,131,2129.0
+heart_lv,enhancer,Macrophage (General),Macrophage,1551,2376.0
+heart_lv,enhancer,Schwann Cell (General),,245,2363.0
+heart_lv,enhancer,T Lymphocyte 1 (CD8+),T_NK,155,1971.0
+heart_lv,enhancer,Ventricular Cardiomyocyte,,7402,7085.5
+liver,proximal,Endothelial (Exocrine Tissues),Endothelial,127,1196.0
+liver,proximal,Fibroblast (Liver Adrenal),Fibroblast,387,1346.0
+liver,proximal,Hepatocyte,,5714,1807.5
+liver,proximal,Macrophage (General),Macrophage,100,1360.0
+liver,enhancer,Endothelial (Exocrine Tissues),Endothelial,127,1196.0
+liver,enhancer,Fibroblast (Liver Adrenal),Fibroblast,387,1346.0
+liver,enhancer,Hepatocyte,,5714,1807.5
+liver,enhancer,Macrophage (General),Macrophage,100,1360.0
+lung,proximal,Alveolar Capillary Endothelial Cell,Endothelial,641,2834.0
+lung,proximal,Alveolar Type 1 (AT1) Cell,,1728,3178.0
+lung,proximal,Alveolar Type 2 (AT2) Cell,,3228,3906.5
+lung,proximal,"Alverolar Type 2,Immune",,1019,3695.0
+lung,proximal,Cilliated Cell,,134,2469.5
+lung,proximal,Club Cell,,481,2522.0
+lung,proximal,Endothelial Cell (General) 1,Endothelial,102,2279.0
+lung,proximal,Fibroblast (General),Fibroblast,577,3361.0
+lung,proximal,Macrophage (General),Macrophage,458,2261.0
+lung,proximal,"Macrophage (General,Alveolar)",Macrophage,7507,2643.0
+lung,proximal,Mast Cell,,101,2082.0
+lung,proximal,Memory B Cell,,224,2803.5
+lung,proximal,Natural Killer T Cell,T_NK,607,2068.0
+lung,proximal,Smooth Muscle (General),Smooth_muscle,122,1933.0
+lung,proximal,T Lymphocyte 1 (CD8+),T_NK,2117,2266.0
+lung,enhancer,Alveolar Capillary Endothelial Cell,Endothelial,641,2834.0
+lung,enhancer,Alveolar Type 1 (AT1) Cell,,1728,3178.0
+lung,enhancer,Alveolar Type 2 (AT2) Cell,,3228,3906.5
+lung,enhancer,"Alverolar Type 2,Immune",,1019,3695.0
+lung,enhancer,Cilliated Cell,,134,2469.5
+lung,enhancer,Club Cell,,481,2522.0
+lung,enhancer,Endothelial Cell (General) 1,Endothelial,102,2279.0
+lung,enhancer,Fibroblast (General),Fibroblast,577,3361.0
+lung,enhancer,Macrophage (General),Macrophage,458,2261.0
+lung,enhancer,"Macrophage (General,Alveolar)",Macrophage,7507,2643.0
+lung,enhancer,Mast Cell,,101,2082.0
+lung,enhancer,Memory B Cell,,224,2803.5
+lung,enhancer,Natural Killer T Cell,T_NK,607,2068.0
+lung,enhancer,Smooth Muscle (General),Smooth_muscle,122,1933.0
+lung,enhancer,T Lymphocyte 1 (CD8+),T_NK,2117,2266.0
+mammary_tissue,proximal,Basal Epithelial (Mammary),,3677,4742.0
+mammary_tissue,proximal,Endothelial Cell (General) 1,Endothelial,403,3265.0
+mammary_tissue,proximal,Fibroblast (Epithelial),Fibroblast,746,3925.5
+mammary_tissue,proximal,Fibroblast (General),Fibroblast,362,3183.5
+mammary_tissue,proximal,Macrophage (General),Macrophage,148,3265.5
+mammary_tissue,proximal,Mammary Epithelial,,5505,4236.0
+mammary_tissue,proximal,Mammary Luminal Epithelial Cell 1,,3827,3831.0
+mammary_tissue,proximal,Mammary Luminal Epithelial Cell 2,,1177,4181.0
+mammary_tissue,proximal,T Lymphocyte 1 (CD8+),T_NK,151,2324.0
+mammary_tissue,enhancer,Basal Epithelial (Mammary),,3677,4742.0
+mammary_tissue,enhancer,Endothelial Cell (General) 1,Endothelial,403,3265.0
+mammary_tissue,enhancer,Fibroblast (Epithelial),Fibroblast,746,3925.5
+mammary_tissue,enhancer,Fibroblast (General),Fibroblast,362,3183.5
+mammary_tissue,enhancer,Macrophage (General),Macrophage,148,3265.5
+mammary_tissue,enhancer,Mammary Epithelial,,5505,4236.0
+mammary_tissue,enhancer,Mammary Luminal Epithelial Cell 1,,3827,3831.0
+mammary_tissue,enhancer,Mammary Luminal Epithelial Cell 2,,1177,4181.0
+mammary_tissue,enhancer,T Lymphocyte 1 (CD8+),T_NK,151,2324.0
+muscle,proximal,Endothelial Cell (General) 1,Endothelial,969,2177.0
+muscle,proximal,Fibroblast (General),Fibroblast,787,2113.0
+muscle,proximal,Fibroblast (Sk Muscle Associated),Fibroblast,2087,2185.0
+muscle,proximal,Macrophage (General),Macrophage,587,2040.0
+muscle,proximal,Pericyte (General) 1,,354,3977.5
+muscle,proximal,Pericyte (General) 2,,172,2150.5
+muscle,proximal,Pericyte (General) 3,,163,2484.0
+muscle,proximal,Satellite Cell,,866,2668.0
+muscle,proximal,T Lymphocyte 1 (CD8+),T_NK,189,1787.0
+muscle,proximal,Type I Skeletal Myocyte,,26104,3948.5
+muscle,proximal,Type II Skeletal Myocyte,,10522,3622.0
+muscle,enhancer,Endothelial Cell (General) 1,Endothelial,969,2177.0
+muscle,enhancer,Fibroblast (General),Fibroblast,787,2113.0
+muscle,enhancer,Fibroblast (Sk Muscle Associated),Fibroblast,2087,2185.0
+muscle,enhancer,Macrophage (General),Macrophage,587,2040.0
+muscle,enhancer,Pericyte (General) 1,,354,3977.5
+muscle,enhancer,Pericyte (General) 2,,172,2150.5
+muscle,enhancer,Pericyte (General) 3,,163,2484.0
+muscle,enhancer,Satellite Cell,,866,2668.0
+muscle,enhancer,T Lymphocyte 1 (CD8+),T_NK,189,1787.0
+muscle,enhancer,Type I Skeletal Myocyte,,26104,3948.5
+muscle,enhancer,Type II Skeletal Myocyte,,10522,3622.0
+nerve_tibial,proximal,Cardiac Fibroblasts,Fibroblast,109,1490.0
+nerve_tibial,proximal,Endothelial Cell (General) 1,Endothelial,1086,2268.0
+nerve_tibial,proximal,Fibroblast (General),Fibroblast,3034,2495.5
+nerve_tibial,proximal,Fibroblast (Peripheral Nerve),Fibroblast,2791,2885.0
+nerve_tibial,proximal,Macrophage (General),Macrophage,889,2344.0
+nerve_tibial,proximal,Pericyte (General) 1,,177,3487.0
+nerve_tibial,proximal,Peripheral Nerve Stromal,,1576,2116.0
+nerve_tibial,proximal,Schwann Cell (General),,3276,2772.5
+nerve_tibial,proximal,Smooth Muscle (General),Smooth_muscle,305,2160.0
+nerve_tibial,proximal,T Lymphocyte 1 (CD8+),T_NK,111,2143.0
+nerve_tibial,enhancer,Cardiac Fibroblasts,Fibroblast,109,1490.0
+nerve_tibial,enhancer,Endothelial Cell (General) 1,Endothelial,1086,2268.0
+nerve_tibial,enhancer,Fibroblast (General),Fibroblast,3034,2495.5
+nerve_tibial,enhancer,Fibroblast (Peripheral Nerve),Fibroblast,2791,2885.0
+nerve_tibial,enhancer,Macrophage (General),Macrophage,889,2344.0
+nerve_tibial,enhancer,Pericyte (General) 1,,177,3487.0
+nerve_tibial,enhancer,Peripheral Nerve Stromal,,1576,2116.0
+nerve_tibial,enhancer,Schwann Cell (General),,3276,2772.5
+nerve_tibial,enhancer,Smooth Muscle (General),Smooth_muscle,305,2160.0
+nerve_tibial,enhancer,T Lymphocyte 1 (CD8+),T_NK,111,2143.0
+ovary,proximal,Fibroblast (General),Fibroblast,145,1564.0
+ovary,proximal,Luteal Cell (Ovarian),,5940,2063.0
+ovary,proximal,Smooth Muscle (General),Smooth_muscle,715,2683.0
+ovary,enhancer,Fibroblast (General),Fibroblast,145,1564.0
+ovary,enhancer,Luteal Cell (Ovarian),,5940,2063.0
+ovary,enhancer,Smooth Muscle (General),Smooth_muscle,715,2683.0
+pancreas,proximal,Ductal Cell (Pancreatic),,2664,2467.0
+pancreas,proximal,Endothelial Cell (General) 3,Endothelial,404,2413.0
+pancreas,proximal,Fibroblast (General),Fibroblast,1225,2401.0
+pancreas,proximal,Macrophage (General),Macrophage,1001,2037.0
+pancreas,proximal,"Macrophage (General,Alveolar)",Macrophage,736,1930.0
+pancreas,proximal,Pancreatic Acinar Cell,,24334,2675.0
+pancreas,proximal,Pancreatic Alpha Cell 1,,341,2254.0
+pancreas,proximal,Pancreatic Alpha Cell 2,,133,3602.0
+pancreas,proximal,Pancreatic Beta Cell 1,,520,2686.0
+pancreas,proximal,"Pancreatic Delta,Gamma cell",,148,2840.0
+pancreas,proximal,T Lymphocyte 1 (CD8+),T_NK,1134,1858.0
+pancreas,enhancer,Ductal Cell (Pancreatic),,2664,2467.0
+pancreas,enhancer,Endothelial Cell (General) 3,Endothelial,404,2413.0
+pancreas,enhancer,Fibroblast (General),Fibroblast,1225,2401.0
+pancreas,enhancer,Macrophage (General),Macrophage,1001,2037.0
+pancreas,enhancer,"Macrophage (General,Alveolar)",Macrophage,736,1930.0
+pancreas,enhancer,Pancreatic Acinar Cell,,24334,2675.0
+pancreas,enhancer,Pancreatic Alpha Cell 1,,341,2254.0
+pancreas,enhancer,Pancreatic Alpha Cell 2,,133,3602.0
+pancreas,enhancer,Pancreatic Beta Cell 1,,520,2686.0
+pancreas,enhancer,"Pancreatic Delta,Gamma cell",,148,2840.0
+pancreas,enhancer,T Lymphocyte 1 (CD8+),T_NK,1134,1858.0
+skin,proximal,Basal Epidermal (Skin),,118,2905.0
+skin,proximal,Eccrine Epidermal (Skin),,134,2283.0
+skin,proximal,Endothelial Cell (General) 1,Endothelial,728,2280.0
+skin,proximal,Fibroblast (Epithelial),Fibroblast,1771,2478.0
+skin,proximal,Fibroblast (General),Fibroblast,232,2045.0
+skin,proximal,Granular Epidermal (Skin),,568,2302.5
+skin,proximal,Keratinocyte 1,,1655,3127.0
+skin,proximal,Keratinocyte 2,,270,3791.0
+skin,proximal,Lymphatic Endothelial Cell,,145,2095.0
+skin,proximal,Macrophage (General),Macrophage,251,2466.0
+skin,proximal,Melanocyte,,258,2103.0
+skin,proximal,Myoepithelial (Skin),,209,2088.0
+skin,proximal,Pericyte (General) 1,,116,3173.5
+skin,proximal,T Lymphocyte 1 (CD8+),T_NK,201,2038.0
+skin,enhancer,Basal Epidermal (Skin),,118,2905.0
+skin,enhancer,Eccrine Epidermal (Skin),,134,2283.0
+skin,enhancer,Endothelial Cell (General) 1,Endothelial,728,2280.0
+skin,enhancer,Fibroblast (Epithelial),Fibroblast,1771,2478.0
+skin,enhancer,Fibroblast (General),Fibroblast,232,2045.0
+skin,enhancer,Granular Epidermal (Skin),,568,2302.5
+skin,enhancer,Keratinocyte 1,,1655,3127.0
+skin,enhancer,Keratinocyte 2,,270,3791.0
+skin,enhancer,Lymphatic Endothelial Cell,,145,2095.0
+skin,enhancer,Macrophage (General),Macrophage,251,2466.0
+skin,enhancer,Melanocyte,,258,2103.0
+skin,enhancer,Myoepithelial (Skin),,209,2088.0
+skin,enhancer,Pericyte (General) 1,,116,3173.5
+skin,enhancer,T Lymphocyte 1 (CD8+),T_NK,201,2038.0
+skin_sun_exposed,proximal,Basal Epidermal (Skin),,312,4421.5
+skin_sun_exposed,proximal,Eccrine Epidermal (Skin),,624,3222.0
+skin_sun_exposed,proximal,Endothelial Cell (General) 1,Endothelial,2946,2794.5
+skin_sun_exposed,proximal,Endothelial Cell (General) 2,Endothelial,105,2353.0
+skin_sun_exposed,proximal,Fibroblast (Epithelial),Fibroblast,4598,2861.5
+skin_sun_exposed,proximal,Fibroblast (General),Fibroblast,662,2310.0
+skin_sun_exposed,proximal,Granular Epidermal (Skin),,1031,3265.0
+skin_sun_exposed,proximal,Keratinocyte 1,,4565,3504.0
+skin_sun_exposed,proximal,Keratinocyte 2,,277,4122.0
+skin_sun_exposed,proximal,Lymphatic Endothelial Cell,,259,2460.0
+skin_sun_exposed,proximal,Macrophage (General),Macrophage,678,2562.5
+skin_sun_exposed,proximal,Melanocyte,,1038,2365.0
+skin_sun_exposed,proximal,Myoepithelial (Skin),,384,3363.5
+skin_sun_exposed,proximal,Pericyte (General) 1,,383,3091.0
+skin_sun_exposed,proximal,Pericyte (General) 2,,100,2653.5
+skin_sun_exposed,proximal,Schwann Cell (General),,134,2080.0
+skin_sun_exposed,proximal,Smooth Muscle (General),Smooth_muscle,153,1948.0
+skin_sun_exposed,proximal,T Lymphocyte 1 (CD8+),T_NK,550,2265.0
+skin_sun_exposed,enhancer,Basal Epidermal (Skin),,312,4421.5
+skin_sun_exposed,enhancer,Eccrine Epidermal (Skin),,624,3222.0
+skin_sun_exposed,enhancer,Endothelial Cell (General) 1,Endothelial,2946,2794.5
+skin_sun_exposed,enhancer,Endothelial Cell (General) 2,Endothelial,105,2353.0
+skin_sun_exposed,enhancer,Fibroblast (Epithelial),Fibroblast,4598,2861.5
+skin_sun_exposed,enhancer,Fibroblast (General),Fibroblast,662,2310.0
+skin_sun_exposed,enhancer,Granular Epidermal (Skin),,1031,3265.0
+skin_sun_exposed,enhancer,Keratinocyte 1,,4565,3504.0
+skin_sun_exposed,enhancer,Keratinocyte 2,,277,4122.0
+skin_sun_exposed,enhancer,Lymphatic Endothelial Cell,,259,2460.0
+skin_sun_exposed,enhancer,Macrophage (General),Macrophage,678,2562.5
+skin_sun_exposed,enhancer,Melanocyte,,1038,2365.0
+skin_sun_exposed,enhancer,Myoepithelial (Skin),,384,3363.5
+skin_sun_exposed,enhancer,Pericyte (General) 1,,383,3091.0
+skin_sun_exposed,enhancer,Pericyte (General) 2,,100,2653.5
+skin_sun_exposed,enhancer,Schwann Cell (General),,134,2080.0
+skin_sun_exposed,enhancer,Smooth Muscle (General),Smooth_muscle,153,1948.0
+skin_sun_exposed,enhancer,T Lymphocyte 1 (CD8+),T_NK,550,2265.0
+small_intestine,proximal,Colon Epithelial Cell 3,,108,3291.5
+small_intestine,proximal,Endothelial Cell (General) 1,Endothelial,489,3222.0
+small_intestine,proximal,Endothelial Cell (General) 3,Endothelial,104,2714.0
+small_intestine,proximal,Enterochromaffin Cell,,131,3429.0
+small_intestine,proximal,Fibroblast (General),Fibroblast,3084,3970.0
+small_intestine,proximal,Lymphatic Endothelial Cell,,175,3205.0
+small_intestine,proximal,Macrophage (General),Macrophage,632,2888.0
+small_intestine,proximal,Paneth Cell,,277,3749.0
+small_intestine,proximal,Plasma Cell,,374,3998.5
+small_intestine,proximal,Small Intestinal Enterocyte,,7879,3658.0
+small_intestine,proximal,Small Intestinal Goblet Cell,,2049,3838.0
+small_intestine,proximal,Smooth Muscle (General),Smooth_muscle,406,3399.0
+small_intestine,proximal,T Lymphocyte 1 (CD8+),T_NK,1366,2702.0
+small_intestine,enhancer,Colon Epithelial Cell 3,,108,3291.5
+small_intestine,enhancer,Endothelial Cell (General) 1,Endothelial,489,3222.0
+small_intestine,enhancer,Endothelial Cell (General) 3,Endothelial,104,2714.0
+small_intestine,enhancer,Enterochromaffin Cell,,131,3429.0
+small_intestine,enhancer,Fibroblast (General),Fibroblast,3084,3970.0
+small_intestine,enhancer,Lymphatic Endothelial Cell,,175,3205.0
+small_intestine,enhancer,Macrophage (General),Macrophage,632,2888.0
+small_intestine,enhancer,Paneth Cell,,277,3749.0
+small_intestine,enhancer,Plasma Cell,,374,3998.5
+small_intestine,enhancer,Small Intestinal Enterocyte,,7879,3658.0
+small_intestine,enhancer,Small Intestinal Goblet Cell,,2049,3838.0
+small_intestine,enhancer,Smooth Muscle (General),Smooth_muscle,406,3399.0
+small_intestine,enhancer,T Lymphocyte 1 (CD8+),T_NK,1366,2702.0
+stomach,proximal,Chief Cell,,8585,2659.0
+stomach,proximal,Endothelial Cell (General) 1,Endothelial,136,2474.0
+stomach,proximal,Endothelial Cell (General) 3,Endothelial,150,2776.0
+stomach,proximal,Fibroblast (General),Fibroblast,1715,2108.0
+stomach,proximal,Foveolar Cell,,798,2860.0
+stomach,proximal,Gastric Neuroendocrine Cell,,889,1815.0
+stomach,proximal,Lymphatic Endothelial Cell,,163,1835.0
+stomach,proximal,Macrophage (General),Macrophage,695,1969.0
+stomach,proximal,"Macrophage (General,Alveolar)",Macrophage,226,1838.0
+stomach,proximal,Mast Cell,,259,1806.0
+stomach,proximal,Naive T cell,,171,2219.0
+stomach,proximal,Parietal Cell,,2294,3838.5
+stomach,proximal,Plasma Cell,,363,3296.0
+stomach,proximal,T Lymphocyte 1 (CD8+),T_NK,1456,1825.5
+stomach,enhancer,Chief Cell,,8585,2659.0
+stomach,enhancer,Endothelial Cell (General) 1,Endothelial,136,2474.0
+stomach,enhancer,Endothelial Cell (General) 3,Endothelial,150,2776.0
+stomach,enhancer,Fibroblast (General),Fibroblast,1715,2108.0
+stomach,enhancer,Foveolar Cell,,798,2860.0
+stomach,enhancer,Gastric Neuroendocrine Cell,,889,1815.0
+stomach,enhancer,Lymphatic Endothelial Cell,,163,1835.0
+stomach,enhancer,Macrophage (General),Macrophage,695,1969.0
+stomach,enhancer,"Macrophage (General,Alveolar)",Macrophage,226,1838.0
+stomach,enhancer,Mast Cell,,259,1806.0
+stomach,enhancer,Naive T cell,,171,2219.0
+stomach,enhancer,Parietal Cell,,2294,3838.5
+stomach,enhancer,Plasma Cell,,363,3296.0
+stomach,enhancer,T Lymphocyte 1 (CD8+),T_NK,1456,1825.5
+thyroid,proximal,Endothelial Cell (General) 1,Endothelial,476,3472.0
+thyroid,proximal,Fibroblast (General),Fibroblast,1202,3673.0
+thyroid,proximal,Lymphatic Endothelial Cell,,446,2299.0
+thyroid,proximal,Macrophage (General),Macrophage,165,3285.0
+thyroid,proximal,T Lymphocyte 1 (CD8+),T_NK,270,2889.5
+thyroid,proximal,Thyroid Follicular Cell,,25344,4222.0
+thyroid,enhancer,Endothelial Cell (General) 1,Endothelial,476,3472.0
+thyroid,enhancer,Fibroblast (General),Fibroblast,1202,3673.0
+thyroid,enhancer,Lymphatic Endothelial Cell,,446,2299.0
+thyroid,enhancer,Macrophage (General),Macrophage,165,3285.0
+thyroid,enhancer,T Lymphocyte 1 (CD8+),T_NK,270,2889.5
+thyroid,enhancer,Thyroid Follicular Cell,,25344,4222.0
+uterus,proximal,Endothelial Cell (General) 1,Endothelial,1797,2874.0
+uterus,proximal,Endothelial Cell (General) 2,Endothelial,100,2137.0
+uterus,proximal,Fibroblast (General),Fibroblast,996,2296.5
+uterus,proximal,Luteal Cell (Ovarian),,115,1957.0
+uterus,proximal,Pericyte (General) 1,,323,3500.0
+uterus,proximal,Pericyte (General) 2,,106,2856.0
+uterus,proximal,Smooth Muscle (General),Smooth_muscle,375,2604.0
+uterus,proximal,Smooth Muscle (Uterine),Smooth_muscle,4246,2692.0
+uterus,enhancer,Endothelial Cell (General) 1,Endothelial,1797,2874.0
+uterus,enhancer,Endothelial Cell (General) 2,Endothelial,100,2137.0
+uterus,enhancer,Fibroblast (General),Fibroblast,996,2296.5
+uterus,enhancer,Luteal Cell (Ovarian),,115,1957.0
+uterus,enhancer,Pericyte (General) 1,,323,3500.0
+uterus,enhancer,Pericyte (General) 2,,106,2856.0
+uterus,enhancer,Smooth Muscle (General),Smooth_muscle,375,2604.0
+uterus,enhancer,Smooth Muscle (Uterine),Smooth_muscle,4246,2692.0
+vagina,proximal,Endothelial Cell (General) 1,Endothelial,746,2761.5
+vagina,proximal,Fibroblast (General),Fibroblast,2033,2871.0
+vagina,proximal,Macrophage (General),Macrophage,169,2730.0
+vagina,proximal,Pericyte (General) 1,,175,3218.0
+vagina,proximal,Pericyte (General) 3,,172,3046.5
+vagina,proximal,Schwann Cell (General),,104,2138.5
+vagina,proximal,Smooth Muscle (General),Smooth_muscle,148,2120.5
+vagina,proximal,Smooth Muscle (Vaginal),Smooth_muscle,829,2986.0
+vagina,enhancer,Endothelial Cell (General) 1,Endothelial,746,2761.5
+vagina,enhancer,Fibroblast (General),Fibroblast,2033,2871.0
+vagina,enhancer,Macrophage (General),Macrophage,169,2730.0
+vagina,enhancer,Pericyte (General) 1,,175,3218.0
+vagina,enhancer,Pericyte (General) 3,,172,3046.5
+vagina,enhancer,Schwann Cell (General),,104,2138.5
+vagina,enhancer,Smooth Muscle (General),Smooth_muscle,148,2120.5
+vagina,enhancer,Smooth Muscle (Vaginal),Smooth_muscle,829,2986.0

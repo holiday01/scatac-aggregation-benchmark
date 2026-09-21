@@ -8,6 +8,9 @@ No data files are stored in this repository. Everything analysed is public.
 | [GSE201336](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201336) | fragment files for GSM6058771, GSM6058772, GSM6058774, GSM6058775, GSM6058779, GSM6058785 |
 | [GSE270148](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270148) | filtered peak-by-cell matrices, GSM8069376–GSM8069384 |
 | 10x Genomics `pbmc_granulocyte_sorted_10k` | `filtered_feature_bc_matrix.h5` and `atac_fragments.tsv.gz` (+ index) |
+| [GSE184462](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184462) | the 72 per-sample `*_fragments.bed.gz` files and `GSE184462_metadata.tsv.gz` (adult cells only); file sizes were checked against the GEO file list |
+| 10x Genomics `human_brain_3k` | `filtered_feature_bc_matrix.h5` and `atac_fragments.tsv.gz` (+ index) |
+| [GSE194122](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122) | `GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz` (RNA counts, deposited ATAC gene activity, cell annotations) |
 
 Scripts resolve paths from `$SCRNA_ATAC_BASE` (default `/mnt/10t/scrna_atac`).
 
