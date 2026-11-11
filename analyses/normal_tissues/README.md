@@ -17,6 +17,7 @@ python3 02_benchmark_catlas.py                    # -> catlas_benchmark.csv, cat
 python3 03_build_brain3k.py                       # gene activity for the brain multiome
 python3 04_label_brain_rna.py                     # RNA-only labels -> brain3k_rna_labels.csv
 python3 05_benchmark_brain.py                     # -> brain3k_*.csv
+python3 08_brain_share_by_type.py                 # -> brain3k_share_by_type.csv (share of maxima per type)
 python3 06_benchmark_bmmc.py                      # -> bmmc_benchmark.csv, bmmc_lodo.csv, bmmc_depth_by_type.csv
 python3 07_figure_normal_tissues.py               # figure + fig_normal_tissues_data.csv
 ```

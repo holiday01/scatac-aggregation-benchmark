@@ -37,6 +37,11 @@ trained on independent atlases; see that folder's REPORT.md.
 
 No new data were generated.
 
+## Citation
+
+Each release of this repository is archived on Zenodo; please cite the archived
+version (metadata in `CITATION.cff` and `.zenodo.json`).
+
 ## Reproducing
 
 ```bash
@@ -61,14 +66,16 @@ nulls, 0–2 for the controlled depth series.
 
 ## Notes on the analysis
 
-- The permutation null uses the `(1 + k) / (B + 1)` estimator, so the smallest
-  reportable p with B = 10,000 is 9.999 × 10⁻⁵ rather than zero.
+- The permutation null uses the one-sided `(1 + k) / (B + 1)` estimator, so the
+  smallest reportable p with B = 10,000 is 9.999 × 10⁻⁵ rather than zero (B = 2,000
+  in the controlled depth series).
 - Binomial thinning is applied only to the three integer count matrices. The
   distance-weighted matrices hold fractional scores (52–56 % of their non-zero
   entries are below 0.5), on which count-based operations are not defined.
 - Per-cell coverage is the fragment count recorded at import (liver, colorectal)
-  or the total peak count (lung), never the gene-window row sum; the two differ
-  by 0.93–1.16-fold across cell types because gene windows overlap.
+  or the total peak count (lung), never the gene-window row sum; across the cell
+  types of the three cancer-associated count matrices the two differ by
+  0.82–1.16-fold because gene windows overlap.
 - Uncertainty is assessed by leaving out one sample at a time, not by resampling
   cells; in the bone-marrow multiome one donor is left out at a time.
 - The non-tumor tissues are aggregated one tissue at a time with the depositors'

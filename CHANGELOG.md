@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 — 2026-11-11 — first archived release
+
+Release archived on Zenodo for the manuscript submission; no existing result table changed.
+
+- `analyses/normal_tissues/08_brain_share_by_type.py` → `brain3k_share_by_type.csv`: share of
+  per-gene maxima held by every cell type of the brain multiome under each strategy (the benchmark
+  table stores only the largest share; the manuscript also quotes the excitatory-neuron share
+  where it is not the largest). Checked against `brain3k_benchmark.csv` when it runs.
+- `CITATION.cff` and `.zenodo.json` (citation and archive metadata).
+- README: citation section; permutation counts; row-sum/coverage range over all three
+  cancer-associated count matrices (0.82–1.16).
+
 ## 2026-11-11 — independent markers, RNA-side analyses, real bulk, figures
 
 Added in response to reviewer comments; no existing result table changed.
