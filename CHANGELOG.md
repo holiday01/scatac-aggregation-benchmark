@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- README and `CITATION.cff`: Zenodo DOI of release 1.0.0 (10.5281/zenodo.24136909) and the concept DOI (10.5281/zenodo.24136908).
+
 ## 1.0.0 — 2026-11-11 — first archived release
 
 Release archived on Zenodo for the manuscript submission; no existing result table changed.

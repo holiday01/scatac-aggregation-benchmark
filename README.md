@@ -1,5 +1,7 @@
 # Aggregation scale and library-size-associated variation in scATAC-seq gene-activity profiles
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136909.svg)](https://doi.org/10.5281/zenodo.24136909)
+
 Analysis code and derived result tables for a comparison of the scales on which
 single cells are aggregated into per-cell-type gene-activity profiles.
 
@@ -40,7 +42,9 @@ No new data were generated.
 ## Citation
 
 Each release of this repository is archived on Zenodo; please cite the archived
-version (metadata in `CITATION.cff` and `.zenodo.json`).
+version (metadata in `CITATION.cff` and `.zenodo.json`). Release 1.0.0 (tag `v1.0`),
+the version used for the manuscript, is archived at https://doi.org/10.5281/zenodo.24136909; the DOI
+https://doi.org/10.5281/zenodo.24136908 always resolves to the latest release.
 
 ## Reproducing
 

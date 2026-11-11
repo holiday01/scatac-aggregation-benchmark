@@ -3,6 +3,14 @@ message: "If you use this code or these result tables, please cite the archived 
 type: software
 title: "scatac-aggregation-benchmark: code and result tables for a benchmark of aggregation scales for single-cell ATAC-seq gene activity"
 version: "1.0.0"
+doi: 10.5281/zenodo.24136909
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24136909
+    description: "Zenodo archive of release 1.0.0 (tag v1.0)"
+  - type: doi
+    value: 10.5281/zenodo.24136908
+    description: "Zenodo concept DOI, resolving to the latest release"
 authors:
   - family-names: Chiu
     given-names: Yen-Jung
