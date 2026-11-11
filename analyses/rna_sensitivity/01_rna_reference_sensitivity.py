@@ -1,16 +1,16 @@
 """
-01: RNA-side analyses on the three matched RNA-ATAC datasets (PBMC, brain, bone marrow), added
-2026-11-11 in response to reviewer comments. Nothing here modifies earlier results.
+01: RNA-side analyses on the three matched RNA-ATAC datasets (PBMC, brain, bone marrow).
+Nothing here modifies earlier results.
 
-A. Sensitivity of the RNA reference (reviewer: the CP10K RNA reference itself equalizes cell
-   totals, so agreement with it cannot show that normalizing ATAC is right). The RNA reference is
+A. Sensitivity of the RNA reference (the CP10K RNA reference itself equalizes cell totals,
+   so agreement with it alone cannot show that normalizing ATAC is right). The RNA reference is
    rebuilt four ways -- CP10K mean (as in the paper), raw mean (no normalization), pooled CPM and
    log-normalized mean -- and every ATAC strategy is scored against each:
      agreement of the per-gene maximum over RNA-informative genes (informative set defined by the
      CP10K reference, as in the paper, and also by each reference itself),
      and the L1 distance between the ATAC and RNA distributions of maxima over types.
-B. The same aggregation question asked of RNA in the same nuclei (reviewer: is the log-vs-linear
-   issue really larger for chromatin?). For each modality on the same cells and labels: per-cell
+B. The same aggregation question asked of RNA in the same nuclei (is the log-vs-linear
+   difference specific to chromatin?). For each modality on the same cells and labels: per-cell
    detection rate, top share and coverage association under raw / log-normalized / CP10K / pooled
    aggregation, and the spread across types of the per-type mean of log(1+CP10K) over all genes
    (the residual factor of Eq. 1), with coverage = UMIs for RNA and fragments for ATAC.

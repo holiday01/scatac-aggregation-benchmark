@@ -1,4 +1,4 @@
-"""Figures for the revised manuscript (three display figures).
+"""Earlier three-figure layout of the display figures (tools/make_figures_v2.py draws the current four).
 
 fig1_benchmark.png   A share of argmaxima in one cell type, B held-out marker
                      concordance, for the five aggregation methods that are
@@ -129,8 +129,7 @@ def main():
     save(fig, "fig1_benchmark.png")
 
     # Figures 2 and 3 are produced by their own analyses and copied in by the
-    # driver; do not overwrite them here (an earlier version of this function
-    # copied stale files over freshly generated ones).
+    # driver; they are not written here.
 
 
 if __name__ == "__main__":

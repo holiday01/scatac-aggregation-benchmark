@@ -133,6 +133,5 @@ print(f"  TOTAL Macrophage cells  : {df.n_Macrophage.sum():,}")
 print(f"  TOTAL B cells           : {df.n_B_cell.sum():,}")
 print(f"  TOTAL T/NK cells        : {df.n_T_NK.sum():,}")
 print()
-print(f"  patients with B-cell fraction >70%: {(df.pct_B_cell > 70).sum()} / {len(df)}"
-      f"   <- manuscript claimed 4 of 9")
+print(f"  patients with B-cell fraction >70%: {(df.pct_B_cell > 70).sum()} / {len(df)}")
 log("Script 93 done.")

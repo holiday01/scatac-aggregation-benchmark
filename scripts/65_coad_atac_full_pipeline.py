@@ -1,20 +1,21 @@
 """
-Script 65: COAD scATAC Full Pipeline — ATAC-informed immune scoring
-====================================================================
-GSE201336 (Becker et al. 2022 Nat Genet) → ATAC-informed macrophage markers
-→ TCGA-COAD + GSE39582 survival analysis → method comparison vs ESTIMATE/scRNA-only
+Script 65: COAD scATAC processing of GSE201336 (Becker et al. 2022 Nat Genet).
 
-Pipeline mirrors the HCC ATAC-informed pipeline (Scripts 12–19):
-  1. Parse fragment files → gene activity (±2kb TSS, hg38)
-  2. Cluster cells → macrophage label transfer from scRNA markers
-  3. Rank-product ATAC-informed marker selection (same as Script 46)
-  4. Score TCGA-COAD bulk RNA-seq → Cox regression
-  5. Method comparison: ATAC-informed vs scRNA-only vs ESTIMATE
+Used by this benchmark (steps 1-4): gene-window counts (+-2 kb TSS, hg38) from the six
+fragment files over the genes of a scRNA pseudobulk reference, then PCA + Leiden
+clustering, each cluster named by the mean unnormalized gene activity of a 72-gene marker
+set (CELL_MARKERS), with Monocyte and Neutrophil merged into Other_Myeloid
+(cell_type_broad). scripts/92_coad_gene_activity_rebuild.py takes the cell barcodes and
+labels from the saved object and builds the genome-wide gene-activity matrices analysed here.
+
+Steps 5-7 (marker selection and a survival analysis of TCGA-COAD bulk RNA-seq) belong to a
+separate analysis and are not used in this benchmark; their TCGA inputs are not part of
+this repository.
 
 Outputs:
-  data/processed/COAD/coad_atac_geneactivity_full.h5ad
-  results/survival/coad_atac_informed_cox_full.csv
-  figures/fig_coad_atac_full.png
+  data/processed/COAD/coad_atac_geneactivity_full.h5ad   (cells and labels; used here)
+  results/survival/coad_atac_informed_cox_full.csv       (not used here)
+  figures/fig_coad_atac_full.png                         (not used here)
 """
 
 import numpy as np

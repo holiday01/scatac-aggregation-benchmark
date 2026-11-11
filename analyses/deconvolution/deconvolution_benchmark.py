@@ -37,8 +37,8 @@ from scipy.optimize import nnls
 
 BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"))
 HERE = Path(__file__).resolve().parent
-APBC = HERE.parents[1]                                # repository root
-sys.path.insert(0, str(APBC / "tools"))
+ROOT = HERE.parents[1]                                # repository root
+sys.path.insert(0, str(ROOT / "tools"))
 from benchmark_aggregation import (m_raw, m_zscale, m_pseudobulk_cpm, m_depth_matched,  # noqa: E402
                                    m_cpm, m_lognorm, percell_scale)
 
@@ -126,7 +126,7 @@ def metrics(est, true):
 
 
 def main():
-    depth_tab = pd.read_csv(APBC / "results/benchmark_depth_by_type.csv")
+    depth_tab = pd.read_csv(ROOT / "results/benchmark_depth_by_type.csv")
     depth_tab = depth_tab[depth_tab.model == "proximal"]
     est_rows, met_rows, sig_rows, gene_rows, split_rows = [], [], [], [], []
     for cohort, rel in MATRICES:

@@ -1,6 +1,6 @@
 # Additional normalisers and bootstrap uncertainty for the aggregation benchmark
 
-Journal-version addition to `apbc2026` (2026-08-27). Extends `tools/benchmark_aggregation.py` /
+Added 2026-08-27. Extends `tools/benchmark_aggregation.py` /
 `results/benchmark_aggregation.csv` with (A) ten further per-type profiling methods on the same six
 real matrices and (B) cell-level bootstrap intervals and paired tests for the original six methods.
 Nothing outside this directory was modified.
@@ -46,8 +46,7 @@ negative control is excluded), with the same labels (HCC clusters "B_cell" → E
 "DC" → B_cell, applied after loading), the same true per-cell depth (fragment files for HCC/COAD,
 peak matrices for LUAD), the same held-out marker panels (22 HCC / 41 COAD / 36 LUAD genes present)
 and the same 10,000-shuffle permutation null. `PANEL`, `MATRICES`, `true_depth()`, `perm_p()` and the
-original six method functions are imported unchanged from `tools/benchmark_aggregation.py`; nothing
-under `apbc2026/` outside this directory or under the data directories was modified.
+original six method functions are imported unchanged from `tools/benchmark_aggregation.py`.
 
 Matrices are read directly from the h5ad files with h5py into float32 CSR (verified identical to the
 `anndata` path on HCC proximal: labels, cell names, genes and every matrix entry). All per-cell
@@ -206,11 +205,9 @@ with the per-matrix bootstrap differences.
 
 - Hardware: 24 cores, 125 GB host; jobs run with 4 BLAS threads each, ≤ 2–3 concurrently under a
   memory-budgeted scheduler (`run_all.py`). Measured resident memory of all concurrently running
-  benchmark jobs, sampled every 10 s (`logs/rss_trace.log`): **peak 24.0 GB** (LUAD enhancer bootstrap
-  16.9 GB + LUAD proximal bootstrap ≈ 7 GB). A first launch that read the matrices through
-  `anndata.read_h5ad` (float64 + a subsetting copy + a float32 copy) reached 32 GB and was aborted at
-  12:57; the loader was replaced by the direct h5py reader before the run reported here (restart
-  12:58:24). Wall-clock for all twelve jobs: 22 min; the longest was the LUAD enhancer bootstrap
+  benchmark jobs, sampled every 10 s: **peak 24.0 GB** (LUAD enhancer bootstrap
+  16.9 GB + LUAD proximal bootstrap ≈ 7 GB). Matrices are read with a direct h5py reader
+  (reading through `anndata.read_h5ad` needs about 32 GB). Wall-clock for all twelve jobs: 22 min; the longest was the LUAD enhancer bootstrap
   (488 M non-zeros, 606 s for 200 replicates).
 - Verification: the direct loader reproduces the anndata path exactly (labels, cell names, genes,
   every entry; HCC proximal); the recomputed original methods equal the published top shares and
@@ -238,7 +235,7 @@ with the per-matrix bootstrap differences.
 | `parts/boot_*.npz` | the 200 × 6 replicate arrays (share, top type, marker count) per matrix |
 | `parts/extra_argmax_*.npz` | per-gene argmax vectors of all 16 methods per matrix |
 | `fig_normalisers_ci.png/.pdf` | figure |
-| `logs/` | per-job logs, scheduler log, RSS trace |
+| `logs/` | per-job logs |
 
 ## Tables
 

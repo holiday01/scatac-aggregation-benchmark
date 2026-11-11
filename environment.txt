@@ -1,5 +1,5 @@
-# Environment that produced the results in this submission.
-# Captured 2026-08-27 from the machine that ran Scripts 90-99.
+# Environment that produced the reported results.
+# Captured 2026-08-27.
 # Python 3.11.9
 
 snapatac2==2.9.0

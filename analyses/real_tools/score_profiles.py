@@ -5,13 +5,14 @@ tools/benchmark_aggregation.py so that the numbers are comparable:
   - held-out marker concordance on PANEL['HCC'] with the 10,000-shuffle permutation null
 Profiles are (types x genes) arrays; `genes` must be aligned to the counts matrix columns.
 """
-import sys
+import os, sys
 from pathlib import Path
 import numpy as np, pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
 from benchmark_aggregation import PANEL, true_depth, BASE, perm_p, N_PERM, SEED  # noqa
 
-SCRATCH = Path("/tmp/claude-1000/-mnt-10t-scrna-atac/b849b398-690b-4bff-b242-236b530a2a05/scratchpad")
+SCRATCH = Path(os.environ.get("REAL_TOOLS_WORK",                 # intermediate files (see REPORT.md)
+                              Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac")) / "work/real_tools"))
 OUTDIR = Path(__file__).resolve().parent
 RELABEL = {"B_cell": "Endothelial_stromal", "DC": "B_cell"}
 

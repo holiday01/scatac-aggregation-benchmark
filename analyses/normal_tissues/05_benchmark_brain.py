@@ -5,7 +5,7 @@
 
 Cells are labelled from RNA only (04_label_brain_rna.py). For each ATAC gene-activity model
 (proximal = Signac model; enhancer = ArchR-style distance-weighted) and each aggregation
-method (functions imported from apbc2026/tools/benchmark_aggregation.py) we compute:
+method (functions imported from tools/benchmark_aggregation.py) we compute:
 
   top_share / top_type           share of ATAC-expressed genes whose per-type argmax falls in one type
   rho_depth_share                Spearman(median true per-cell fragments, argmax share) across types

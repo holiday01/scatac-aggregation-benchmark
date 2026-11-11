@@ -1,8 +1,6 @@
 """Recompute and print every quantity the analysis reports, from the result
 tables in results/ and analyses/.
 
-This replaces the manuscript-checking script used locally: it derives the values
-from the tables alone, so the repository does not need the manuscript source.
 Run after any re-analysis and compare the printed values with the ones you cite.
 """
 import math

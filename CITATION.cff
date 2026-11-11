@@ -2,12 +2,9 @@ cff-version: 1.2.0
 message: "If you use this code or these result tables, please cite the archived release below."
 type: software
 title: "scatac-aggregation-benchmark: code and result tables for a benchmark of aggregation scales for single-cell ATAC-seq gene activity"
-version: "1.0.0"
-doi: 10.5281/zenodo.24136909
+version: "1.0.1"
+doi: 10.5281/zenodo.24136908
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.24136909
-    description: "Zenodo archive of release 1.0.0 (tag v1.0)"
   - type: doi
     value: 10.5281/zenodo.24136908
     description: "Zenodo concept DOI, resolving to the latest release"

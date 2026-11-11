@@ -6,9 +6,10 @@ Seurat, Signac, scanpy, ArchR and SnapATAC2 do. What does an analyst who runs th
 the same two read-outs — top argmax share over expressed genes, and held-out
 22-marker concordance against a 10,000-shuffle permutation null?
 
-> Naming: this directory predates the manuscript's final terminology. In file and
-> column names, `depth` = coverage, `proximal` = the count matrix, and
-> `pseudobulk_cpm` = pooled CPM.
+> Naming: in file and column names, `depth` = coverage, `proximal` = the count
+> matrix, and `pseudobulk_cpm` = pooled CPM. Intermediate files (exported matrices,
+> the filtered fragment file) are written to `$REAL_TOOLS_WORK` (default
+> `$SCRNA_ATAC_BASE/work/real_tools`).
 
 **Input.** `atac_hcc_geneactivity_proximal.h5ad` (12,029 cells × 59,385 genes,
 integer counts) with the benchmark's relabel rule; 6 types (B_cell 416, CD4_T
@@ -111,8 +112,8 @@ Spearman(median true coverage, genes returned) = +0.83 (p = 0.042); with padj < 
 The two highest-coverage types receive 18,244 and 16,053 significant positive markers, the shallowest
 (CD4_T, which has 3,305 cells — more than either) 1,074: a 17-fold spread that follows coverage, not
 population size (B_cell, n = 416, still gets 2,532). The scanpy `rank_genes_groups` run on the same
-matrix gave rho 0.77; that comparison was later dropped from the analysis (see `CHANGELOG.md`) and its
-table is kept only in the repository history.
+matrix gave rho 0.77; that comparison is not part of the analysis, because `rank_genes_groups` documents
+log-transformed input.
 
 Canonical markers: 21 of the 22 held-out markers appear in their own type's positive-marker list, all
 21 with padj < 0.05; the missing one is APOA1 (Hepatocyte). But only **4/22 are in their type's top 50**
@@ -261,7 +262,7 @@ So the paper's lognorm_mean is exactly what scanpy's group summaries and dotplot
    number to numerical precision (Seurat AverageExpression default = cpm_mean 30.1%/19; layer='counts' =
    raw_mean 67.1%/15; scanpy aggregate/obs_df/dotplot = lognorm_mean 33.6%/19; SnapATAC2 default matrix =
    the paper's matrix, 0 differing entries).
-2. Attribution correction for Table 2 of the paper: Seurat `AverageExpression()` averages expm1 of the
+2. Attribution: Seurat `AverageExpression()` averages expm1 of the
    log-normalised layer (CPM mean); it is the *mean of the log layer* that corresponds to
    scanpy/Signac dotplot-style summaries. Seurat v5's recommended `AggregateExpression()` returns raw sums,
    whose argmax follows population size × coverage (41.0% in the largest type, B-cell markers 1/5) until the

@@ -1,23 +1,12 @@
 """
-Script 92: Rebuild COAD scATAC gene activity from fragments — correctly.
-========================================================================
-The canonical COAD prior `coad_atac_geneactivity_full.h5ad` (Script 65) is
-broken three ways:
-  1. Z-SCORED. Script 65 line 209 runs `sc.pp.scale(adata, max_value=10)` for
-     clustering and then SAVES that matrix. 91.7% of entries are negative.
-     Script 76 then computes atac_spec = mean[target]/(max+1e-6) on z-scores —
-     meaningless. 88.4% of all genes end up with argmax = Mast.
-  2. TRUNCATED GENE UNIVERSE. Only 1,896 genes, not genome-wide.
-  3. Consequently the COAD arm of the paper (3 of 9 combinations) carries no
-     valid chromatin signal.
-
-This rebuilds from the 6 GSE201336 fragment files with snapatac2, genome-wide,
-NO scaling, using the same two models as Script 90 (HCC):
+Script 92: COAD gene activity from the six GSE201336 fragment files (snapatac2, genome-wide,
+no scaling), under the two models of Script 90 (HCC):
      proximal = gene body + 2 kb upstream (Signac model)
      enhancer = ArchR-style distance-weighted, 5 kb tiles, +-100 kb, exp decay
 
-Cell set + labels are taken from the existing COAD h5ad so the comparison is
-like-for-like (same cells, same annotations — only the prior changes).
+Cells and labels are taken from the Script 65 object. That object stores a per-gene
+z-scaled matrix over 1,896 genes (scanpy.pp.scale, max_value=10, saved after clustering);
+it is used here only for its cells and labels, not as gene activity.
 
 Outputs: data/processed/COAD/coad_geneactivity_proximal.h5ad
          data/processed/COAD/coad_geneactivity_enhancer.h5ad

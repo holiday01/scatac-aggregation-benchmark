@@ -10,7 +10,7 @@ suppressPackageStartupMessages({library(Signac); library(Seurat); library(Genomi
   library(future); library(Matrix); library(data.table)})
 options(future.globals.maxSize = 16 * 1024^3)
 plan("multicore", workers = 8)
-SCR <- "/tmp/claude-1000/-mnt-10t-scrna-atac/b849b398-690b-4bff-b242-236b530a2a05/scratchpad"
+SCR <- Sys.getenv("REAL_TOOLS_WORK", file.path(Sys.getenv("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"), "work/real_tools"))   # intermediate files (see REPORT.md)
 OUT <- Sys.getenv("REAL_TOOLS_OUT", "analyses/real_tools/results")
 lg <- function(...) cat(format(Sys.time(), "%H:%M:%S"), ..., "\n")
 FRAG <- file.path(SCR, "hcc_frag/hcc_12029.fragments.tsv.gz")

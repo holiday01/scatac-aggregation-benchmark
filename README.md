@@ -1,6 +1,6 @@
 # Aggregation scale and library-size-associated variation in scATAC-seq gene-activity profiles
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136909.svg)](https://doi.org/10.5281/zenodo.24136909)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24136908.svg)](https://doi.org/10.5281/zenodo.24136908)
 
 Analysis code and derived result tables for a comparison of the scales on which
 single cells are aggregated into per-cell-type gene-activity profiles.
@@ -12,7 +12,7 @@ the tables below.
 ## What is here
 
 ```
-tools/      matrix construction, benchmark, revision analyses, figure generation,
+tools/      matrix construction, benchmark, supplementary analyses, figure generation,
             and report_numbers.py, which recomputes every reported quantity
 scripts/    gene-activity matrix construction from the deposited GEO files
 results/    derived tables that every reported number is computed from,
@@ -42,9 +42,9 @@ No new data were generated.
 ## Citation
 
 Each release of this repository is archived on Zenodo; please cite the archived
-version (metadata in `CITATION.cff` and `.zenodo.json`). Release 1.0.0 (tag `v1.0`),
-the version used for the manuscript, is archived at https://doi.org/10.5281/zenodo.24136909; the DOI
-https://doi.org/10.5281/zenodo.24136908 always resolves to the latest release.
+version (metadata in `CITATION.cff` and `.zenodo.json`). The DOI
+https://doi.org/10.5281/zenodo.24136908 resolves to the latest release, and the
+Zenodo record lists the DOI of every version.
 
 ## Reproducing
 
@@ -53,9 +53,9 @@ pip install -r requirements.txt            # or see environment.txt
 python3 scripts/94_luad_prior_and_reference.py   # NSCLC gene-activity matrices
 python3 tools/rebuild_nsclc_and_rerun.py         # equivalent standalone rebuild
 python3 tools/benchmark_aggregation.py           # -> results/benchmark_*.csv
-python3 tools/revision_analyses.py               # integrality, leave-one-sample-out, label sensitivity
+python3 tools/revision_analyses.py               # integrality, leave-one-sample-out, label sensitivity -> results/revision/
 python3 tools/check_hcc_labels.py                # evidence for the two renamed HCC clusters
-python3 tools/make_revision_figures.py           # regenerates the figures locally (earlier version)
+python3 tools/make_revision_figures.py           # earlier three-figure layout
 python3 tools/make_figures_v2.py                 # current display figures (FIG_PROFILE=bmc for 170 mm)
 python3 tools/report_numbers.py                  # recomputes and prints every reported quantity from the tables
 # non-tumor tissues, brain and bone-marrow multiome: run order in analyses/normal_tissues/README.md
@@ -64,7 +64,10 @@ python3 analyses/rna_sensitivity/01_rna_reference_sensitivity.py   # RNA referen
 python3 analyses/real_bulk/01_real_bulk_deconvolution.py           # real bulk with flow cytometry
 ```
 
-Scripts resolve paths from `$SCRNA_ATAC_BASE` (default `/mnt/10t/scrna_atac`).
+Data paths: scripts read the downloaded data under `/mnt/10t/scrna_atac/data` (path constants
+at the top of each script; several also honour `$SCRNA_ATAC_BASE`). The real-tool
+comparison writes intermediate files to `$REAL_TOOLS_WORK` (default
+`$SCRNA_ATAC_BASE/work/real_tools`).
 Random seeds are fixed in the code: 42 for the benchmark and the permutation
 nulls, 0–2 for the controlled depth series.
 

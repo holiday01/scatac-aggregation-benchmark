@@ -2,7 +2,7 @@
 # FindAllMarkers with Seurat defaults on the reduced problem (<=500 cells/type, expressed protein-coding genes).
 suppressPackageStartupMessages({library(Seurat); library(Matrix); library(future); library(data.table)})
 options(future.globals.maxSize = 8 * 1024^3)
-SCR <- "/tmp/claude-1000/-mnt-10t-scrna-atac/b849b398-690b-4bff-b242-236b530a2a05/scratchpad/hcc_sub"
+SCR <- file.path(Sys.getenv("REAL_TOOLS_WORK", file.path(Sys.getenv("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"), "work/real_tools")), "hcc_sub")
 OUT <- Sys.getenv("REAL_TOOLS_OUT", "analyses/real_tools/results")
 lg <- function(...) cat(format(Sys.time(), "%H:%M:%S"), ..., "\n")
 m <- ReadMtx(mtx = file.path(SCR, "matrix.mtx"), cells = file.path(SCR, "cells.tsv"), features = file.path(SCR, "features.tsv"),

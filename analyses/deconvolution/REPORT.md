@@ -1,5 +1,8 @@
 # Deconvolution with references built by each aggregation method — REPORT (2026-08-27)
 
+> NSCLC (LUAD) values in this report come from the first run on 53,308 cells. The final tables,
+> with all eight NSCLC samples (58,112 cells), are in `rerun_2026-11-11/`; HCC and COAD are identical.
+
 **Question.** If an analyst builds a cell-type reference from a scATAC gene-activity matrix
 with each of the aggregation methods benchmarked in `tools/benchmark_aggregation.py`, and then
 deconvolves bulk-like mixtures against it with NNLS, how large is the error, and is the deepest
@@ -28,10 +31,10 @@ weighting implicit in the bulk signal, not by "raw vs normalised" as such.
   0.028, deepest bias −0.008 / +0.038 / +0.004) and the raw-mean reference under-estimates the
   deepest type (−0.08 / −0.13 / −0.12).
 
-So the hypothesis in the task ("deepest type over-estimated with raw/log references") holds for
+So the expectation that the deepest type is over-estimated with raw or log references holds for
 the **log** reference and, in the equal-contribution regime, not for the raw reference; in the
 raw-count-sum regime it is the **normalised** references that over-estimate the deepest type as a
-cell fraction. The safe statement for the paper is: *the reference must be aggregated with the
+cell fraction. In short: *the reference must be aggregated with the
 same per-cell weighting as the bulk it will be fitted to; the log-mean and z-scaled references are
 wrong under every weighting.*
 
@@ -172,8 +175,8 @@ linear relation to the mixture at all.
 2. This favours no method a priori but it does mean that **"CPM mean" — the paper's recommended
    aggregation for argmax / marker profiles — is not the best deconvolution reference for a
    raw-count bulk** (COAD r 0.20 on cell fraction, 0.58 on fragment share, vs pseudobulk CPM
-   0.51 / 0.96). The paper's claim is about per-gene argmax and marker tests, not about
-   deconvolution references; do not extend it.
+   0.51 / 0.96). The paper's recommendation concerns per-gene argmax and marker tests, not
+   deconvolution references.
 3. In-sample split: training and held-out halves are the same cells, samples and labels, so
    there are no batch, patient or platform effects; NNLS has no intercept, weights or gene
    filtering by detection. This is an optimistic setting for every method; absolute RMSEs

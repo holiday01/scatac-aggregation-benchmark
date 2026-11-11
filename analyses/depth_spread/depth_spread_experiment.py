@@ -43,7 +43,7 @@ import scipy.sparse as sp
 import anndata as ad
 from scipy.stats import spearmanr
 
-sys.path.insert(0, "/mnt/10t/scrna_atac/apbc2026/tools")
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
 from benchmark_aggregation import PANEL, percell_scale  # noqa: E402
 
 HERE = Path(__file__).resolve().parent

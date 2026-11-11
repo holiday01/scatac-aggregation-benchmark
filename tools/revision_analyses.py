@@ -1,18 +1,16 @@
-"""Analyses required by the pre-submission audit (2026-08-27).
+"""Supplementary analyses of the benchmark matrices.
 
-R1  integrality of every matrix, and the depth-matched control restricted to
-    integer count matrices (the enhancer-aware matrices hold fractional
-    distance-weighted scores, on which binomial thinning is not defined).
-R2  donor-aware sensitivity: leave-one-sample-out recomputation of the top
-    argmax share, so that uncertainty reflects between-sample variation rather
-    than cell-level resampling.
-R3  HCC marker concordance under the ORIGINAL motif-derived labels (which are
-    independent of every gene-activity matrix) as well as under the two
-    corrected labels, to expose the circularity of the correction.
-R4  the realised depth spread of the "equal-depth" baseline on the mean as well
+(1) integrality of every matrix, and the coverage-matched control restricted to
+    integer count matrices (the distance-weighted matrices hold fractional scores,
+    on which binomial thinning is not defined).
+(2) leave-one-sample-out recomputation of the top argmax share, so that uncertainty
+    reflects between-sample variation rather than cell-level resampling.
+(3) HCC marker concordance under the motif-derived labels (not derived from gene
+    activity) as well as under the corrected labels.
+(4) the realised coverage spread of the equal-coverage baseline on the mean as well
     as the median.
 
-Out: revision/*.csv
+Out: results/revision/*.csv
 """
 import sys, time
 from pathlib import Path
@@ -21,8 +19,9 @@ import scipy.sparse as sp, anndata as ad
 from scipy.stats import spearmanr
 
 BASE = Path("/mnt/10t/scrna_atac")
-OUT = Path("/mnt/10t/scrna_atac/apbc2026/revision"); OUT.mkdir(exist_ok=True)
-sys.path.insert(0, str(BASE / "apbc2026/tools"))
+ROOT = Path(__file__).resolve().parents[1]                     # repository root
+OUT = ROOT / "results" / "revision"; OUT.mkdir(parents=True, exist_ok=True)
+sys.path.insert(0, str(ROOT / "tools"))
 from benchmark_aggregation import PANEL, true_depth, perm_p  # noqa
 
 MAT = [("HCC","proximal","data/processed/integrated/atac_hcc_geneactivity_proximal.h5ad","sample_id"),
@@ -83,7 +82,7 @@ for coh, model, rel, samplecol in MAT:
         rows_int[-1][f"{m}_top_share"] = ts
         rows_int[-1][f"{m}_top_type"] = tt
 
-    # R3: HCC, marker concordance under original vs corrected labels
+    # (3) HCC, marker concordance under original vs corrected labels
     if coh == "HCC":
         gidx = {g:i for i,g in enumerate(a.var_names.astype(str))}
         for tag, L in [("motif_original", lab), ("corrected", lab_rel)]:
@@ -98,7 +97,7 @@ for coh, model, rel, samplecol in MAT:
                                      markers_correct=obs, markers_total=len(panel), perm_p=pp))
                 log(f"   {tag:15} {m:15} {obs}/{len(panel)} p={pp:.4f}")
 
-    # R2: leave-one-sample-out on the proximal (integer) matrices
+    # (2) leave-one-sample-out on the proximal (integer) matrices
     if samplecol is not None:
         smp = a.obs[samplecol].astype(str).values
         for s_out in sorted(pd.unique(smp)):

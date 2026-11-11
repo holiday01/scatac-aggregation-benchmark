@@ -1,43 +1,19 @@
 """
-Script 90: Rebuild HCC scATAC gene activity from fragments — correctly named,
-           with a proximal (Signac-equivalent) and an enhancer-aware (distal) model.
-=============================================================================
-MOTIVATION (two separate problems this script resolves)
+Script 90: HCC scATAC gene activity from the GSE227265 fragments, under two models.
 
-(1) ANNOTATION BUG. The canonical prior `atac_hcc_geneactivity.h5ad` was built by
-    `scripts/preprocessing/04_geneactivity_names.py`, which took the GEO-supplied
-    GSE227265_GeneActivity.mtx (no row names) and *guessed* gene names by sorting
-    GENCODE v27 protein-coding genes by chr+start ("ArchR convention").
-    But Craig et al. (Cell Rep 2023, GSE227265) actually produced that matrix with
-    Signac::GeneActivity() using EnsDb.Hsapiens.v86 — a different annotation and a
-    different row order. The guess is wrong: canonical lineage markers land in the
-    wrong cell type (ALB argmax = DC; CSF1R argmax = Hepatocyte; only 5/22 correct
-    once cells are depth-normalised before the cell-type mean -- see
-    apbc2026/tools/audit_marker_concordance.py. Un-normalised the count reads 6/22;
-    that variant is superseded, and the difference is documented in
-    apbc2026/STATUS_NUMBERS_SUPERSEDED.md).
-
-(2) PROXIMAL-ONLY PRIOR. Signac GeneActivity counts gene body + 2 kb upstream, so it
-    cannot see distal enhancers. The manuscript's mechanism claim (the prior demotes
-    enhancer-driven markers such as CD163/CD79B) rests on this, and its Limitations
-    concede the null may be an artefact of the proxy. Testing that requires an
-    enhancer-aware prior, which has never been built.
-    NOTE (2026-08-27): that mechanism claim did not survive. Depth-normalised,
-    CD163 is correctly assigned under BOTH priors and the whole macrophage panel
-    goes 1/6 -> 6/6; only CD79B and MS4A1 remain wrong. The demotion story was an
-    artefact of averaging un-normalised cells.
-
-This script rebuilds gene activity DIRECTLY FROM FRAGMENTS with real coordinates:
-
-  A. PROXIMAL  — snapatac2 make_gene_matrix(upstream=2000, downstream=0,
-                 include_gene_body=True) == Signac GeneActivity model, correctly named.
-                 Isolates the naming bug: same model as GEO, right names.
-  B. ENHANCER  — ArchR-style distance-weighted gene score over 5 kb tiles:
+  A. PROXIMAL (count matrix) - snapatac2 make_gene_matrix(upstream=2000, downstream=0,
+                 include_gene_body=True), the gene body + 2 kb upstream window of Signac's
+                 GeneActivity.
+  B. ENHANCER (weighted matrix) - distance-weighted gene score over 5 kb tiles:
                  w(tile,gene) = exp(-d / DECAY) for tiles within EXTEND of the gene
-                 body, plus full weight inside the gene body. Sees distal peaks.
+                 body, plus full weight inside the gene body.
 
-Comparing A vs B isolates the *enhancer* question with names held correct.
-Comparing OLD vs A isolates the *naming* question with the model held constant.
+The gene-activity matrix deposited with GSE227265 has no row names. Assigning them by the
+coordinate order of GENCODE v27 protein-coding genes (OLD_H5, labelled 'old_guessed_names'
+below) gives wrong gene identities, because the depositors built that matrix with Signac
+GeneActivity on EnsDb.Hsapiens.v86; that matrix is the negative control of the benchmark.
+The validation at the end places the canonical markers in the two rebuilt matrices and in
+that matrix.
 
 Inputs : GSE227265_fragments_AllSamples.tsv.gz (coordinate-sorted, bgzipped)
          atac_hcc_geneactivity.h5ad  (for the 12,029 HCC cell barcodes + cell_type)

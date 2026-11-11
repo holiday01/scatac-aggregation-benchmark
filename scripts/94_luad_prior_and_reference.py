@@ -1,10 +1,5 @@
 """
-Script 94: Build the LUAD chromatin prior + scRNA reference (COAD replacement)
-=============================================================================
-COAD is void (Script 92: 0/1434 macrophages, 0/1759 T_NK survive >=1000-frag QC).
-LUAD GSE270148 is the replacement (Script 93: 7,474 macrophage / 8,080 B /
-15,351 T-NK REAL cells; 0 of 8 patients show the "B>70% artefact" the manuscript
-used to reject it).
+Script 94: NSCLC (GSE270148) gene-activity matrices and scRNA reference.
 
 Builds, genome-wide, from each sample's 10x peak matrix (peak coords in the h5;
 no fragments needed):
@@ -12,11 +7,7 @@ no fragments needed):
   enhancer = distance-weighted over peaks within +-100 kb  (ArchR-style, tau=5kb)
 and the matching scRNA pseudobulk reference from GSE131907.
 
-Excluded: GSM8069377 only (median 304 counts per cell). NOTE 2026-08-27:
-GSM8069383 was previously excluded on the basis of a local download that was a
-duplicate copy of GSM8069382; the file was re-fetched from GEO and the sample is
-valid, so it is now included.
-          GSM8069377 (median 304 counts/cell).
+Excluded: GSM8069377 (median 304 counts per cell).
 
 Outputs: data/processed/LUAD/luad_geneactivity_proximal.h5ad
          data/processed/LUAD/luad_geneactivity_enhancer.h5ad

@@ -1,14 +1,9 @@
-"""Rebuild the NSCLC gene-activity matrices after the GSM8069383 download was
-found to be a duplicate copy of GSM8069382, and re-run every analysis that
-depends on them.
+"""Build the NSCLC gene-activity matrices from the deposited peak matrices of GSE270148 and
+re-run every analysis that depends on them. Eight of the nine samples are used; GSM8069377
+(Lu883, median 304 counts, 371 cells at the 1000-count threshold) is excluded. The MD5 of
+every input file is listed in data/checksums.md.
 
-The corrected file (MD5 826ccbbc53226c88a6469e17a2a2e6ff, 36,768,155 bytes) was
-re-fetched from GEO; the other eight samples are byte-identical to fresh
-downloads. GSM8069383 (Lu934) is a valid sample (4,818 cells, median 10,316
-counts) and is now included; only GSM8069377 (Lu883, median 304 counts, 371
-cells at the 1000-count threshold) remains excluded.
-
-Window models replicate scripts/analysis/94_luad_prior_and_reference.py exactly.
+Window models replicate scripts/94_luad_prior_and_reference.py exactly.
 """
 import glob, os, sys, time
 from pathlib import Path
@@ -18,7 +13,7 @@ BASE = Path("/mnt/10t/scrna_atac")
 GTF = "/mnt/10t/holiday/hnsc_analysis/gencode.v38.annotation.gtf"
 OUT = BASE / "data/processed/LUAD"
 MIN_COUNTS = 1000
-EXCLUDE = {"GSM8069377"}          # low coverage only; GSM8069383 is now included
+EXCLUDE = {"GSM8069377"}          # low coverage
 EXTEND, DECAY = 100_000, 5000
 MARKERS = {
     "Macrophage": ["CD68", "CSF1R", "MRC1", "MSR1", "AIF1", "ITGAM", "MARCO"],

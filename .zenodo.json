@@ -1,7 +1,7 @@
 {
   "upload_type": "software",
   "title": "scatac-aggregation-benchmark: code and result tables for a benchmark of aggregation scales for single-cell ATAC-seq gene activity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creators": [
     {
       "name": "Chiu, Yen-Jung",

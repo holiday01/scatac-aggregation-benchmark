@@ -1,5 +1,5 @@
 """
-Additional per-cell normalisers for the aggregation benchmark (journal addition).
+Additional per-cell normalisers for the aggregation benchmark.
 
 Same six real gene-activity matrices, same labels (HCC relabel rule applied after
 loading), same held-out marker panels, same true-depth source and the same
@@ -51,7 +51,7 @@ import anndata as ad
 from scipy.stats import spearmanr, rankdata
 
 HERE = Path(__file__).resolve().parent
-TOOLS = HERE.parents[2] / "tools"               # apbc2026/tools
+TOOLS = HERE.parents[2] / "tools"               # repository tools/
 sys.path.insert(0, str(TOOLS))
 import benchmark_aggregation as B               # noqa: E402  (PANEL, MATRICES, true_depth, perm_p, methods)
 

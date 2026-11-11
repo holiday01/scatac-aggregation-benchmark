@@ -1,11 +1,10 @@
 # Multiome ground truth for the aggregation benchmark (10x PBMC, RNA + ATAC in the same cell)
 
-Date: 2026-08-27. Directory: `apbc2026/journal_version/additions/multiome/`.
-Nothing in `apbc2026/` outside this directory, and no existing data directory, was modified.
+Date: 2026-08-27. Directory: `analyses/multiome/`.
 
 ## Why
 
-The main benchmark (`apbc2026/tools/benchmark_aggregation.py`) scores each aggregation method
+The main benchmark (`tools/benchmark_aggregation.py`) scores each aggregation method
 against 22-41 held-out canonical markers. That is a thin ground truth and it depends on the
 cell labels being right. In a 10x Multiome experiment RNA and ATAC are measured in the same
 cell, so (i) labels can come from RNA alone, independent of the ATAC matrix being scored, and
@@ -177,5 +176,5 @@ python3 03_benchmark_multiome.py           # ~3 min, the four multiome_*.csv
 python3 04_figure.py                       # fig_multiome_benchmark.png/.pdf
 python3 05_equal_n_check.py                # multiome_equal_n.csv, multiome_rna_truth_share.csv
 ```
-Aggregation functions are imported from `apbc2026/tools/benchmark_aggregation.py` (unchanged).
+Aggregation functions are imported from `tools/benchmark_aggregation.py` (unchanged).
 Peak RAM < 8 GB.

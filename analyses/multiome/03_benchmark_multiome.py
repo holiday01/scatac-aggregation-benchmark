@@ -3,7 +3,7 @@
 
 Cells are labelled from RNA only (02_label_rna.py). For each ATAC gene-activity model
 (proximal = Signac model; enhancer = ArchR-style distance-weighted) and each aggregation
-method (functions imported from apbc2026/tools/benchmark_aggregation.py) we compute:
+method (functions imported from tools/benchmark_aggregation.py) we compute:
 
   top_share / top_type           share of ATAC-expressed genes whose per-type argmax falls in one type
   rho_depth_share                Spearman(median true per-cell fragments, argmax share) across types
@@ -25,7 +25,7 @@ import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp, hdf5plugin 
 import scanpy as sc
 from scipy.stats import spearmanr, rankdata
 warnings.filterwarnings("ignore")
-sys.path.insert(0, "/mnt/10t/scrna_atac/apbc2026/tools")
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
 from benchmark_aggregation import (percell_scale, type_mean, m_raw, m_zscale, m_pseudobulk_cpm,
                                    m_depth_matched, m_cpm, m_lognorm, m_archr, perm_p)  # noqa
 

@@ -4,9 +4,9 @@
 # purpose) done with grep/mawk because FilterCells reads the whole file in single-threaded R.
 # Then bgzip + tabix (pysam) so that Signac's CreateFragmentObject/FeatureMatrix can use the index.
 set -euo pipefail
-SCR=/tmp/claude-1000/-mnt-10t-scrna-atac/b849b398-690b-4bff-b242-236b530a2a05/scratchpad
+SCR="${REAL_TOOLS_WORK:-${SCRNA_ATAC_BASE:-/mnt/10t/scrna_atac}/work/real_tools}"   # intermediate files
 SRC="${GSE227265_FRAGMENTS:-data/raw/GSE227265/GSE227265_fragments_AllSamples.tsv}"
-cd $SCR/hcc_frag
+cd "$SCR/hcc_frag"
 echo "$(date +%T) filtering"
 LC_ALL=C grep -F -w -f barcodes.txt $SRC | mawk 'BEGIN{while((getline l < "barcodes.txt")>0) s[l]=1} ($4 in s)' > hcc_12029.fragments.tsv
 echo "$(date +%T) lines: $(wc -l < hcc_12029.fragments.tsv)"

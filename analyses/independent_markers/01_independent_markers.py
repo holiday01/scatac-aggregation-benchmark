@@ -1,9 +1,9 @@
 """
-01: Marker concordance with marker genes taken from independent references (added 2026-11-11
-in response to reviewer comment R1-2: the held-out panels were chosen by the author).
+01: Marker concordance with marker genes taken from independent references (the held-out
+panels of the benchmark were chosen for this study).
 
 Markers come from CellTypist logistic-regression models trained on independent atlases
-(already on the server; no new download):
+(models as distributed by CellTypist, read from ~/.celltypist):
   PBMC   Immune_All_Low      (Dominguez Conde et al., Science 2022)
   brain  Adult_Human_PrefrontalCortex (Ma et al., Science 2022)
   HCC    Healthy_Human_Liver (Guilliams et al., Cell 2022)

@@ -1,7 +1,6 @@
-"""Display figures 1-4, redrawn 2026-11-11 for legibility (reviewer comment: low
-resolution, small labels). Reads only existing result tables; recomputes nothing.
+"""Display figures 1-4. Reads only existing result tables; recomputes nothing.
 
-Shared style: 7.5 in wide (PLOS maximum), 600 dpi, no text below 7 pt at final
+Shared style: 7.5 in wide (default) or 170 mm (FIG_PROFILE=bmc), 600 dpi, no text below 7 pt at final
 size, one color and marker per aggregation strategy across all figures.
 
   fig1_benchmark.png       results/benchmark_aggregation.csv, results/benchmark_mechanism_coad.csv,
@@ -22,11 +21,11 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 from scipy.stats import spearmanr
 
-ROOT = Path(__file__).resolve().parent.parent            # .../apbc2026
+ROOT = Path(__file__).resolve().parent.parent            # repository root
 ADD = ROOT / "analyses"
-# FIG_PROFILE=plos (default): 7.5 in wide -> figures/ (read by plos_compbiol/make_ploscb.py)
+# FIG_PROFILE=wide (default): 7.5 in wide -> figures/
 # FIG_PROFILE=bmc: 170 mm full-page width of BMC / Springer journals -> figures_ec/, PNG + vector PDF
-PROFILE = os.environ.get("FIG_PROFILE", "plos")
+PROFILE = os.environ.get("FIG_PROFILE", "wide")
 DPI = 600
 if PROFILE == "bmc":
     W, OUT, HEIGHT = 170 / 25.4, ROOT / "figures_ec", {1: 7.3, 2: 5.9, 3: 5.6, 4: 7.7}

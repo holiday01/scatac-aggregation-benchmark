@@ -3,7 +3,7 @@
 # exported by 01_export_hcc_mtx.py). Everything below is the documented default unless stated.
 suppressPackageStartupMessages({library(Seurat); library(Matrix); library(future); library(data.table)})
 options(future.globals.maxSize = 16 * 1024^3)
-SCR <- "/tmp/claude-1000/-mnt-10t-scrna-atac/b849b398-690b-4bff-b242-236b530a2a05/scratchpad"
+SCR <- Sys.getenv("REAL_TOOLS_WORK", file.path(Sys.getenv("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"), "work/real_tools"))   # intermediate files (see REPORT.md)
 OUT <- Sys.getenv("REAL_TOOLS_OUT", "analyses/real_tools/results")
 dir.create(OUT, showWarnings = FALSE, recursive = TRUE)
 lg <- function(...) cat(format(Sys.time(), "%H:%M:%S"), ..., "\n")

@@ -11,7 +11,7 @@ import numpy as np, pandas as pd, anndata as ad, scipy.sparse as sp, hdf5plugin 
 import scanpy as sc
 from scipy.stats import spearmanr
 warnings.filterwarnings("ignore")
-sys.path.insert(0, "/mnt/10t/scrna_atac/apbc2026/tools")
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "tools"))
 from benchmark_aggregation import m_raw, m_zscale, m_pseudobulk_cpm, m_depth_matched, m_cpm, m_lognorm, m_archr  # noqa
 
 HERE = Path(__file__).resolve().parent
