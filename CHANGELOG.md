@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-11-11 — independent markers, RNA-side analyses, real bulk, figures
+
+Added in response to reviewer comments; no existing result table changed.
+
+- `analyses/independent_markers/`: marker concordance with markers from CellTypist models trained
+  on independent atlases, label-assignment genes excluded.
+- `analyses/rna_sensitivity/`: RNA reference rebuilt without per-cell normalization (raw, pooled,
+  log mean), and the same aggregation comparison on RNA from the same nuclei.
+- `analyses/real_bulk/`: deconvolution of five PBMC bulk ATAC-seq samples with flow-cytometry
+  proportions (EPIC-ATAC, Zenodo 10.5281/zenodo.12571947), plus a post-hoc sensitivity analysis.
+- `analyses/deconvolution/rerun_2026-11-11/`: the deconvolution benchmark re-run so that NSCLC
+  uses the current matrix; HCC and COAD unchanged. `deconvolution_benchmark.py` now resolves
+  `tools/` relative to the repository root.
+- `tools/make_figures_v2.py`: the four display figures from the result tables (shared style,
+  7.5 in or 170 mm wide).
+- GSE201336 is described as one familial-adenomatous-polyposis donor with one carcinoma, three
+  polyps and two unaffected mucosae, as annotated in GEO. `celltypist` added to requirements.
+
 ## 2026-09-21 — non-tumor tissues and multi-donor RNA references
 
 Added `analyses/normal_tissues/`: the six strategies, imported unchanged, applied

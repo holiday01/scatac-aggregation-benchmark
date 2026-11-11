@@ -1,0 +1,9 @@
+[05:46:25] signature genes: 1200
+[05:46:25] raw_mean        RMSE 0.141  r +0.43  B:+0.026 CD4 T:-0.157 CD8 T:-0.068 Monocytes:+0.087 NK:+0.113
+[05:46:25] zscale_mean     RMSE 0.205  r +0.14  B:+0.148 CD4 T:-0.322 CD8 T:+0.115 Monocytes:-0.082 NK:+0.142
+[05:46:25] lognorm_mean    RMSE 0.132  r +0.50  B:+0.027 CD4 T:-0.133 CD8 T:-0.074 Monocytes:+0.089 NK:+0.091
+[05:46:25] pseudobulk_cpm  RMSE 0.148  r +0.38  B:+0.032 CD4 T:-0.163 CD8 T:-0.078 Monocytes:+0.077 NK:+0.133
+[05:46:25] cpm_mean        RMSE 0.132  r +0.47  B:+0.031 CD4 T:-0.151 CD8 T:-0.064 Monocytes:+0.091 NK:+0.094
+[05:46:25] depth_matched   RMSE 0.133  r +0.46  B:+0.029 CD4 T:-0.152 CD8 T:-0.067 Monocytes:+0.090 NK:+0.100
+[05:46:25] median reference row sum per type: B 24383, Mono_CD14 21276, Mono_CD16 19938, NK 21145, T_CD4 20636, T_CD8 21104
+[05:46:25] done

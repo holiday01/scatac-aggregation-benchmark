@@ -46,3 +46,10 @@ accession table in [`README.md`](README.md) for where each comes from.
 
 _generated 2026-08-27T15:49:31Z_
 
+
+## Zenodo 10.5281/zenodo.12571947 (EPIC-ATAC PBMC bulk), downloaded 2026-11-11
+
+| file | bytes | md5 |
+|---|---|---|
+| `PBMC_counts.txt` | 4,033,355 | `30af03ce45b3bc5e983e3f9a161490f4` |
+| `PBMC_cell_fractions.txt` | 1,115 | `281bf2792c81e29ec729348862ea3316` |

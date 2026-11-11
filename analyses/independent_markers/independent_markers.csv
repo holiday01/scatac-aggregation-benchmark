@@ -1,0 +1,91 @@
+dataset,model,N,strategy,correct,total,null_mean,perm_p,per_type,n_in_author_panel
+PBMC,count,10,raw_mean,24,80,10.0475,0.0,B 4/10; DC 3/10; Mono_CD14 1/10; Mono_CD16 2/10; NK 2/10; T_CD4 2/10; T_CD8 0/10; pDC 10/10,0
+PBMC,count,10,lognorm_mean,30,80,10.0071,0.0,B 5/10; DC 2/10; Mono_CD14 2/10; Mono_CD16 5/10; NK 2/10; T_CD4 2/10; T_CD8 2/10; pDC 10/10,0
+PBMC,count,10,pseudobulk_cpm,30,80,9.9737,0.0,B 5/10; DC 1/10; Mono_CD14 4/10; Mono_CD16 6/10; NK 2/10; T_CD4 2/10; T_CD8 2/10; pDC 8/10,0
+PBMC,count,10,cpm_mean,28,80,10.0111,0.0,B 5/10; DC 3/10; Mono_CD14 2/10; Mono_CD16 6/10; NK 2/10; T_CD4 2/10; T_CD8 2/10; pDC 6/10,0
+PBMC,count,10,depth_matched,34,80,10.0145,0.0,B 5/10; DC 4/10; Mono_CD14 3/10; Mono_CD16 5/10; NK 2/10; T_CD4 2/10; T_CD8 3/10; pDC 10/10,0
+PBMC,weighted,10,raw_mean,28,80,9.9704,0.0,B 4/10; DC 4/10; Mono_CD14 1/10; Mono_CD16 4/10; NK 2/10; T_CD4 2/10; T_CD8 1/10; pDC 10/10,0
+PBMC,weighted,10,lognorm_mean,30,80,9.9926,0.0,B 5/10; DC 2/10; Mono_CD14 3/10; Mono_CD16 6/10; NK 1/10; T_CD4 2/10; T_CD8 2/10; pDC 9/10,0
+PBMC,weighted,10,pseudobulk_cpm,32,80,10.0294,0.0,B 5/10; DC 1/10; Mono_CD14 4/10; Mono_CD16 7/10; NK 1/10; T_CD4 2/10; T_CD8 3/10; pDC 9/10,0
+PBMC,weighted,10,cpm_mean,30,80,9.9638,0.0,B 4/10; DC 3/10; Mono_CD14 3/10; Mono_CD16 6/10; NK 2/10; T_CD4 2/10; T_CD8 3/10; pDC 7/10,0
+PBMC,count,20,raw_mean,48,160,19.9753,0.0,B 6/20; DC 8/20; Mono_CD14 2/20; Mono_CD16 5/20; NK 3/20; T_CD4 5/20; T_CD8 1/20; pDC 18/20,0
+PBMC,count,20,lognorm_mean,53,160,20.0197,0.0,B 8/20; DC 4/20; Mono_CD14 3/20; Mono_CD16 8/20; NK 4/20; T_CD4 5/20; T_CD8 5/20; pDC 16/20,0
+PBMC,count,20,pseudobulk_cpm,52,160,19.9828,0.0,B 8/20; DC 2/20; Mono_CD14 5/20; Mono_CD16 9/20; NK 5/20; T_CD4 5/20; T_CD8 5/20; pDC 13/20,0
+PBMC,count,20,cpm_mean,48,160,19.9903,0.0,B 8/20; DC 4/20; Mono_CD14 3/20; Mono_CD16 9/20; NK 4/20; T_CD4 5/20; T_CD8 4/20; pDC 11/20,0
+PBMC,count,20,depth_matched,54,160,20.0023,0.0,B 8/20; DC 4/20; Mono_CD14 4/20; Mono_CD16 8/20; NK 5/20; T_CD4 5/20; T_CD8 4/20; pDC 16/20,0
+PBMC,weighted,20,raw_mean,53,160,19.9864,0.0,B 6/20; DC 9/20; Mono_CD14 2/20; Mono_CD16 7/20; NK 4/20; T_CD4 4/20; T_CD8 3/20; pDC 18/20,0
+PBMC,weighted,20,lognorm_mean,52,160,19.9674,0.0,B 7/20; DC 4/20; Mono_CD14 4/20; Mono_CD16 10/20; NK 2/20; T_CD4 5/20; T_CD8 4/20; pDC 16/20,0
+PBMC,weighted,20,pseudobulk_cpm,54,160,19.9538,0.0,B 8/20; DC 2/20; Mono_CD14 5/20; Mono_CD16 11/20; NK 3/20; T_CD4 5/20; T_CD8 5/20; pDC 15/20,0
+PBMC,weighted,20,cpm_mean,54,160,20.0469,0.0,B 6/20; DC 4/20; Mono_CD14 5/20; Mono_CD16 10/20; NK 5/20; T_CD4 5/20; T_CD8 6/20; pDC 13/20,0
+brain,count,10,raw_mean,15,50,10.0226,0.023,Astrocyte 3/10; Excitatory_neuron 7/10; Inhibitory_neuron 1/10; OPC 3/10; Oligodendrocyte 1/10,0
+brain,count,10,lognorm_mean,26,50,10.0024,0.0,Astrocyte 4/10; Excitatory_neuron 7/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 4/10,0
+brain,count,10,pseudobulk_cpm,29,50,10.0011,0.0,Astrocyte 7/10; Excitatory_neuron 5/10; Inhibitory_neuron 1/10; OPC 9/10; Oligodendrocyte 7/10,0
+brain,count,10,cpm_mean,30,50,9.9581,0.0,Astrocyte 6/10; Excitatory_neuron 6/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 7/10,0
+brain,count,10,depth_matched,27,50,10.0486,0.0,Astrocyte 5/10; Excitatory_neuron 7/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 4/10,0
+brain,weighted,10,raw_mean,15,50,9.9951,0.0231,Astrocyte 3/10; Excitatory_neuron 7/10; Inhibitory_neuron 1/10; OPC 3/10; Oligodendrocyte 1/10,0
+brain,weighted,10,lognorm_mean,27,50,10.0138,0.0,Astrocyte 5/10; Excitatory_neuron 6/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 5/10,0
+brain,weighted,10,pseudobulk_cpm,30,50,9.9895,0.0,Astrocyte 7/10; Excitatory_neuron 5/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 7/10,0
+brain,weighted,10,cpm_mean,30,50,9.9942,0.0,Astrocyte 6/10; Excitatory_neuron 6/10; Inhibitory_neuron 2/10; OPC 9/10; Oligodendrocyte 7/10,0
+brain,count,20,raw_mean,27,100,19.9431,0.0227,Astrocyte 6/20; Excitatory_neuron 14/20; Inhibitory_neuron 3/20; OPC 3/20; Oligodendrocyte 1/20,0
+brain,count,20,lognorm_mean,48,100,20.0719,0.0,Astrocyte 11/20; Excitatory_neuron 12/20; Inhibitory_neuron 4/20; OPC 14/20; Oligodendrocyte 7/20,0
+brain,count,20,pseudobulk_cpm,54,100,20.0085,0.0,Astrocyte 16/20; Excitatory_neuron 10/20; Inhibitory_neuron 3/20; OPC 15/20; Oligodendrocyte 10/20,0
+brain,count,20,cpm_mean,54,100,19.9663,0.0,Astrocyte 14/20; Excitatory_neuron 11/20; Inhibitory_neuron 4/20; OPC 15/20; Oligodendrocyte 10/20,0
+brain,count,20,depth_matched,49,100,19.9416,0.0,Astrocyte 12/20; Excitatory_neuron 12/20; Inhibitory_neuron 5/20; OPC 13/20; Oligodendrocyte 7/20,0
+brain,weighted,20,raw_mean,26,100,19.9884,0.0373,Astrocyte 6/20; Excitatory_neuron 14/20; Inhibitory_neuron 2/20; OPC 3/20; Oligodendrocyte 1/20,0
+brain,weighted,20,lognorm_mean,47,100,19.9273,0.0,Astrocyte 11/20; Excitatory_neuron 11/20; Inhibitory_neuron 4/20; OPC 14/20; Oligodendrocyte 7/20,0
+brain,weighted,20,pseudobulk_cpm,53,100,19.9579,0.0,Astrocyte 14/20; Excitatory_neuron 10/20; Inhibitory_neuron 4/20; OPC 15/20; Oligodendrocyte 10/20,0
+brain,weighted,20,cpm_mean,53,100,20.0205,0.0,Astrocyte 12/20; Excitatory_neuron 12/20; Inhibitory_neuron 4/20; OPC 15/20; Oligodendrocyte 10/20,0
+HCC,count,10,raw_mean,30,60,10.0264,0.0,B_cell 7/10; CD4_T 0/10; Endothelial_stromal 10/10; Hepatocyte 7/10; Macrophage 2/10; NK_cytotoxic_T 4/10,4
+HCC,count,10,lognorm_mean,40,60,10.0162,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 9/10; Hepatocyte 10/10; Macrophage 5/10; NK_cytotoxic_T 7/10,4
+HCC,count,10,pseudobulk_cpm,38,60,10.0026,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 8/10; Hepatocyte 10/10; Macrophage 5/10; NK_cytotoxic_T 6/10,4
+HCC,count,10,cpm_mean,37,60,9.9667,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 8/10; Hepatocyte 9/10; Macrophage 5/10; NK_cytotoxic_T 6/10,4
+HCC,count,10,depth_matched,38,60,10.0031,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 8/10; Hepatocyte 9/10; Macrophage 5/10; NK_cytotoxic_T 7/10,4
+HCC,weighted,10,raw_mean,31,60,10.0048,0.0,B_cell 7/10; CD4_T 0/10; Endothelial_stromal 10/10; Hepatocyte 7/10; Macrophage 3/10; NK_cytotoxic_T 4/10,4
+HCC,weighted,10,lognorm_mean,38,60,9.9393,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 9/10; Hepatocyte 10/10; Macrophage 4/10; NK_cytotoxic_T 6/10,4
+HCC,weighted,10,pseudobulk_cpm,37,60,10.0694,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 8/10; Hepatocyte 10/10; Macrophage 4/10; NK_cytotoxic_T 6/10,4
+HCC,weighted,10,cpm_mean,37,60,10.0035,0.0,B_cell 9/10; CD4_T 0/10; Endothelial_stromal 9/10; Hepatocyte 9/10; Macrophage 4/10; NK_cytotoxic_T 6/10,4
+HCC,count,20,raw_mean,56,120,19.9389,0.0,B_cell 15/20; CD4_T 2/20; Endothelial_stromal 20/20; Hepatocyte 10/20; Macrophage 2/20; NK_cytotoxic_T 7/20,4
+HCC,count,20,lognorm_mean,77,120,19.9556,0.0,B_cell 17/20; CD4_T 3/20; Endothelial_stromal 18/20; Hepatocyte 18/20; Macrophage 8/20; NK_cytotoxic_T 13/20,4
+HCC,count,20,pseudobulk_cpm,73,120,20.0128,0.0,B_cell 16/20; CD4_T 3/20; Endothelial_stromal 17/20; Hepatocyte 18/20; Macrophage 8/20; NK_cytotoxic_T 11/20,4
+HCC,count,20,cpm_mean,73,120,19.9312,0.0,B_cell 17/20; CD4_T 3/20; Endothelial_stromal 17/20; Hepatocyte 17/20; Macrophage 8/20; NK_cytotoxic_T 11/20,4
+HCC,count,20,depth_matched,73,120,19.9574,0.0,B_cell 17/20; CD4_T 2/20; Endothelial_stromal 17/20; Hepatocyte 17/20; Macrophage 8/20; NK_cytotoxic_T 12/20,4
+HCC,weighted,20,raw_mean,57,120,20.0477,0.0,B_cell 15/20; CD4_T 2/20; Endothelial_stromal 19/20; Hepatocyte 10/20; Macrophage 3/20; NK_cytotoxic_T 8/20,4
+HCC,weighted,20,lognorm_mean,72,120,20.0526,0.0,B_cell 16/20; CD4_T 3/20; Endothelial_stromal 18/20; Hepatocyte 18/20; Macrophage 6/20; NK_cytotoxic_T 11/20,4
+HCC,weighted,20,pseudobulk_cpm,72,120,20.08,0.0,B_cell 16/20; CD4_T 4/20; Endothelial_stromal 17/20; Hepatocyte 18/20; Macrophage 6/20; NK_cytotoxic_T 11/20,4
+HCC,weighted,20,cpm_mean,71,120,19.9829,0.0,B_cell 16/20; CD4_T 3/20; Endothelial_stromal 18/20; Hepatocyte 17/20; Macrophage 6/20; NK_cytotoxic_T 11/20,4
+COAD,count,10,raw_mean,15,80,9.9904,0.0011,B_cell 6/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 0/10; Macrophage 0/10; Mast 9/10; Other_Myeloid 0/10; T_NK 0/10,13
+COAD,count,10,lognorm_mean,16,80,10.0272,0.0087,B_cell 8/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 0/10; Macrophage 2/10; Mast 6/10; Other_Myeloid 0/10; T_NK 0/10,13
+COAD,count,10,pseudobulk_cpm,16,80,9.9787,0.0361,B_cell 5/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 7/10; Macrophage 2/10; Mast 1/10; Other_Myeloid 0/10; T_NK 1/10,13
+COAD,count,10,cpm_mean,10,80,10.009,0.5529,B_cell 3/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 2/10; Macrophage 2/10; Mast 0/10; Other_Myeloid 1/10; T_NK 2/10,13
+COAD,count,10,depth_matched,11,80,9.9652,0.4145,B_cell 4/10; Endothelial 1/10; Epithelial 0/10; Fibroblast 2/10; Macrophage 2/10; Mast 0/10; Other_Myeloid 0/10; T_NK 2/10,13
+COAD,weighted,10,raw_mean,15,80,10.0286,0.0004,B_cell 5/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 0/10; Macrophage 0/10; Mast 10/10; Other_Myeloid 0/10; T_NK 0/10,13
+COAD,weighted,10,lognorm_mean,14,80,9.9816,0.0548,B_cell 7/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 0/10; Macrophage 0/10; Mast 6/10; Other_Myeloid 0/10; T_NK 1/10,13
+COAD,weighted,10,pseudobulk_cpm,16,80,9.9968,0.0331,B_cell 6/10; Endothelial 0/10; Epithelial 0/10; Fibroblast 7/10; Macrophage 2/10; Mast 0/10; Other_Myeloid 0/10; T_NK 1/10,13
+COAD,weighted,10,cpm_mean,12,80,9.9641,0.2894,B_cell 4/10; Endothelial 1/10; Epithelial 0/10; Fibroblast 2/10; Macrophage 1/10; Mast 0/10; Other_Myeloid 2/10; T_NK 2/10,13
+COAD,count,20,raw_mean,28,160,19.9856,0.0,B_cell 9/20; Endothelial 0/20; Epithelial 0/20; Fibroblast 0/20; Macrophage 0/20; Mast 19/20; Other_Myeloid 0/20; T_NK 0/20,13
+COAD,count,20,lognorm_mean,31,160,20.0653,0.0003,B_cell 15/20; Endothelial 0/20; Epithelial 0/20; Fibroblast 0/20; Macrophage 2/20; Mast 14/20; Other_Myeloid 0/20; T_NK 0/20,13
+COAD,count,20,pseudobulk_cpm,38,160,20.0329,0.0,B_cell 13/20; Endothelial 1/20; Epithelial 1/20; Fibroblast 14/20; Macrophage 2/20; Mast 3/20; Other_Myeloid 0/20; T_NK 4/20,13
+COAD,count,20,cpm_mean,25,160,20.0533,0.1408,B_cell 8/20; Endothelial 2/20; Epithelial 1/20; Fibroblast 4/20; Macrophage 2/20; Mast 4/20; Other_Myeloid 1/20; T_NK 3/20,13
+COAD,count,20,depth_matched,21,160,20.0478,0.4447,B_cell 10/20; Endothelial 2/20; Epithelial 0/20; Fibroblast 2/20; Macrophage 2/20; Mast 3/20; Other_Myeloid 1/20; T_NK 1/20,13
+COAD,weighted,20,raw_mean,28,160,19.9975,0.0001,B_cell 8/20; Endothelial 0/20; Epithelial 0/20; Fibroblast 0/20; Macrophage 0/20; Mast 20/20; Other_Myeloid 0/20; T_NK 0/20,13
+COAD,weighted,20,lognorm_mean,31,160,20.0151,0.0002,B_cell 16/20; Endothelial 0/20; Epithelial 0/20; Fibroblast 0/20; Macrophage 0/20; Mast 14/20; Other_Myeloid 0/20; T_NK 1/20,13
+COAD,weighted,20,pseudobulk_cpm,39,160,20.0238,0.0,B_cell 15/20; Endothelial 1/20; Epithelial 1/20; Fibroblast 13/20; Macrophage 2/20; Mast 2/20; Other_Myeloid 0/20; T_NK 5/20,13
+COAD,weighted,20,cpm_mean,26,160,19.9973,0.0945,B_cell 9/20; Endothelial 1/20; Epithelial 1/20; Fibroblast 3/20; Macrophage 2/20; Mast 4/20; Other_Myeloid 2/20; T_NK 4/20,13
+NSCLC,count,10,raw_mean,17,60,10.0006,0.0111,B_cell 10/10; Endothelial 1/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 0/10; T_NK 2/10,2
+NSCLC,count,10,lognorm_mean,20,60,9.9757,0.0007,B_cell 4/10; Endothelial 1/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 7/10; T_NK 4/10,2
+NSCLC,count,10,pseudobulk_cpm,17,60,10.0283,0.0144,B_cell 3/10; Endothelial 2/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 7/10; T_NK 1/10,2
+NSCLC,count,10,cpm_mean,20,60,10.004,0.0002,B_cell 3/10; Endothelial 2/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 7/10; T_NK 4/10,2
+NSCLC,count,10,depth_matched,20,60,10.0213,0.0011,B_cell 3/10; Endothelial 3/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 7/10; T_NK 3/10,2
+NSCLC,weighted,10,raw_mean,17,60,10.0024,0.0072,B_cell 10/10; Endothelial 3/10; Epithelial 4/10; Fibroblast 0/10; Macrophage 0/10; T_NK 0/10,2
+NSCLC,weighted,10,lognorm_mean,20,60,9.936,0.0011,B_cell 3/10; Endothelial 3/10; Epithelial 5/10; Fibroblast 0/10; Macrophage 6/10; T_NK 3/10,2
+NSCLC,weighted,10,pseudobulk_cpm,18,60,10.0067,0.0032,B_cell 3/10; Endothelial 2/10; Epithelial 3/10; Fibroblast 0/10; Macrophage 9/10; T_NK 1/10,2
+NSCLC,weighted,10,cpm_mean,18,60,10.0278,0.0051,B_cell 3/10; Endothelial 3/10; Epithelial 4/10; Fibroblast 1/10; Macrophage 7/10; T_NK 0/10,2
+NSCLC,count,20,raw_mean,40,120,19.9519,0.0,B_cell 20/20; Endothelial 2/20; Epithelial 8/20; Fibroblast 0/20; Macrophage 5/20; T_NK 5/20,4
+NSCLC,count,20,lognorm_mean,46,120,19.9374,0.0,B_cell 10/20; Endothelial 2/20; Epithelial 9/20; Fibroblast 0/20; Macrophage 15/20; T_NK 10/20,4
+NSCLC,count,20,pseudobulk_cpm,41,120,20.0881,0.0,B_cell 8/20; Endothelial 3/20; Epithelial 9/20; Fibroblast 0/20; Macrophage 16/20; T_NK 5/20,4
+NSCLC,count,20,cpm_mean,40,120,19.9798,0.0,B_cell 7/20; Endothelial 3/20; Epithelial 9/20; Fibroblast 0/20; Macrophage 16/20; T_NK 5/20,4
+NSCLC,count,20,depth_matched,45,120,19.9539,0.0,B_cell 9/20; Endothelial 3/20; Epithelial 9/20; Fibroblast 0/20; Macrophage 15/20; T_NK 9/20,4
+NSCLC,weighted,20,raw_mean,37,120,20.0125,0.0,B_cell 20/20; Endothelial 4/20; Epithelial 10/20; Fibroblast 0/20; Macrophage 2/20; T_NK 1/20,4
+NSCLC,weighted,20,lognorm_mean,46,120,19.9774,0.0,B_cell 10/20; Endothelial 4/20; Epithelial 11/20; Fibroblast 0/20; Macrophage 12/20; T_NK 9/20,4
+NSCLC,weighted,20,pseudobulk_cpm,45,120,20.009,0.0,B_cell 8/20; Endothelial 3/20; Epithelial 8/20; Fibroblast 2/20; Macrophage 18/20; T_NK 6/20,4
+NSCLC,weighted,20,cpm_mean,45,120,20.0402,0.0,B_cell 8/20; Endothelial 4/20; Epithelial 10/20; Fibroblast 1/20; Macrophage 16/20; T_NK 6/20,4

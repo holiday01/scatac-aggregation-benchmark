@@ -1,0 +1,21 @@
+[05:35:38] PBMC count N=10: raw_mean 24/80, lognorm_mean 30/80, pseudobulk_cpm 30/80, cpm_mean 28/80, depth_matched 34/80
+[05:35:42] PBMC weighted N=10: raw_mean 28/80, lognorm_mean 30/80, pseudobulk_cpm 32/80, cpm_mean 30/80
+[05:35:48] PBMC count N=20: raw_mean 48/160, lognorm_mean 53/160, pseudobulk_cpm 52/160, cpm_mean 48/160, depth_matched 54/160
+[05:35:52] PBMC weighted N=20: raw_mean 53/160, lognorm_mean 52/160, pseudobulk_cpm 54/160, cpm_mean 54/160
+[05:35:55] brain count N=10: raw_mean 15/50, lognorm_mean 26/50, pseudobulk_cpm 29/50, cpm_mean 30/50, depth_matched 27/50
+[05:35:56] brain weighted N=10: raw_mean 15/50, lognorm_mean 27/50, pseudobulk_cpm 30/50, cpm_mean 30/50
+[05:35:58] brain count N=20: raw_mean 27/100, lognorm_mean 48/100, pseudobulk_cpm 54/100, cpm_mean 54/100, depth_matched 49/100
+[05:36:00] brain weighted N=20: raw_mean 26/100, lognorm_mean 47/100, pseudobulk_cpm 53/100, cpm_mean 53/100
+[05:36:17] HCC count N=10: raw_mean 30/60, lognorm_mean 40/60, pseudobulk_cpm 38/60, cpm_mean 37/60, depth_matched 38/60
+[05:36:20] HCC weighted N=10: raw_mean 31/60, lognorm_mean 38/60, pseudobulk_cpm 37/60, cpm_mean 37/60
+[05:36:25] HCC count N=20: raw_mean 56/120, lognorm_mean 77/120, pseudobulk_cpm 73/120, cpm_mean 73/120, depth_matched 73/120
+[05:36:28] HCC weighted N=20: raw_mean 57/120, lognorm_mean 72/120, pseudobulk_cpm 72/120, cpm_mean 71/120
+[05:36:57] COAD count N=10: raw_mean 15/80, lognorm_mean 16/80, pseudobulk_cpm 16/80, cpm_mean 10/80, depth_matched 11/80
+[05:37:03] COAD weighted N=10: raw_mean 15/80, lognorm_mean 14/80, pseudobulk_cpm 16/80, cpm_mean 12/80
+[05:37:10] COAD count N=20: raw_mean 28/160, lognorm_mean 31/160, pseudobulk_cpm 38/160, cpm_mean 25/160, depth_matched 21/160
+[05:37:16] COAD weighted N=20: raw_mean 28/160, lognorm_mean 31/160, pseudobulk_cpm 39/160, cpm_mean 26/160
+[05:38:22] NSCLC count N=10: raw_mean 17/60, lognorm_mean 20/60, pseudobulk_cpm 17/60, cpm_mean 20/60, depth_matched 20/60
+[05:38:36] NSCLC weighted N=10: raw_mean 17/60, lognorm_mean 20/60, pseudobulk_cpm 18/60, cpm_mean 18/60
+[05:38:47] NSCLC count N=20: raw_mean 40/120, lognorm_mean 46/120, pseudobulk_cpm 41/120, cpm_mean 40/120, depth_matched 45/120
+[05:39:00] NSCLC weighted N=20: raw_mean 37/120, lognorm_mean 46/120, pseudobulk_cpm 45/120, cpm_mean 45/120
+[05:39:00] done

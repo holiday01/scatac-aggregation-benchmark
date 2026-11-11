@@ -1,0 +1,130 @@
+[02:56:26] HCC: 12029 cells x 59385 genes, 6 types; deepest by true depth = Endothelial_stromal
+[02:56:33]   seed 0: refs built in 6s (depth-matched target 7224); 58289 genes expressed in training half
+[02:56:35]   seed 0: 100 mixtures built; common signature 1200 genes
+[02:56:35]     raw_mean            rawsum/common  cellfrac RMSE 0.047 r 0.946 bias[Endothelial_stromal] -0.021 | fragfrac RMSE 0.082 bias -0.098
+[02:56:35]     zscale_mean         rawsum/common  cellfrac RMSE 0.175 r 0.203 bias[Endothelial_stromal] +0.014 | fragfrac RMSE 0.182 bias -0.064
+[02:56:35]     lognorm_mean        rawsum/common  cellfrac RMSE 0.074 r 0.870 bias[Endothelial_stromal] +0.066 | fragfrac RMSE 0.055 bias -0.012
+[02:56:35]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.065 r 0.894 bias[Endothelial_stromal] +0.060 | fragfrac RMSE 0.056 bias -0.018
+[02:56:35]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.063 r 0.902 bias[Endothelial_stromal] +0.069 | fragfrac RMSE 0.042 bias -0.009
+[02:56:35]     depth_matched       rawsum/common  cellfrac RMSE 0.064 r 0.897 bias[Endothelial_stromal] +0.059 | fragfrac RMSE 0.060 bias -0.019
+[02:56:35]     cpm_mean            rawsum/common  cellfrac RMSE 0.074 r 0.860 bias[Endothelial_stromal] +0.067 | fragfrac RMSE 0.073 bias -0.011
+[02:56:41]   seed 1: refs built in 6s (depth-matched target 7211); 58273 genes expressed in training half
+[02:56:43]   seed 1: 100 mixtures built; common signature 1200 genes
+[02:56:43]     raw_mean            rawsum/common  cellfrac RMSE 0.034 r 0.971 bias[Endothelial_stromal] -0.013 | fragfrac RMSE 0.071 bias -0.098
+[02:56:43]     zscale_mean         rawsum/common  cellfrac RMSE 0.173 r 0.163 bias[Endothelial_stromal] +0.007 | fragfrac RMSE 0.180 bias -0.077
+[02:56:43]     lognorm_mean        rawsum/common  cellfrac RMSE 0.069 r 0.887 bias[Endothelial_stromal] +0.068 | fragfrac RMSE 0.042 bias -0.016
+[02:56:43]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.055 r 0.920 bias[Endothelial_stromal] +0.058 | fragfrac RMSE 0.042 bias -0.026
+[02:56:43]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.062 r 0.907 bias[Endothelial_stromal] +0.077 | fragfrac RMSE 0.027 bias -0.007
+[02:56:43]     depth_matched       rawsum/common  cellfrac RMSE 0.055 r 0.920 bias[Endothelial_stromal] +0.070 | fragfrac RMSE 0.039 bias -0.015
+[02:56:43]     cpm_mean            rawsum/common  cellfrac RMSE 0.059 r 0.908 bias[Endothelial_stromal] +0.075 | fragfrac RMSE 0.039 bias -0.009
+[02:56:49]   seed 2: refs built in 6s (depth-matched target 7071); 58299 genes expressed in training half
+[02:56:51]   seed 2: 100 mixtures built; common signature 1200 genes
+[02:56:51]     raw_mean            rawsum/common  cellfrac RMSE 0.035 r 0.968 bias[Endothelial_stromal] -0.014 | fragfrac RMSE 0.075 bias -0.111
+[02:56:51]     zscale_mean         rawsum/common  cellfrac RMSE 0.176 r 0.159 bias[Endothelial_stromal] -0.024 | fragfrac RMSE 0.186 bias -0.122
+[02:56:51]     lognorm_mean        rawsum/common  cellfrac RMSE 0.065 r 0.899 bias[Endothelial_stromal] +0.075 | fragfrac RMSE 0.045 bias -0.023
+[02:56:51]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.056 r 0.918 bias[Endothelial_stromal] +0.067 | fragfrac RMSE 0.044 bias -0.030
+[02:56:51]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.063 r 0.904 bias[Endothelial_stromal] +0.087 | fragfrac RMSE 0.026 bias -0.010
+[02:56:51]     depth_matched       rawsum/common  cellfrac RMSE 0.056 r 0.917 bias[Endothelial_stromal] +0.067 | fragfrac RMSE 0.048 bias -0.031
+[02:56:51]     cpm_mean            rawsum/common  cellfrac RMSE 0.066 r 0.886 bias[Endothelial_stromal] +0.080 | fragfrac RMSE 0.058 bias -0.017
+[02:56:51] HCC done in 27s
+[02:56:56] COAD: 39398 cells x 59385 genes, 8 types; deepest by true depth = Mast
+[02:57:12]   seed 0: refs built in 16s (depth-matched target 434); 58480 genes expressed in training half
+[02:57:13]   seed 0: 100 mixtures built; common signature 1600 genes
+[02:57:13]     raw_mean            rawsum/common  cellfrac RMSE 0.098 r 0.664 bias[Mast] -0.019 | fragfrac RMSE 0.179 bias -0.300
+[02:57:13]     zscale_mean         rawsum/common  cellfrac RMSE 0.165 r 0.313 bias[Mast] +0.269 | fragfrac RMSE 0.106 bias -0.012
+[02:57:13]     lognorm_mean        rawsum/common  cellfrac RMSE 0.117 r 0.513 bias[Mast] +0.100 | fragfrac RMSE 0.133 bias -0.181
+[02:57:13]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.147 r 0.337 bias[Mast] +0.052 | fragfrac RMSE 0.181 bias -0.229
+[02:57:13]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.148 r 0.522 bias[Mast] +0.260 | fragfrac RMSE 0.049 bias -0.021
+[02:57:13]     depth_matched       rawsum/common  cellfrac RMSE 0.145 r 0.272 bias[Mast] +0.122 | fragfrac RMSE 0.157 bias -0.159
+[02:57:13]     cpm_mean            rawsum/common  cellfrac RMSE 0.148 r 0.258 bias[Mast] +0.155 | fragfrac RMSE 0.152 bias -0.126
+[02:57:30]   seed 1: refs built in 16s (depth-matched target 438); 58473 genes expressed in training half
+[02:57:31]   seed 1: 100 mixtures built; common signature 1600 genes
+[02:57:31]     raw_mean            rawsum/common  cellfrac RMSE 0.090 r 0.713 bias[Mast] -0.013 | fragfrac RMSE 0.176 bias -0.312
+[02:57:31]     zscale_mean         rawsum/common  cellfrac RMSE 0.159 r 0.401 bias[Mast] +0.305 | fragfrac RMSE 0.096 bias +0.006
+[02:57:31]     lognorm_mean        rawsum/common  cellfrac RMSE 0.174 r 0.252 bias[Mast] +0.038 | fragfrac RMSE 0.209 bias -0.262
+[02:57:31]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.178 r 0.217 bias[Mast] +0.034 | fragfrac RMSE 0.213 bias -0.266
+[02:57:31]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.153 r 0.536 bias[Mast] +0.293 | fragfrac RMSE 0.048 bias -0.006
+[02:57:31]     depth_matched       rawsum/common  cellfrac RMSE 0.169 r 0.194 bias[Mast] +0.125 | fragfrac RMSE 0.182 bias -0.175
+[02:57:31]     cpm_mean            rawsum/common  cellfrac RMSE 0.172 r 0.189 bias[Mast] +0.162 | fragfrac RMSE 0.176 bias -0.137
+[02:57:48]   seed 2: refs built in 16s (depth-matched target 439); 58495 genes expressed in training half
+[02:57:49]   seed 2: 100 mixtures built; common signature 1600 genes
+[02:57:49]     raw_mean            rawsum/common  cellfrac RMSE 0.074 r 0.791 bias[Mast] -0.006 | fragfrac RMSE 0.155 bias -0.287
+[02:57:49]     zscale_mean         rawsum/common  cellfrac RMSE 0.170 r 0.322 bias[Mast] +0.341 | fragfrac RMSE 0.091 bias +0.060
+[02:57:49]     lognorm_mean        rawsum/common  cellfrac RMSE 0.139 r 0.403 bias[Mast] +0.103 | fragfrac RMSE 0.158 bias -0.178
+[02:57:49]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.147 r 0.356 bias[Mast] +0.104 | fragfrac RMSE 0.162 bias -0.177
+[02:57:49]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.149 r 0.482 bias[Mast] +0.245 | fragfrac RMSE 0.053 bias -0.036
+[02:57:49]     depth_matched       rawsum/common  cellfrac RMSE 0.160 r 0.206 bias[Mast] +0.275 | fragfrac RMSE 0.127 bias -0.006
+[02:57:49]     cpm_mean            rawsum/common  cellfrac RMSE 0.176 r 0.165 bias[Mast] +0.354 | fragfrac RMSE 0.123 bias +0.073
+[02:57:49] COAD done in 58s
+[02:58:07] LUAD: 58112 cells x 19930 genes, 6 types; deepest by true depth = T_NK
+[02:58:21]   seed 0: refs built in 13s (depth-matched target 3198); 18379 genes expressed in training half
+[02:58:22]   seed 0: 100 mixtures built; common signature 1200 genes
+[02:58:22]     raw_mean            rawsum/common  cellfrac RMSE 0.045 r 0.953 bias[T_NK] +0.000 | fragfrac RMSE 0.067 bias -0.026
+[02:58:22]     zscale_mean         rawsum/common  cellfrac RMSE 0.169 r 0.102 bias[T_NK] +0.162 | fragfrac RMSE 0.156 bias +0.136
+[02:58:22]     lognorm_mean        rawsum/common  cellfrac RMSE 0.087 r 0.834 bias[T_NK] +0.132 | fragfrac RMSE 0.077 bias +0.107
+[02:58:22]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.098 r 0.785 bias[T_NK] +0.063 | fragfrac RMSE 0.066 bias +0.037
+[02:58:22]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.057 r 0.929 bias[T_NK] +0.026 | fragfrac RMSE 0.035 bias +0.000
+[02:58:22]     depth_matched       rawsum/common  cellfrac RMSE 0.106 r 0.764 bias[T_NK] +0.117 | fragfrac RMSE 0.071 bias +0.091
+[02:58:22]     cpm_mean            rawsum/common  cellfrac RMSE 0.120 r 0.704 bias[T_NK] +0.131 | fragfrac RMSE 0.084 bias +0.105
+[02:58:35]   seed 1: refs built in 14s (depth-matched target 3224); 18379 genes expressed in training half
+[02:58:36]   seed 1: 100 mixtures built; common signature 1200 genes
+[02:58:36]     raw_mean            rawsum/common  cellfrac RMSE 0.045 r 0.949 bias[T_NK] -0.001 | fragfrac RMSE 0.054 bias -0.022
+[02:58:36]     zscale_mean         rawsum/common  cellfrac RMSE 0.160 r 0.145 bias[T_NK] +0.173 | fragfrac RMSE 0.147 bias +0.151
+[02:58:36]     lognorm_mean        rawsum/common  cellfrac RMSE 0.091 r 0.799 bias[T_NK] +0.117 | fragfrac RMSE 0.077 bias +0.096
+[02:58:36]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.100 r 0.755 bias[T_NK] +0.055 | fragfrac RMSE 0.065 bias +0.033
+[02:58:37]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.065 r 0.899 bias[T_NK] +0.019 | fragfrac RMSE 0.037 bias -0.002
+[02:58:37]     depth_matched       rawsum/common  cellfrac RMSE 0.111 r 0.725 bias[T_NK] +0.104 | fragfrac RMSE 0.074 bias +0.083
+[02:58:37]     cpm_mean            rawsum/common  cellfrac RMSE 0.119 r 0.684 bias[T_NK] +0.116 | fragfrac RMSE 0.082 bias +0.094
+[02:58:50]   seed 2: refs built in 14s (depth-matched target 3261); 18379 genes expressed in training half
+[02:58:51]   seed 2: 100 mixtures built; common signature 1200 genes
+[02:58:51]     raw_mean            rawsum/common  cellfrac RMSE 0.042 r 0.958 bias[T_NK] -0.001 | fragfrac RMSE 0.057 bias -0.025
+[02:58:51]     zscale_mean         rawsum/common  cellfrac RMSE 0.164 r 0.123 bias[T_NK] +0.158 | fragfrac RMSE 0.154 bias +0.133
+[02:58:51]     lognorm_mean        rawsum/common  cellfrac RMSE 0.093 r 0.801 bias[T_NK] +0.149 | fragfrac RMSE 0.081 bias +0.124
+[02:58:51]     lognorm_mean_expm1  rawsum/common  cellfrac RMSE 0.095 r 0.784 bias[T_NK] +0.055 | fragfrac RMSE 0.064 bias +0.030
+[02:58:51]     pseudobulk_cpm      rawsum/common  cellfrac RMSE 0.057 r 0.925 bias[T_NK] +0.023 | fragfrac RMSE 0.034 bias -0.002
+[02:58:51]     depth_matched       rawsum/common  cellfrac RMSE 0.106 r 0.749 bias[T_NK] +0.115 | fragfrac RMSE 0.073 bias +0.091
+[02:58:51]     cpm_mean            rawsum/common  cellfrac RMSE 0.118 r 0.693 bias[T_NK] +0.127 | fragfrac RMSE 0.085 bias +0.102
+[02:58:51] LUAD done in 62s
+
+=== summary: rawsum mixtures, common gene set ===
+--- truth = cellfrac
+cohort               COAD    HCC   LUAD
+method                                 
+raw_mean            0.088  0.039  0.044
+zscale_mean         0.165  0.174  0.164
+lognorm_mean        0.143  0.069  0.090
+lognorm_mean_expm1  0.157  0.059  0.098
+pseudobulk_cpm      0.150  0.063  0.060
+depth_matched       0.158  0.058  0.108
+cpm_mean            0.165  0.067  0.119
+bias of deepest type:
+cohort               COAD    HCC   LUAD
+method                                 
+raw_mean           -0.013 -0.016 -0.000
+zscale_mean         0.305 -0.001  0.164
+lognorm_mean        0.080  0.069  0.133
+lognorm_mean_expm1  0.064  0.062  0.058
+pseudobulk_cpm      0.266  0.078  0.023
+depth_matched       0.174  0.065  0.112
+cpm_mean            0.224  0.074  0.125
+--- truth = fragfrac
+cohort               COAD    HCC   LUAD
+method                                 
+raw_mean            0.170  0.076  0.059
+zscale_mean         0.098  0.183  0.152
+lognorm_mean        0.167  0.047  0.078
+lognorm_mean_expm1  0.185  0.047  0.065
+pseudobulk_cpm      0.050  0.032  0.035
+depth_matched       0.155  0.049  0.073
+cpm_mean            0.150  0.056  0.084
+bias of deepest type:
+cohort               COAD    HCC   LUAD
+method                                 
+raw_mean           -0.300 -0.102 -0.024
+zscale_mean         0.018 -0.087  0.140
+lognorm_mean       -0.207 -0.017  0.109
+lognorm_mean_expm1 -0.224 -0.025  0.033
+pseudobulk_cpm     -0.021 -0.009 -0.001
+depth_matched      -0.113 -0.021  0.088
+cpm_mean           -0.063 -0.012  0.101
+[02:58:52] all done

@@ -5,12 +5,14 @@ No data files are stored in this repository. Everything analysed is public.
 | accession | files used |
 |---|---|
 | [GSE227265](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227265) | fragment files (13 hepatocellular tumours); the deposited gene-activity matrix is used only to build the deliberately mislabelled negative control |
-| [GSE201336](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201336) | fragment files for GSM6058771, GSM6058772, GSM6058774, GSM6058775, GSM6058779, GSM6058785 |
+| [GSE201336](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201336) | fragment files for GSM6058771 (carcinoma), GSM6058772, GSM6058775, GSM6058785 (polyps), GSM6058774, GSM6058779 (unaffected mucosa); one donor with familial adenomatous polyposis, specimen types as annotated in GEO |
 | [GSE270148](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270148) | filtered peak-by-cell matrices, GSM8069376–GSM8069384 |
 | 10x Genomics `pbmc_granulocyte_sorted_10k` | `filtered_feature_bc_matrix.h5` and `atac_fragments.tsv.gz` (+ index) |
 | [GSE184462](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184462) | the 72 per-sample `*_fragments.bed.gz` files and `GSE184462_metadata.tsv.gz` (adult cells only); file sizes were checked against the GEO file list |
 | 10x Genomics `human_brain_3k` | `filtered_feature_bc_matrix.h5` and `atac_fragments.tsv.gz` (+ index) |
 | [GSE194122](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122) | `GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz` (RNA counts, deposited ATAC gene activity, cell annotations) |
+| [Zenodo 10.5281/zenodo.12571947](https://doi.org/10.5281/zenodo.12571947) (CC BY 4.0) | `PBMC_counts.txt` and `PBMC_cell_fractions.txt` (EPIC-ATAC PBMC bulk ATAC-seq with flow cytometry), into `data/raw/epic_atac_pbmc_bulk/` |
+| CellTypist models (celltypist 1.7.1) | Immune_All_Low, Adult_Human_PrefrontalCortex, Healthy_Human_Liver, Human_Colorectal_Cancer, Human_Lung_Atlas |
 
 Scripts resolve paths from `$SCRNA_ATAC_BASE` (default `/mnt/10t/scrna_atac`).
 

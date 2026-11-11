@@ -1,0 +1,18 @@
+[05:45:28] flow truth (column sums {'Sample1': 1.0, 'Sample2': 1.0, 'Sample3': 1.0, 'Sample4': 1.0, 'Sample5': 1.0}):
+           Sample1  Sample2  Sample3  Sample4  Sample5
+B            0.032    0.049    0.033    0.047    0.027
+CD4 T        0.266    0.341    0.499    0.392    0.314
+CD8 T        0.508    0.226    0.274    0.272    0.232
+DC           0.002    0.029    0.007    0.009    0.007
+Monocytes    0.047    0.192    0.054    0.113    0.154
+NK           0.146    0.163    0.132    0.166    0.266
+[05:45:39] bulk: 106446 peaks, 5 samples; gene windows for 59348/59385 genes; fraction of peak counts inside some window (sample 1): 1.30 (windows overlap)
+[05:45:53] signature genes: 1600
+[05:45:53] raw_mean        RMSE 0.161  r +0.33  B:+0.000 CD4 T:-0.065 CD8 T:-0.180 DC:+0.240 Monocytes:-0.002 NK:+0.007
+[05:45:53] zscale_mean     RMSE 0.152  r +0.30  B:+0.051 CD4 T:-0.132 CD8 T:-0.081 DC:+0.265 Monocytes:-0.112 NK:+0.009
+[05:45:53] lognorm_mean    RMSE 0.182  r +0.23  B:-0.012 CD4 T:-0.084 CD8 T:-0.165 DC:+0.301 Monocytes:-0.032 NK:-0.007
+[05:45:53] pseudobulk_cpm  RMSE 0.183  r +0.16  B:-0.000 CD4 T:-0.100 CD8 T:-0.194 DC:+0.308 Monocytes:-0.016 NK:+0.002
+[05:45:53] cpm_mean        RMSE 0.172  r +0.22  B:+0.000 CD4 T:-0.098 CD8 T:-0.172 DC:+0.289 Monocytes:-0.007 NK:-0.012
+[05:45:53] depth_matched   RMSE 0.174  r +0.22  B:-0.000 CD4 T:-0.095 CD8 T:-0.172 DC:+0.300 Monocytes:-0.014 NK:-0.019
+[05:45:53] median reference row sum per type: B 24383, DC 29556, Mono_CD14 21276, Mono_CD16 19938, NK 21145, T_CD4 20636, T_CD8 21104, pDC 30484
+[05:45:53] done

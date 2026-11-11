@@ -1,0 +1,9 @@
+[05:32:53] == PBMC: 11209 cells, 8 types, RNA genes 36601
+[05:33:03]   count: done (11920 shared genes)
+[05:33:10]   weighted: done (11134 shared genes)
+[05:33:12] == brain: 2901 cells, 5 types, RNA genes 36601
+[05:33:15]   count: done (14892 shared genes)
+[05:33:17]   weighted: done (13443 shared genes)
+[05:34:05] == bone marrow: 69249 cells, 22 types, RNA genes 13431
+[05:34:35]   deposited: done (10507 shared genes)
+[05:34:35] done

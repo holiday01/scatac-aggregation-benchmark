@@ -1,0 +1,34 @@
+dataset,model_file,our_type,model_classes
+PBMC,Immune_All_Low.pkl,B,Age-associated B cells; B cells; Memory B cells; Naive B cells
+PBMC,Immune_All_Low.pkl,DC,DC1; DC2; DC3
+PBMC,Immune_All_Low.pkl,Mono_CD14,Classical monocytes
+PBMC,Immune_All_Low.pkl,Mono_CD16,Non-classical monocytes
+PBMC,Immune_All_Low.pkl,NK,CD16+ NK cells; CD16- NK cells; NK cells
+PBMC,Immune_All_Low.pkl,T_CD4,Follicular helper T cells; Regulatory T cells; Tcm/Naive helper T cells; Tem/Effector helper T cells
+PBMC,Immune_All_Low.pkl,T_CD8,Tcm/Naive cytotoxic T cells; Tem/Temra cytotoxic T cells; Tem/Trm cytotoxic T cells
+PBMC,Immune_All_Low.pkl,pDC,pDC
+brain,Adult_Human_PrefrontalCortex.pkl,Astrocyte,Astro AQP4 OSMR; Astro AQP4 SLC1A2; Astro GFAP AQP1; Astro GFAP FABP7
+brain,Adult_Human_PrefrontalCortex.pkl,Excitatory_neuron,L2-3 CUX2 ACVR1C INHBA; L2-3 CUX2 ACVR1C THSD7A; L2-3 CUX2 ARHGAP18; L2-3 CUX2 NTNG1 COL5A2; L2-3 CUX2 NTNG1 PALMD; L2-3 CUX2 NTNG1 PLCH1; L2-3 CUX2 PLCXD3; L2-4 CUX2 RORB CLMN; L3-5 RORB GABRG1 KCNH7; L3-5 RORB GABRG1 PLCH1; L3-5 RORB GABRG1 PTPRO; L3-5 RORB MKX DCC; L3-5 RORB MKX GALR1; L3-5 RORB MKX GRIN3A; L3-5 RORB MKX SCN5A; L3-5 RORB PCBP3 ARHGAP15; L3-5 RORB PCBP3 IL1RAPL2; L3-5 RORB PCBP3 LINGO2; L3-5 RORB TNNT2 PRRX1; L3-5 RORB TNNT2 TSHZ2; L5 FEZF2 BCL11B POU3F1; L5-6 FEZF2 NXPH2 CDH8; L5-6 FEZF2 NXPH2 GPC5; L5-6 FEZF2 NXPH2 GRIK1; L5-6 FEZF2 NXPH2 SORCS3; L6 FEZF2 AMOTL1 CDH6; L6 FEZF2 DCBLD1 MITF; L6 FEZF2 EYA1; L6 FEZF2 HCRTR2 THSD7B; L6 FEZF2 NPFFR2 KCNK2; L6 FEZF2 NPFFR2 TPD52L1; L6 FEZF2 SYT6 CDH9; L6 FEZF2 SYT6 ERBB4; L6 FEZF2 SYT6 PTPRT; L6 FEZF2 SYT6 SULF1; L6 OPRK1 SMYD1 ADAMTS17; L6 OPRK1 SMYD1 KCND2; L6 OPRK1 SMYD1 SNTB1; L6 OPRK1 SMYD1 TSHZ2; L6 OPRK1 THEMIS RGS6
+brain,Adult_Human_PrefrontalCortex.pkl,Inhibitory_neuron,InN ADARB2 CADPS2; InN ADARB2 CALCR; InN ADARB2 COL5A2; InN ADARB2 FAM19A1; InN ADARB2 PALMD; InN ADARB2 RGS10; InN ADARB2 SFRP2; InN LAMP5 ADAMTS20; InN LAMP5 BMP7; InN LAMP5 LHX6 PROX1; InN LAMP5 LHX6 TAC1; InN LAMP5 MEIS2; InN LAMP5 RELN; InN LHX6 HGF STON2; InN PVALB ANOS1; InN PVALB GRIN2C; InN PVALB HPSE; InN PVALB PDE3A; InN PVALB PIEZO2; InN PVALB PRKCH; InN PVALB SNTB1; InN PVALB SYT2; InN SST ADAMTSL1; InN SST ADRA1D; InN SST ANKRD33B; InN SST FREM1; InN SST HGF GABRQ; InN SST HS3ST5; InN SST HTR2C; InN SST KLHL14; InN SST NPY; InN SST PLPP4; InN SST STK32A; InN SST THSD7B; InN SST TRPC7; InN VIP ADAM12; InN VIP CLSTN2; InN VIP EGF; InN VIP EXPH5; InN VIP FREM2; InN VIP HS3ST3B1; InN VIP MDGA1; InN VIP MEGF11 LHFP; InN VIP PENK; InN VIP SCML4
+brain,Adult_Human_PrefrontalCortex.pkl,OPC,OPC PDGFRA PCDH15
+brain,Adult_Human_PrefrontalCortex.pkl,Oligodendrocyte,Oligo MOG CDH7; Oligo MOG FRY; Oligo MOG GSN; Oligo MOG OPALIN
+HCC,Healthy_Human_Liver.pkl,B_cell,B cells
+HCC,Healthy_Human_Liver.pkl,CD4_T,T cells
+HCC,Healthy_Human_Liver.pkl,NK_cytotoxic_T,Circulating NK/NKT; Resident NK
+HCC,Healthy_Human_Liver.pkl,Endothelial_stromal,Endothelial cells; Fibroblasts
+HCC,Healthy_Human_Liver.pkl,Hepatocyte,Hepatocytes
+HCC,Healthy_Human_Liver.pkl,Macrophage,Macrophages; Mono+mono derived cells
+COAD,Human_Colorectal_Cancer.pkl,B_cell,CD19+CD20+ B
+COAD,Human_Colorectal_Cancer.pkl,Endothelial,Lymphatic ECs; Proliferative ECs; Stalk-like ECs; Tip-like ECs
+COAD,Human_Colorectal_Cancer.pkl,Epithelial,CMS1; CMS2; CMS3; CMS4; Goblet cells; Intermediate; Mature Enterocytes type 1; Mature Enterocytes type 2; Stem-like/TA
+COAD,Human_Colorectal_Cancer.pkl,Fibroblast,Myofibroblasts; Stromal 1; Stromal 2; Stromal 3
+COAD,Human_Colorectal_Cancer.pkl,Macrophage,Pro-inflammatory; SPP1+
+COAD,Human_Colorectal_Cancer.pkl,Mast,Mast cells
+COAD,Human_Colorectal_Cancer.pkl,Other_Myeloid,cDC
+COAD,Human_Colorectal_Cancer.pkl,T_NK,CD4+ T cells; CD8+ T cells; NK cells; Regulatory T cells; T follicular helper cells; T helper 17 cells; gamma delta T cells
+NSCLC,Human_Lung_Atlas.pkl,B_cell,B cells
+NSCLC,Human_Lung_Atlas.pkl,Endothelial,EC aerocyte capillary; EC arterial; EC general capillary; EC venous pulmonary; EC venous systemic; Lymphatic EC differentiating; Lymphatic EC mature; Lymphatic EC proliferating
+NSCLC,Human_Lung_Atlas.pkl,Epithelial,AT0; AT1; AT2; Basal resting; Club (non-nasal); Goblet (bronchial); Goblet (subsegmental); Multiciliated (non-nasal); Suprabasal; pre-TB secretory
+NSCLC,Human_Lung_Atlas.pkl,Fibroblast,Adventitial fibroblasts; Alveolar fibroblasts; Myofibroblasts; Peribronchial fibroblasts; Subpleural fibroblasts
+NSCLC,Human_Lung_Atlas.pkl,Macrophage,Alveolar Mph CCL3+; Alveolar Mph MT-positive; Alveolar Mph proliferating; Alveolar macrophages; Interstitial Mph perivascular; Monocyte-derived Mph
+NSCLC,Human_Lung_Atlas.pkl,T_NK,CD4 T cells; CD8 T cells; NK cells

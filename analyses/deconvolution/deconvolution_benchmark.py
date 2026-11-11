@@ -37,7 +37,7 @@ from scipy.optimize import nnls
 
 BASE = Path(os.environ.get("SCRNA_ATAC_BASE", "/mnt/10t/scrna_atac"))
 HERE = Path(__file__).resolve().parent
-APBC = HERE.parent.parent.parent                      # .../apbc2026
+APBC = HERE.parents[1]                                # repository root
 sys.path.insert(0, str(APBC / "tools"))
 from benchmark_aggregation import (m_raw, m_zscale, m_pseudobulk_cpm, m_depth_matched,  # noqa: E402
                                    m_cpm, m_lognorm, percell_scale)

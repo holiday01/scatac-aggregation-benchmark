@@ -24,12 +24,16 @@ data/       accessions and checksums (no data files are stored here)
 | accession | tissue | note |
 |---|---|---|
 | GSE227265 | primary liver cancer | 13 hepatocellular tumours of 16 patients used, one per patient |
-| GSE201336 | colorectal | six colon specimens from one donor, unsorted tissue nuclei |
+| GSE201336 | colorectal | six colon specimens from one donor with familial adenomatous polyposis (one carcinoma, three polyps, two unaffected mucosae per GEO), unsorted tissue nuclei |
 | GSE270148 | non-small-cell lung cancer | CD45-positive bead-enriched nuclei; eight of nine tumour samples used |
 | 10x `pbmc_granulocyte_sorted_10k` | PBMC multiome | RNA and ATAC in the same nuclei, one donor |
 | GSE184462 (adult samples) | 26 non-tumor tissues | human chromatin accessibility atlas, 72 fragment files, depositors' cell-type labels |
 | 10x `human_brain_3k` | brain multiome | RNA and ATAC in the same nuclei, one donor, labels from RNA only |
 | GSE194122 (multiome) | bone marrow | ten donors, 13 batches; gene-activity matrix as deposited by its authors |
+| Zenodo [10.5281/zenodo.12571947](https://doi.org/10.5281/zenodo.12571947) | PBMC bulk ATAC-seq | five samples with flow-cytometry proportions (EPIC-ATAC study), used for real-bulk deconvolution |
+
+Marker genes for `analyses/independent_markers/` come from CellTypist models (celltypist 1.7.1)
+trained on independent atlases; see that folder's REPORT.md.
 
 No new data were generated.
 
@@ -42,9 +46,13 @@ python3 tools/rebuild_nsclc_and_rerun.py         # equivalent standalone rebuild
 python3 tools/benchmark_aggregation.py           # -> results/benchmark_*.csv
 python3 tools/revision_analyses.py               # integrality, leave-one-sample-out, label sensitivity
 python3 tools/check_hcc_labels.py                # evidence for the two renamed HCC clusters
-python3 tools/make_revision_figures.py           # regenerates the figures locally
+python3 tools/make_revision_figures.py           # regenerates the figures locally (earlier version)
+python3 tools/make_figures_v2.py                 # current display figures (FIG_PROFILE=bmc for 170 mm)
 python3 tools/report_numbers.py                  # recomputes and prints every reported quantity from the tables
 # non-tumor tissues, brain and bone-marrow multiome: run order in analyses/normal_tissues/README.md
+python3 analyses/independent_markers/01_independent_markers.py      # markers from independent atlases
+python3 analyses/rna_sensitivity/01_rna_reference_sensitivity.py   # RNA reference variants; RNA vs ATAC
+python3 analyses/real_bulk/01_real_bulk_deconvolution.py           # real bulk with flow cytometry
 ```
 
 Scripts resolve paths from `$SCRNA_ATAC_BASE` (default `/mnt/10t/scrna_atac`).
